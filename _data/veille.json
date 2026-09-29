@@ -1,4 +1,89 @@
 {
-  "mise_a_jour": "",
-  "themes": []
+  "mise_a_jour": "2026-09-29",
+  "themes": [
+    {
+      "id": "cyber",
+      "titre": "Cybersécurité",
+      "titre_en": "Cybersecurity",
+      "articles": [
+        {
+          "titre": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway (28 septembre 2026)",
+          "lien": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-011/",
+          "source": "CERT-FR",
+          "date": "2026-09-28",
+          "resume": "Le 27 septembre 2026, Citrix a publié un avis de sécurité concernant plusieurs vulnérabilités qui affectent NetScaler ADC et Gateway. Parmi celles-ci, les…"
+        },
+        {
+          "titre": "Bulletin d'actualité CERTFR-2026-ACT-041 (28 septembre 2026)",
+          "lien": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-041/",
+          "source": "CERT-FR",
+          "date": "2026-09-28",
+          "resume": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas…"
+        },
+        {
+          "titre": "Bulletin d'actualité CERTFR-2026-ACT-040 (21 septembre 2026)",
+          "lien": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-040/",
+          "source": "CERT-FR",
+          "date": "2026-09-21",
+          "resume": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas…"
+        }
+      ]
+    },
+    {
+      "id": "linux",
+      "titre": "Linux & logiciel libre",
+      "titre_en": "Linux & open source",
+      "articles": [
+        {
+          "titre": "postmarketOS devient Nura",
+          "lien": "https://linuxfr.org/news/postmarketos-devient-nura",
+          "source": "LinuxFR",
+          "date": "2026-09-29",
+          "resume": "C'est officiel, la distribution Linux postmarketOS change de nom et devient Nura ! Cela avait été évoqué dans l'épisode de Projets Libres consacré au projet…"
+        },
+        {
+          "titre": "Revue de presse de l’April pour la semaine 39 de l’année 2026",
+          "lien": "https://linuxfr.org/news/revue-de-presse-de-l-april-pour-la-semaine-39-de-l-annee-2026",
+          "source": "LinuxFR",
+          "date": "2026-09-28",
+          "resume": "Cette revue de presse sur Internet fait partie du travail de veille mené par l’April dans le cadre de son action de défense et de promotion du logiciel libre…"
+        },
+        {
+          "titre": "Au café libre (actualités chaudes, ton relax) — « Libre à vous ! » du 22 septembre 2026 — Podcasts et références",
+          "lien": "https://linuxfr.org/news/au-cafe-libre-actualites-chaudes-ton-relax-libre-a-vous-du-22-septembre-2026-podcasts-et-references",
+          "source": "LinuxFR",
+          "date": "2026-09-28",
+          "resume": "285e émission « Libre à vous ! » de l’April. Podcast et programme : sujet principal : « Au café libre » (débat autour de l’actualité du logiciel libre et des…"
+        }
+      ]
+    },
+    {
+      "id": "sysres",
+      "titre": "Systèmes & réseaux",
+      "titre_en": "Systems & networks",
+      "articles": [
+        {
+          "titre": "Claude Code : Anthropic offre jusqu’à 250 dollars de crédit, mais seulement pour les sessions cloud",
+          "lien": "https://www.it-connect.fr/claude-code-sessions-cloud-credit-offert/",
+          "source": "IT-Connect",
+          "date": "2026-09-29",
+          "resume": "Abonné à Claude Pro ou Max ? Anthropic vous offre jusqu'à 250 dollars de crédit pour tester les sessions cloud de Claude Code. Voici comment en profiter. Le…"
+        },
+        {
+          "titre": "Ubuntu : face à l’explosion des failles, Canonical va publier un nouveau noyau chaque semaine",
+          "lien": "https://www.it-connect.fr/ubuntu-noyau-linux-chaque-semaine-cve-ia/",
+          "source": "IT-Connect",
+          "date": "2026-09-29",
+          "resume": "Submergé par les CVE découvertes grâce à l'IA, Canonical abandonne le cycle 4/2 : Ubuntu recevra un nouveau noyau chaque semaine à partir de fin octobre 2026…"
+        },
+        {
+          "titre": "Firefox 157 : Mozilla active Nova, la plus grosse refonte visuelle du navigateur depuis des années",
+          "lien": "https://www.it-connect.fr/firefox-157-nova-refonte-interface/",
+          "source": "IT-Connect",
+          "date": "2026-09-29",
+          "resume": "Firefox 157 intègre Nova, la plus grosse refonte visuelle du navigateur depuis des années : interface, thèmes, mode compact. Voici ce qui change. Le post…"
+        }
+      ]
+    }
+  ]
 }
