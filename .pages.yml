@@ -1,0 +1,150 @@
+# Configuration du panneau d'administration Pages CMS (https://app.pagescms.org)
+media:
+  input: assets
+  output: /assets
+
+content:
+  - name: contenu
+    label: Contenu du site
+    type: file
+    path: _data/contenu.yml
+    format: yaml
+    fields:
+      - name: seo
+        label: Onglet du navigateur et Google
+        type: object
+        fields:
+          - { name: titre, label: Titre de l'onglet, type: string }
+          - { name: description, label: Description pour Google, type: text }
+
+      - name: hero
+        label: En-tête (haut de page)
+        type: object
+        fields:
+          - { name: edition, label: Petite mention en haut à gauche, type: string }
+          - { name: statut, label: Statut (pastille verte), type: string }
+          - { name: statut_visible, label: Afficher la pastille verte, type: boolean }
+          - { name: surtitre, label: Surtitre au-dessus du nom, type: string }
+          - { name: nom, label: Nom, type: string }
+          - { name: accroche, label: Phrase d'accroche (en italique bleu), type: string }
+          - { name: intro, label: Texte d'introduction, type: text, description: "**gras** et *italique* possibles" }
+          - { name: bouton_principal, label: Texte du bouton principal, type: string }
+          - { name: bouton_secondaire, label: Texte du second bouton, type: string }
+          - { name: photo, label: Photo, type: image, description: "Format portrait conseillé (4:5). Elle s'affiche en noir et blanc." }
+          - { name: photo_legende_gauche, label: Légende sous la photo (gauche), type: string }
+          - { name: photo_legende_droite, label: Légende sous la photo (droite), type: string }
+
+      - name: chiffres
+        label: Chiffres clés
+        type: object
+        list: true
+        description: "4 chiffres conseillés pour un bel alignement"
+        fields:
+          - { name: valeur, label: Chiffre, type: string }
+          - { name: texte, label: Texte, type: string }
+
+      - name: profil
+        label: 01 — Profil
+        type: object
+        fields:
+          - { name: titre, label: Titre, type: string }
+          - { name: titre_italique, label: Fin du titre (en italique bleu), type: string }
+          - { name: paragraphes, label: Paragraphes, type: text, list: true, description: "**gras** et *italique* possibles" }
+          - { name: citation, label: Citation (laisser vide pour la masquer), type: string }
+          - name: infos
+            label: Informations clés (colonne de droite)
+            type: object
+            list: true
+            fields:
+              - { name: libelle, label: Libellé, type: string }
+              - { name: valeur, label: Valeur, type: string }
+
+      - name: competences
+        label: 02 — Compétences
+        type: object
+        fields:
+          - { name: titre, label: Titre, type: string }
+          - { name: titre_italique, label: Fin du titre (en italique bleu), type: string }
+          - name: liste
+            label: Compétences
+            type: object
+            list: true
+            fields:
+              - { name: titre, label: Titre, type: string }
+              - name: icone
+                label: Icône
+                type: select
+                options:
+                  values:
+                    - { value: serveur, label: Serveur }
+                    - { value: reseau, label: Réseau }
+                    - { value: bouclier, label: Bouclier (sécurité) }
+                    - { value: virtualisation, label: Virtualisation }
+                    - { value: casque, label: Casque (support) }
+                    - { value: equipe, label: Équipe }
+                    - { value: terminal, label: Terminal }
+                    - { value: code, label: Code }
+                    - { value: cloud, label: Cloud }
+              - { name: texte, label: Description, type: text }
+              - { name: tags, label: Étiquettes, type: string, list: true }
+
+      - name: parcours
+        label: 03 — Parcours
+        type: object
+        fields:
+          - { name: titre, label: Titre, type: string }
+          - { name: titre_italique, label: Fin du titre (en italique bleu), type: string }
+          - { name: experiences_sous_titre, label: Petite mention à côté de « Expériences », type: string }
+          - name: experiences
+            label: Expériences (la plus récente en premier)
+            type: object
+            list: true
+            fields:
+              - { name: dates, label: Dates, type: string, description: "Ex. : Avril 2026 — aujourd'hui" }
+              - { name: en_cours, label: Poste actuel (point bleu), type: boolean }
+              - { name: poste, label: Poste, type: string }
+              - { name: lieu, label: Lieu, type: string }
+              - { name: description, label: Description, type: text, description: "**gras** et *italique* possibles" }
+              - { name: missions, label: Missions (liste à puces), type: string, list: true }
+              - { name: tags, label: Étiquettes, type: string, list: true }
+          - { name: formations_sous_titre, label: Petite mention à côté de « Formation », type: string }
+          - name: formations
+            label: Formations (la plus récente en premier)
+            type: object
+            list: true
+            fields:
+              - { name: dates, label: Dates, type: string }
+              - { name: diplome, label: Diplôme ou formation, type: string }
+              - { name: lieu, label: Établissement, type: string }
+              - { name: description, label: Description (facultative), type: text }
+          - name: encarts
+            label: Encarts du bas (langues, passions…)
+            type: object
+            list: true
+            fields:
+              - { name: titre, label: Titre, type: string }
+              - { name: texte, label: Texte, type: string }
+
+      - name: faq
+        label: 04 — FAQ
+        type: object
+        fields:
+          - { name: titre, label: Titre, type: string }
+          - { name: titre_italique, label: Fin du titre (en italique bleu), type: string }
+          - name: questions
+            label: Questions
+            type: object
+            list: true
+            fields:
+              - { name: question, label: Question, type: string }
+              - { name: reponse, label: Réponse, type: text, description: "**gras** et *italique* possibles" }
+
+      - name: contact
+        label: 05 — Contact
+        type: object
+        fields:
+          - { name: titre, label: Titre, type: string }
+          - { name: titre_italique, label: Fin du titre (en italique), type: string }
+          - { name: texte, label: Texte, type: text }
+          - { name: email, label: Adresse e-mail, type: string }
+          - { name: linkedin, label: Lien LinkedIn (laisser vide pour le masquer), type: string }
