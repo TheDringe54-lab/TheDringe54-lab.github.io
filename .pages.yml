@@ -5,11 +5,11 @@ media:
 
 content:
   - name: contenu
-    label: Contenu du site
+    label: Contenu du site (français)
     type: file
     path: _data/contenu.yml
     format: yaml
-    fields:
+    fields: &champs
       - name: seo
         label: Onglet du navigateur et Google
         type: object
@@ -148,3 +148,21 @@ content:
           - { name: texte, label: Texte, type: text }
           - { name: email, label: Adresse e-mail, type: string }
           - { name: linkedin, label: Lien LinkedIn (laisser vide pour le masquer), type: string }
+
+  - name: contenu_en
+    label: Contenu du site (anglais)
+    type: file
+    path: _data/contenu_en.yml
+    format: yaml
+    fields: *champs
+
+  - name: mentions
+    label: Mentions légales
+    type: file
+    path: mentions-legales.md
+    format: yaml-frontmatter
+    fields:
+      - { name: titre, label: Titre, type: string }
+      - { name: surtitre, label: Surtitre, type: string }
+      - { name: description, label: Description pour Google, type: string }
+      - { name: body, label: Texte, type: rich-text }

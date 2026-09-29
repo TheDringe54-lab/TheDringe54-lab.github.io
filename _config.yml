@@ -1,7 +1,15 @@
 # Configuration Jekyll (utilisée automatiquement par GitHub Pages)
 title: Ethan Ledorze
+url: https://ethanledorze.fr
 lang: fr
 timezone: Europe/Paris
+plugins:
+  - jekyll-sitemap
+defaults:
+  - scope: { path: "" }
+    values: { lang: fr, contenu: contenu }
+  - scope: { path: "mentions-legales.md" }
+    values: { layout: page, permalink: /mentions-legales/ }
 exclude:
   - README.md
   - .pages.yml

@@ -1,0 +1,78 @@
+---
+# Gabarit commun à toutes les pages : en-tête, menu, pied de page et scripts
+---
+{%- assign ui = site.data.ui[page.lang] | default: site.data.ui.fr -%}
+{%- assign c = site.data[page.contenu] | default: site.data.contenu -%}
+{%- if page.accueil %}{% assign ancre = "" %}{% else %}{% assign ancre = ui.accueil_url | relative_url %}{% endif -%}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'fr' }}">
+<head>
+{% include head.html %}
+</head>
+<body>
+<a class="skip" href="#main">{{ ui.aller_au_contenu }}</a>
+
+<header class="site">
+  <div class="wrap nav">
+    <a class="brand" href="{{ ancre }}#top">{{ c.hero.nom | split: " " | first | slice: 0 }}. {{ c.hero.nom | split: " " | last | escape }}<span>.</span></a>
+    <nav aria-label="{{ ui.nav_label }}">
+      <ul>
+        <li><a href="{{ ancre }}#profil">{{ ui.nav_profil }}</a></li>
+        <li><a href="{{ ancre }}#competences">{{ ui.nav_competences }}</a></li>
+        <li><a href="{{ ancre }}#parcours">{{ ui.nav_parcours }}</a></li>
+        <li><a href="{{ ancre }}#faq">{{ ui.nav_faq }}</a></li>
+      </ul>
+    </nav>
+    <div class="nav-right">
+      <button class="icon-btn" id="theme" type="button" aria-label="{{ ui.theme_label }}">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></svg>
+      </button>
+      <a class="lang-btn" href="{{ ui.langue_url | relative_url }}" hreflang="{{ ui.langue_code }}" lang="{{ ui.langue_code }}" aria-label="{{ ui.langue_label }}">{{ ui.langue_lien }}</a>
+      <a class="btn btn-primary btn-sm" href="{{ ancre }}#contact"><span class="long">{{ ui.contact_avant }}</span>{{ ui.contact_mot }}<span class="long">{{ ui.contact_apres }}</span></a>
+    </div>
+  </div>
+</header>
+
+{{ content }}
+
+<footer class="site">
+  <div class="wrap">
+    <span>© {{ site.time | date: "%Y" }} {{ c.hero.nom | escape }} · <a href="{{ '/mentions-legales/' | relative_url }}">{{ ui.mentions }}</a></span>
+    <a href="{{ ancre }}#top">{{ ui.haut_de_page }}</a>
+  </div>
+</footer>
+
+<script>
+  // Thème clair / sombre
+  (function () {
+    var root = document.documentElement, btn = document.getElementById('theme');
+    btn.addEventListener('click', function () {
+      var dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+      root.dataset.theme = dark ? 'light' : 'dark';
+      try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
+    });
+  })();
+  // Apparition douce au défilement (sans dépendance à IntersectionObserver)
+  (function () {
+    var els = [].slice.call(document.querySelectorAll('.reveal'));
+    function showAll() { els.forEach(function (el) { el.classList.add('in'); }); els = []; }
+    if (matchMedia('(prefers-reduced-motion: reduce)').matches) { showAll(); return; }
+    function check() {
+      var limit = window.innerHeight * 0.95;
+      els = els.filter(function (el) {
+        if (el.getBoundingClientRect().top < limit) { el.classList.add('in'); return false; }
+        return true;
+      });
+      if (!els.length) { removeEventListener('scroll', check); removeEventListener('resize', check); }
+    }
+    addEventListener('scroll', check, { passive: true });
+    addEventListener('resize', check);
+    check();
+    // Filet de sécurité : tout le contenu reste lisible même si l'animation ne se déclenche pas
+    setTimeout(function () { if (document.hidden) showAll(); }, 1500);
+    document.addEventListener('visibilitychange', check);
+  })();
+</script>
+  <script data-goatcounter="https://ethanledorze.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</body>
+</html>

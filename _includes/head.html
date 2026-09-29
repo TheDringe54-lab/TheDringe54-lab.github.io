@@ -1,0 +1,63 @@
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{%- if page.titre %}
+<title>{{ page.titre | escape }} — {{ c.hero.nom | escape }}</title>
+{%- else %}
+<title>{{ c.seo.titre | escape }}</title>
+{%- endif %}
+{%- assign description = page.description | default: c.seo.description %}
+<meta name="description" content="{{ description | strip | escape }}">
+{%- if page.sitemap == false %}
+<meta name="robots" content="noindex">
+{%- else %}
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+{%- endif %}
+{%- if page.accueil %}
+<link rel="alternate" hreflang="fr" href="{{ '/' | absolute_url }}">
+<link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}">
+<link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
+{%- endif %}
+
+<!-- Aperçu lors d'un partage (LinkedIn, WhatsApp, Facebook, X…) -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ c.hero.nom | escape }}">
+<meta property="og:locale" content="{{ ui.locale }}">
+<meta property="og:title" content="{% if page.titre %}{{ page.titre | escape }} — {% endif %}{{ c.hero.nom | escape }} · {{ c.hero.surtitre | escape }}">
+<meta property="og:description" content="{{ description | strip | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ '/assets/og-image-' | append: page.lang | append: '.png' | absolute_url }}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ c.hero.nom | escape }} — {{ c.hero.surtitre | escape }}">
+<meta name="twitter:card" content="summary_large_image">
+
+<!-- Icônes -->
+<link rel="icon" type="image/png" sizes="48x48" href="{{ '/assets/favicon-48.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/favicon-192.png' | relative_url }}">
+<link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
+<meta name="theme-color" content="#F7F5F0" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121214" media="(prefers-color-scheme: dark)">
+
+<link rel="preload" href="{{ '/assets/fonts/playfair-display-normal-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ '/assets/fonts/source-serif-4-normal-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+{%- if page.accueil %}
+
+<!-- Données structurées pour Google -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ c.hero.nom | jsonify }},
+  "url": {{ page.url | absolute_url | jsonify }},
+  "image": {{ c.hero.photo | default: '/assets/ethan.jpg' | absolute_url | jsonify }},
+  "jobTitle": {{ c.hero.surtitre | jsonify }},
+  "description": {{ description | strip | jsonify }},
+  "email": {{ c.contact.email | prepend: 'mailto:' | jsonify }},
+  "address": { "@type": "PostalAddress", "addressRegion": "Normandie", "addressCountry": "FR" },
+  "knowsLanguage": ["fr", "en", "es"],
+  "sameAs": [{{ c.contact.linkedin | jsonify }}]
+}
+</script>
+{%- endif %}

@@ -1,0 +1,16 @@
+---
+layout: base
+---
+<main id="main">
+  <section class="block page" id="top">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="num">{{ page.surtitre }}</span>
+        <h1 class="display">{{ page.titre | escape }}{% if page.titre_italique %} <em>{{ page.titre_italique | escape }}</em>{% endif %}</h1>
+      </div>
+      <div class="prose">
+{{ content }}
+      </div>
+    </div>
+  </section>
+</main>

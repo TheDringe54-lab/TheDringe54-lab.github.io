@@ -1,0 +1,190 @@
+---
+layout: base
+---
+{%- assign ui = site.data.ui[page.lang] | default: site.data.ui.fr -%}
+{%- assign c = site.data[page.contenu] | default: site.data.contenu -%}
+{%- capture fleche %}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>{% endcapture -%}
+<main id="main">
+  <!-- HERO -->
+  <section class="hero" id="top">
+    <div class="wrap">
+      <div class="hero-top">
+        <span class="kicker">{{ c.hero.edition | escape }}</span>
+        {%- if c.hero.statut_visible %}
+        <span class="status"><i aria-hidden="true"></i>{{ c.hero.statut | escape }}</span>
+        {%- endif %}
+      </div>
+      <div class="hero-grid">
+        <div>
+          <p class="kicker" style="margin:0 0 var(--s3)">{{ c.hero.surtitre | escape }}</p>
+          <h1 class="display">{{ c.hero.nom | escape }}<em>{{ c.hero.accroche | escape }}</em></h1>
+          <p class="lede">{% include md.html t=c.hero.intro %}</p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#contact">{{ c.hero.bouton_principal | escape }}
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+            <a class="btn btn-ghost" href="#parcours">{{ c.hero.bouton_secondaire | escape }}</a>
+          </div>
+        </div>
+        <figure class="portrait reveal">
+          <img src="{{ c.hero.photo | default: '/assets/ethan.jpg' | relative_url }}" alt="{{ ui.photo_alt }} — {{ c.hero.nom | escape }}" width="464" height="618">
+          <figcaption><span class="kicker">{{ c.hero.photo_legende_gauche | escape }}</span><span class="kicker">{{ c.hero.photo_legende_droite | escape }}</span></figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- CHIFFRES CLÉS -->
+  <div class="wrap">
+    <div class="facts reveal" role="list">
+      {%- for f in c.chiffres %}
+      <div class="fact" role="listitem"><b>{{ f.valeur | escape }}</b><span>{{ f.texte | escape }}</span></div>
+      {%- endfor %}
+    </div>
+  </div>
+
+  <!-- PROFIL -->
+  <section class="block" id="profil" aria-labelledby="profil-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="num">{{ ui.sec_profil }}</span>
+        <h2 class="display" id="profil-t">{{ c.profil.titre | escape }} <em>{{ c.profil.titre_italique | escape }}</em></h2>
+      </div>
+      <div class="profil-grid">
+        <div class="profil-body reveal">
+          {%- for p in c.profil.paragraphes %}
+          <p>{% include md.html t=p %}</p>
+          {%- endfor %}
+          {%- assign v = c.profil.citation | strip %}{%- if v != "" %}
+          <blockquote class="pull">{{ c.profil.citation | escape }}</blockquote>
+          {%- endif %}
+        </div>
+        <ul class="aside-list reveal" aria-label="{{ ui.infos_label }}">
+          {%- for i in c.profil.infos %}
+          <li><span>{{ i.libelle | escape }}</span><span>{{ i.valeur | escape }}</span></li>
+          {%- endfor %}
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- COMPÉTENCES -->
+  <section class="block" id="competences" aria-labelledby="comp-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="num">{{ ui.sec_competences }}</span>
+        <h2 class="display" id="comp-t">{{ c.competences.titre | escape }} <em>{{ c.competences.titre_italique | escape }}</em></h2>
+      </div>
+      <div class="skills">
+        {%- for s in c.competences.liste %}
+        <article class="skill reveal">
+          <div class="skill-head">
+            <span class="skill-ico" aria-hidden="true">{% include icone.html nom=s.icone %}</span>
+            <h3>{{ s.titre | escape }}</h3>
+          </div>
+          <p>{% include md.html t=s.texte %}</p>
+          {%- if s.tags.size > 0 %}
+          <ul class="tags">{% for t in s.tags %}<li>{{ t | escape }}</li>{% endfor %}</ul>
+          {%- endif %}
+        </article>
+        {%- endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- PARCOURS -->
+  <section class="block" id="parcours" aria-labelledby="parc-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="num">{{ ui.sec_parcours }}</span>
+        <h2 class="display" id="parc-t">{{ c.parcours.titre | escape }} <em>{{ c.parcours.titre_italique | escape }}</em></h2>
+      </div>
+      <div class="parcours">
+        <div>
+          <div class="col-title"><h3>{{ ui.experiences }}</h3><span class="kicker">{{ c.parcours.experiences_sous_titre | escape }}</span></div>
+          <ol class="timeline">
+            {%- for e in c.parcours.experiences %}
+            <li class="tl{% if e.en_cours %} current{% endif %} reveal">
+              <span class="when">{{ e.dates | escape }}</span>
+              <h4>{{ e.poste | escape }}</h4>
+              <span class="where">{{ e.lieu | escape }}</span>
+              {%- assign v = e.description | strip %}{%- if v != "" %}
+              <p>{% include md.html t=e.description %}</p>
+              {%- endif %}
+              {%- if e.missions.size > 0 %}
+              <ul class="missions">
+                {%- for m in e.missions %}
+                <li>{{ m | escape }}</li>
+                {%- endfor %}
+              </ul>
+              {%- endif %}
+              {%- if e.tags.size > 0 %}
+              <ul class="tags">{% for t in e.tags %}<li>{{ t | escape }}</li>{% endfor %}</ul>
+              {%- endif %}
+            </li>
+            {%- endfor %}
+          </ol>
+        </div>
+        <div>
+          <div class="col-title"><h3>{{ ui.formation }}</h3><span class="kicker">{{ c.parcours.formations_sous_titre | escape }}</span></div>
+          <ol class="timeline">
+            {%- for f in c.parcours.formations %}
+            <li class="tl reveal">
+              <span class="when">{{ f.dates | escape }}</span>
+              <h4>{{ f.diplome | escape }}</h4>
+              <span class="where">{{ f.lieu | escape }}</span>
+              {%- assign v = f.description | strip %}{%- if v != "" %}
+              <p>{% include md.html t=f.description %}</p>
+              {%- endif %}
+            </li>
+            {%- endfor %}
+          </ol>
+        </div>
+      </div>
+      <div class="extras">
+        {%- for x in c.parcours.encarts %}
+        <div><h4 class="kicker">{{ x.titre | escape }}</h4><p>{{ x.texte | escape }}</p></div>
+        {%- endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="block" id="faq" aria-labelledby="faq-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="num">{{ ui.sec_faq }}</span>
+        <h2 class="display" id="faq-t">{{ c.faq.titre | escape }} <em>{{ c.faq.titre_italique | escape }}</em></h2>
+      </div>
+      <div class="faq">
+        {%- for q in c.faq.questions %}
+        <details class="reveal"{% if forloop.first %} open{% endif %}>
+          <summary><span class="n">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span><span class="q">{{ q.question | escape | replace: " ?", "&nbsp;?" }}</span><span class="plus" aria-hidden="true"></span></summary>
+          <div class="a"><p>{% include md.html t=q.reponse %}</p></div>
+        </details>
+        {%- endfor %}
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="block contact" id="contact" aria-labelledby="contact-t">
+    <div class="wrap">
+      <div class="contact-grid">
+        <div>
+          <span class="kicker">{{ ui.sec_contact }}</span>
+          <h2 class="display" id="contact-t" style="margin-top:var(--s3)">{{ c.contact.titre | escape }} <em>{{ c.contact.titre_italique | escape | replace: " ?", "&nbsp;?" }}</em></h2>
+          <p class="lede" style="margin-top:var(--s3)">{% include md.html t=c.contact.texte %}</p>
+          <a class="mail" href="mailto:{{ c.contact.email | escape }}">{{ c.contact.email | escape }}</a>
+        </div>
+        <ul class="links">
+          {%- assign v = c.contact.linkedin | strip %}{%- if v != "" %}
+          <li><a href="{{ c.contact.linkedin | escape }}" target="_blank" rel="noopener">LinkedIn
+            {{ fleche }}</a></li>
+          {%- endif %}
+          <li><a href="mailto:{{ c.contact.email | escape }}">{{ ui.email }}
+            {{ fleche }}</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</main>
