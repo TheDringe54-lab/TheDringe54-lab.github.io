@@ -1,0 +1,7 @@
+# Configuration Jekyll (utilisée automatiquement par GitHub Pages)
+title: Ethan Ledorze
+lang: fr
+timezone: Europe/Paris
+exclude:
+  - README.md
+  - .pages.yml

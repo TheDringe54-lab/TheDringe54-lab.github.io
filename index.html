@@ -1,10 +1,14 @@
+---
+# Le contenu de cette page se trouve dans _data/contenu.yml (modifiable depuis https://app.pagescms.org)
+---
+{%- assign c = site.data.contenu -%}
 <!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ethan Ledorze</title>
-<meta name="description" content="Ethan Ledorze, gendarme adjoint volontaire assistant informaticien. Administration systèmes Linux (Ubuntu, GendBuntu) / Windows, réseau, support IT. En recherche d'un emploi civil dans l'informatique.">
+<title>{{ c.seo.titre | escape }}</title>
+<meta name="description" content="{{ c.seo.description | escape }}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,900;1,400;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
@@ -267,10 +271,11 @@
 </head>
 <body>
 <a class="skip" href="#main">Aller au contenu</a>
+{%- capture fleche %}<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg>{% endcapture %}
 
 <header class="site">
   <div class="wrap nav">
-    <a class="brand" href="#top">E. Ledorze<span>.</span></a>
+    <a class="brand" href="#top">{{ c.hero.nom | split: " " | first | slice: 0 }}. {{ c.hero.nom | split: " " | last | escape }}<span>.</span></a>
     <nav aria-label="Navigation principale">
       <ul>
         <li><a href="#profil">Profil</a></li>
@@ -293,23 +298,25 @@
   <section class="hero" id="top">
     <div class="wrap">
       <div class="hero-top">
-        <span class="kicker">Portfolio — Édition 2026</span>
-        <span class="status"><i aria-hidden="true"></i>Ouvert à un emploi civil en informatique</span>
+        <span class="kicker">{{ c.hero.edition | escape }}</span>
+        {%- if c.hero.statut_visible %}
+        <span class="status"><i aria-hidden="true"></i>{{ c.hero.statut | escape }}</span>
+        {%- endif %}
       </div>
       <div class="hero-grid">
         <div>
-          <p class="kicker" style="margin:0 0 var(--s3)">Systèmes &amp; réseaux · Support IT</p>
-          <h1 class="display">Ethan Ledorze<em>La rigueur de la Gendarmerie, au service de vos infrastructures.</em></h1>
-          <p class="lede">Gendarme adjoint volontaire, assistant informaticien. J'assure le support informatique à l'échelle d'un département et je prépare ma reconversion vers un poste de technicien ou d'administrateur systèmes &amp; réseaux.</p>
+          <p class="kicker" style="margin:0 0 var(--s3)">{{ c.hero.surtitre | escape }}</p>
+          <h1 class="display">{{ c.hero.nom | escape }}<em>{{ c.hero.accroche | escape }}</em></h1>
+          <p class="lede">{% include md.html t=c.hero.intro %}</p>
           <div class="hero-ctas">
-            <a class="btn btn-primary" href="#contact">Discutons de votre poste
+            <a class="btn btn-primary" href="#contact">{{ c.hero.bouton_principal | escape }}
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
-            <a class="btn btn-ghost" href="#parcours">Voir mon parcours</a>
+            <a class="btn btn-ghost" href="#parcours">{{ c.hero.bouton_secondaire | escape }}</a>
           </div>
         </div>
         <figure class="portrait reveal">
-          <img src="assets/ethan.jpg" alt="Portrait d'Ethan Ledorze" width="464" height="618">
-          <figcaption><span class="kicker">Eure · Seine-Maritime</span><span class="kicker">Permis B</span></figcaption>
+          <img src="{{ c.hero.photo | default: '/assets/ethan.jpg' | relative_url }}" alt="Photo de profil — {{ c.hero.nom | escape }}" width="464" height="618">
+          <figcaption><span class="kicker">{{ c.hero.photo_legende_gauche | escape }}</span><span class="kicker">{{ c.hero.photo_legende_droite | escape }}</span></figcaption>
         </figure>
       </div>
     </div>
@@ -318,10 +325,9 @@
   <!-- CHIFFRES CLÉS -->
   <div class="wrap">
     <div class="facts reveal" role="list">
-      <div class="fact" role="listitem"><b>2025</b><span>Assistant informaticien en Gendarmerie depuis mai</span></div>
-      <div class="fact" role="listitem"><b>78</b><span>Support IT pour tout le département des Yvelines</span></div>
-      <div class="fact" role="listitem"><b>Bac+3</b><span>Niveau équivalent en informatique réseau</span></div>
-      <div class="fact" role="listitem"><b>3 mois</b><span>Formation militaire initiale intensive</span></div>
+      {%- for f in c.chiffres %}
+      <div class="fact" role="listitem"><b>{{ f.valeur | escape }}</b><span>{{ f.texte | escape }}</span></div>
+      {%- endfor %}
     </div>
   </div>
 
@@ -330,20 +336,21 @@
     <div class="wrap">
       <div class="sec-head">
         <span class="num">01 — Profil</span>
-        <h2 class="display" id="profil-t">Sérieux, discipliné, <em>curieux.</em></h2>
+        <h2 class="display" id="profil-t">{{ c.profil.titre | escape }} <em>{{ c.profil.titre_italique | escape }}</em></h2>
       </div>
       <div class="profil-grid">
         <div class="profil-body reveal">
-          <p>Formé par trois mois de formation militaire intensive, je suis aujourd'hui gendarme adjoint volontaire, emploi particulier <em>assistant informaticien</em>. Mon quotidien, sur un parc majoritairement Ubuntu (GendBuntu) : préparer les postes, administrer les serveurs, gérer les droits et les sauvegardes, et accompagner les utilisateurs, là où la disponibilité des outils compte vraiment.</p>
-          <p>Je me spécialise dans les infrastructures, la cybersécurité, la virtualisation et le support aux utilisateurs. Je recherche un emploi civil qui me permette de valoriser ce que la Gendarmerie m'a appris : rigueur, esprit d'équipe et sens des responsabilités.</p>
-          <blockquote class="pull">« Contribuer à la sécurité des systèmes et à la performance des outils numériques. »</blockquote>
+          {%- for p in c.profil.paragraphes %}
+          <p>{% include md.html t=p %}</p>
+          {%- endfor %}
+          {%- assign v = c.profil.citation | strip %}{%- if v != "" %}
+          <blockquote class="pull">{{ c.profil.citation | escape }}</blockquote>
+          {%- endif %}
         </div>
         <ul class="aside-list reveal" aria-label="Informations clés">
-          <li><span>Statut</span><span>Gendarme adjoint volontaire</span></li>
-          <li><span>Recherche</span><span>Emploi civil, systèmes &amp; réseaux</span></li>
-          <li><span>Secteur</span><span>Eure (27) &amp; Seine-Maritime (76)</span></li>
-          <li><span>Langues</span><span>Anglais, espagnol</span></li>
-          <li><span>Qualités</span><span>Gestion du stress, respect des procédures, flexibilité</span></li>
+          {%- for i in c.profil.infos %}
+          <li><span>{{ i.libelle | escape }}</span><span>{{ i.valeur | escape }}</span></li>
+          {%- endfor %}
         </ul>
       </div>
     </div>
@@ -354,57 +361,21 @@
     <div class="wrap">
       <div class="sec-head">
         <span class="num">02 — Compétences</span>
-        <h2 class="display" id="comp-t">Ce que je sais <em>faire tourner.</em></h2>
+        <h2 class="display" id="comp-t">{{ c.competences.titre | escape }} <em>{{ c.competences.titre_italique | escape }}</em></h2>
       </div>
       <div class="skills">
+        {%- for s in c.competences.liste %}
         <article class="skill reveal">
           <div class="skill-head">
-            <span class="skill-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="7" rx="1"/><rect x="3" y="14" width="18" height="7" rx="1"/><path d="M7 6.5h.01M7 17.5h.01"/></svg></span>
-            <h3>Administration système</h3>
+            <span class="skill-ico" aria-hidden="true">{% include icone.html nom=s.icone %}</span>
+            <h3>{{ s.titre | escape }}</h3>
           </div>
-          <p>Préparation des postes, administration de serveurs, gestion des droits et des sauvegardes, sur Linux (Ubuntu, GendBuntu) et Windows.</p>
-          <ul class="tags"><li>Ubuntu</li><li>GendBuntu</li><li>Linux</li><li>Windows Server</li><li>Sauvegardes</li><li>Utilisateurs &amp; permissions</li><li>Performances</li></ul>
+          <p>{% include md.html t=s.texte %}</p>
+          {%- if s.tags.size > 0 %}
+          <ul class="tags">{% for t in s.tags %}<li>{{ t | escape }}</li>{% endfor %}</ul>
+          {%- endif %}
         </article>
-        <article class="skill reveal">
-          <div class="skill-head">
-            <span class="skill-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="2" width="6" height="5" rx="1"/><rect x="2" y="17" width="6" height="5" rx="1"/><rect x="16" y="17" width="6" height="5" rx="1"/><path d="M12 7v5M5 17v-3h14v3"/></svg></span>
-            <h3>Réseau</h3>
-          </div>
-          <p>Configuration de commutateurs et routeurs, adressage IP et diagnostic des pannes réseau.</p>
-          <ul class="tags"><li>Commutateurs</li><li>Routeurs</li><li>Adressage IP</li><li>Dépannage</li></ul>
-        </article>
-        <article class="skill reveal">
-          <div class="skill-head">
-            <span class="skill-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"/><path d="m9 12 2 2 4-4"/></svg></span>
-            <h3>Cybersécurité</h3>
-          </div>
-          <p>Suivi des vulnérabilités, lecture des journaux système et application des correctifs.</p>
-          <ul class="tags"><li>Vulnérabilités</li><li>Journaux système</li><li>Correctifs</li></ul>
-        </article>
-        <article class="skill reveal">
-          <div class="skill-head">
-            <span class="skill-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="13" rx="1"/><rect x="6" y="8" width="5" height="5"/><rect x="13" y="8" width="5" height="5"/><path d="M8 21h8"/></svg></span>
-            <h3>Virtualisation</h3>
-          </div>
-          <p>Mise en place et gestion de machines virtuelles pour les tests et les maquettes d'infrastructure.</p>
-          <ul class="tags"><li>Hyper-V</li><li>VirtualBox</li></ul>
-        </article>
-        <article class="skill reveal">
-          <div class="skill-head">
-            <span class="skill-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 14v-2a9 9 0 0 1 18 0v2"/><rect x="2" y="14" width="4" height="6" rx="1"/><rect x="18" y="14" width="4" height="6" rx="1"/><path d="M20 20a3 3 0 0 1-3 2h-3"/></svg></span>
-            <h3>Support &amp; parc</h3>
-          </div>
-          <p>Helpdesk, traitement des incidents et des demandes, gestion du parc informatique.</p>
-          <ul class="tags"><li>Helpdesk</li><li>Incidents</li><li>Gestion de parc</li><li>Service client</li></ul>
-        </article>
-        <article class="skill reveal">
-          <div class="skill-head">
-            <span class="skill-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M18.5 20a6.5 6.5 0 0 0-3-5.5"/></svg></span>
-            <h3>Savoir-être</h3>
-          </div>
-          <p>Travail en équipe, respect des délais et de la hiérarchie, coordination de projets techniques.</p>
-          <ul class="tags"><li>Esprit d'équipe</li><li>Gestion du stress</li><li>Procédures</li><li>Rigueur</li></ul>
-        </article>
+        {%- endfor %}
       </div>
     </div>
   </section>
@@ -414,62 +385,54 @@
     <div class="wrap">
       <div class="sec-head">
         <span class="num">03 — Parcours</span>
-        <h2 class="display" id="parc-t">De l'école <em>au terrain.</em></h2>
+        <h2 class="display" id="parc-t">{{ c.parcours.titre | escape }} <em>{{ c.parcours.titre_italique | escape }}</em></h2>
       </div>
       <div class="parcours">
         <div>
-          <div class="col-title"><h3>Expériences</h3><span class="kicker">Gendarmerie</span></div>
+          <div class="col-title"><h3>Expériences</h3><span class="kicker">{{ c.parcours.experiences_sous_titre | escape }}</span></div>
           <ol class="timeline">
-            <li class="tl current reveal">
-              <span class="when">Avril 2026 — aujourd'hui</span>
-              <h4>Gendarme adjoint volontaire, assistant informaticien</h4>
-              <span class="where">Gendarmerie des Yvelines (78)</span>
-              <p>Support informatique pour l'ensemble du département, sur un environnement principalement <strong>Ubuntu</strong> avec la surcouche Gendarmerie <strong>GendBuntu</strong> :</p>
+            {%- for e in c.parcours.experiences %}
+            <li class="tl{% if e.en_cours %} current{% endif %} reveal">
+              <span class="when">{{ e.dates | escape }}</span>
+              <h4>{{ e.poste | escape }}</h4>
+              <span class="where">{{ e.lieu | escape }}</span>
+              {%- assign v = e.description | strip %}{%- if v != "" %}
+              <p>{% include md.html t=e.description %}</p>
+              {%- endif %}
+              {%- if e.missions.size > 0 %}
               <ul class="missions">
-                <li>Préparation et déploiement des postes utilisateurs</li>
-                <li>Administration des serveurs</li>
-                <li>Gestion des droits et des accès</li>
-                <li>Sauvegardes</li>
-                <li>Assistance aux utilisateurs et traitement des incidents</li>
+                {%- for m in e.missions %}
+                <li>{{ m | escape }}</li>
+                {%- endfor %}
               </ul>
-              <ul class="tags"><li>GendBuntu</li><li>Ubuntu</li><li>Linux</li><li>Serveurs</li><li>Droits &amp; accès</li><li>Sauvegarde</li><li>Support</li></ul>
+              {%- endif %}
+              {%- if e.tags.size > 0 %}
+              <ul class="tags">{% for t in e.tags %}<li>{{ t | escape }}</li>{% endfor %}</ul>
+              {%- endif %}
             </li>
-            <li class="tl reveal">
-              <span class="when">Mai 2025 — Avril 2026</span>
-              <h4>Gendarme adjoint volontaire, assistant informaticien</h4>
-              <span class="where">École de Gendarmerie de Tulle (19)</span>
-              <p>Trois mois de formation militaire initiale, puis support informatique de l'école.</p>
-              <ul class="tags"><li>Formation militaire</li><li>Helpdesk</li><li>Parc informatique</li></ul>
-            </li>
+            {%- endfor %}
           </ol>
         </div>
         <div>
-          <div class="col-title"><h3>Formation</h3><span class="kicker">Cursus</span></div>
+          <div class="col-title"><h3>Formation</h3><span class="kicker">{{ c.parcours.formations_sous_titre | escape }}</span></div>
           <ol class="timeline">
+            {%- for f in c.parcours.formations %}
             <li class="tl reveal">
-              <span class="when">2023 — 2024</span>
-              <h4>BTS SIO, option SISR</h4>
-              <span class="where">Campus La Châtaigneraie · cursus suivi, sans diplôme</span>
-              <p>Services informatiques aux organisations, spécialité solutions d'infrastructure, systèmes et réseaux.</p>
+              <span class="when">{{ f.dates | escape }}</span>
+              <h4>{{ f.diplome | escape }}</h4>
+              <span class="where">{{ f.lieu | escape }}</span>
+              {%- assign v = f.description | strip %}{%- if v != "" %}
+              <p>{% include md.html t=f.description %}</p>
+              {%- endif %}
             </li>
-            <li class="tl reveal">
-              <span class="when">2022 — 2023</span>
-              <h4>Gestionnaire en maintenance informatique</h4>
-              <span class="where">CESI · cursus suivi, sans diplôme</span>
-            </li>
-            <li class="tl reveal">
-              <span class="when">2020 — 2022</span>
-              <h4>Bac Pro Systèmes numériques, option RISC</h4>
-              <span class="where">Lycée Modeste Leroy</span>
-              <p>Réseaux informatiques et systèmes communicants.</p>
-            </li>
+            {%- endfor %}
           </ol>
         </div>
       </div>
       <div class="extras">
-        <div><h4 class="kicker">Langues</h4><p>Anglais LV2 · Espagnol LV1</p></div>
-        <div><h4 class="kicker">Passions</h4><p>Bicross, enduro, moto, Formule 1, course à pied</p></div>
-        <div><h4 class="kicker">Mobilité</h4><p>Permis B</p></div>
+        {%- for x in c.parcours.encarts %}
+        <div><h4 class="kicker">{{ x.titre | escape }}</h4><p>{{ x.texte | escape }}</p></div>
+        {%- endfor %}
       </div>
     </div>
   </section>
@@ -479,29 +442,15 @@
     <div class="wrap">
       <div class="sec-head">
         <span class="num">04 — FAQ</span>
-        <h2 class="display" id="faq-t">Questions <em>fréquentes.</em></h2>
+        <h2 class="display" id="faq-t">{{ c.faq.titre | escape }} <em>{{ c.faq.titre_italique | escape }}</em></h2>
       </div>
       <div class="faq">
-        <details class="reveal" open>
-          <summary><span class="n">01</span><span class="q">Quel type de poste recherchez-vous&nbsp;?</span><span class="plus" aria-hidden="true"></span></summary>
-          <div class="a"><p>Un emploi civil en informatique : technicien support, technicien ou administrateur systèmes &amp; réseaux. Je suis aussi ouvert aux alternances qui me permettent de monter en compétences.</p></div>
+        {%- for q in c.faq.questions %}
+        <details class="reveal"{% if forloop.first %} open{% endif %}>
+          <summary><span class="n">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span><span class="q">{{ q.question | escape | replace: " ?", "&nbsp;?" }}</span><span class="plus" aria-hidden="true"></span></summary>
+          <div class="a"><p>{% include md.html t=q.reponse %}</p></div>
         </details>
-        <details class="reveal">
-          <summary><span class="n">02</span><span class="q">Pourquoi quitter la Gendarmerie&nbsp;?</span><span class="plus" aria-hidden="true"></span></summary>
-          <div class="a"><p>Mon contrat de gendarme adjoint volontaire m'a permis de mettre un pied dans l'informatique opérationnelle. Je souhaite maintenant m'y consacrer pleinement, dans une structure où je pourrai évoluer techniquement sur le long terme.</p></div>
-        </details>
-        <details class="reveal">
-          <summary><span class="n">03</span><span class="q">Qu'apporte votre expérience militaire à un poste IT&nbsp;?</span><span class="plus" aria-hidden="true"></span></summary>
-          <div class="a"><p>Le respect des procédures, la gestion du stress et la capacité à intervenir vite quand un service est critique. Ce sont exactement les réflexes attendus en support et en exploitation.</p></div>
-        </details>
-        <details class="reveal">
-          <summary><span class="n">04</span><span class="q">Où pouvez-vous travailler&nbsp;?</span><span class="plus" aria-hidden="true"></span></summary>
-          <div class="a"><p>Je suis basé entre l'Eure et la Seine-Maritime (Normandie) et titulaire du permis B. Je travaille actuellement dans les Yvelines : les postes en Normandie comme en Île-de-France m'intéressent.</p></div>
-        </details>
-        <details class="reveal">
-          <summary><span class="n">05</span><span class="q">Quand êtes-vous disponible&nbsp;?</span><span class="plus" aria-hidden="true"></span></summary>
-          <div class="a"><p>Contactez-moi pour en discuter : je vous indiquerai ma date de disponibilité en fonction de mon contrat actuel.</p></div>
-        </details>
+        {%- endfor %}
       </div>
     </div>
   </section>
@@ -512,15 +461,17 @@
       <div class="contact-grid">
         <div>
           <span class="kicker">05 — Contact</span>
-          <h2 class="display" id="contact-t" style="margin-top:var(--s3)">Un poste à <em>pourvoir&nbsp;?</em></h2>
-          <p class="lede" style="margin-top:var(--s3)">Écrivez-moi, je réponds rapidement. Le problème est souvent entre la chaise et le clavier : je suis là pour le résoudre.</p>
-          <a class="mail" href="mailto:contact@ethanledorze.fr">contact@ethanledorze.fr</a>
+          <h2 class="display" id="contact-t" style="margin-top:var(--s3)">{{ c.contact.titre | escape }} <em>{{ c.contact.titre_italique | escape | replace: " ?", "&nbsp;?" }}</em></h2>
+          <p class="lede" style="margin-top:var(--s3)">{% include md.html t=c.contact.texte %}</p>
+          <a class="mail" href="mailto:{{ c.contact.email | escape }}">{{ c.contact.email | escape }}</a>
         </div>
         <ul class="links">
-          <li><a href="https://www.linkedin.com/in/ethan-ledorze-32000025a/" target="_blank" rel="noopener">LinkedIn
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a></li>
-          <li><a href="mailto:contact@ethanledorze.fr">E-mail
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg></a></li>
+          {%- assign v = c.contact.linkedin | strip %}{%- if v != "" %}
+          <li><a href="{{ c.contact.linkedin | escape }}" target="_blank" rel="noopener">LinkedIn
+            {{ fleche }}</a></li>
+          {%- endif %}
+          <li><a href="mailto:{{ c.contact.email | escape }}">E-mail
+            {{ fleche }}</a></li>
         </ul>
       </div>
     </div>
@@ -529,7 +480,7 @@
 
 <footer class="site">
   <div class="wrap">
-    <span>© 2026 Ethan Ledorze</span>
+    <span>© {{ site.time | date: "%Y" }} {{ c.hero.nom | escape }}</span>
     <a href="#top">Haut de page ↑</a>
   </div>
 </footer>
