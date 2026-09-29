@@ -1,147 +1,202 @@
-# Contenu du site ethanledorze.fr
-# Ce fichier se modifie depuis le panneau d'administration (https://app.pagescms.org).
-# Dans les textes : **gras**, *italique*, [lien](https://exemple.fr)
-
 seo:
-  titre: "Ethan Ledorze"
-  description: "Ethan Ledorze, gendarme adjoint volontaire assistant informaticien. Administration systèmes Linux (Ubuntu, GendBuntu) / Windows, réseau, support IT. En recherche d'un emploi civil dans l'informatique."
-
+  titre: Ethan Ledorze
+  description: Ethan Ledorze, gendarme adjoint volontaire assistant informaticien.
+    Administration systèmes Linux (Ubuntu, GendBuntu) / Windows, réseau, support
+    IT. En recherche d'un emploi civil dans l'informatique.
 hero:
-  edition: "Portfolio — Édition 2026"
-  statut: "Ouvert à un emploi civil en informatique"
-  statut_visible: true
-  surtitre: "Systèmes & réseaux · Support IT"
-  nom: "Ethan Ledorze"
-  accroche: "La rigueur de la Gendarmerie, au service de vos infrastructures."
-  intro: "Gendarme adjoint volontaire, assistant informaticien. J'assure le support informatique à l'échelle d'un département et je prépare ma reconversion vers un poste de technicien ou d'administrateur systèmes & réseaux."
-  bouton_principal: "Discutons de votre poste"
-  bouton_secondaire: "Voir mon parcours"
-  photo: "/assets/ethan.jpg"
-  photo_legende_gauche: "Eure · Seine-Maritime"
-  photo_legende_droite: "Permis B"
-
+  edition: Portfolio — Édition 2026
+  statut: Ouvert à un emploi civil en informatique
+  statut_visible: false
+  surtitre: Systèmes & réseaux · Support IT
+  nom: Ethan Ledorze
+  accroche: La rigueur de la Gendarmerie, au service de vos infrastructures.
+  intro: Gendarme adjoint volontaire, assistant informaticien. J'assure le support
+    informatique à l'échelle d'un département et je prépare ma reconversion vers
+    un poste de technicien ou d'administrateur systèmes & réseaux.
+  bouton_principal: Discutons de votre poste
+  bouton_secondaire: Voir mon parcours
+  photo: /assets/ethan.jpg
+  photo_legende_gauche: Eure · Seine-Maritime
+  photo_legende_droite: Permis B
 chiffres:
   - valeur: "2025"
-    texte: "Assistant informaticien en Gendarmerie depuis mai"
+    texte: Assistant informaticien en Gendarmerie depuis mai
   - valeur: "78"
-    texte: "Support IT pour tout le département des Yvelines"
-  - valeur: "Bac+3"
-    texte: "Niveau équivalent en informatique réseau"
-  - valeur: "3 mois"
-    texte: "Formation militaire initiale intensive"
-
+    texte: Support IT pour tout le département des Yvelines
+  - valeur: Bac+3
+    texte: Niveau équivalent en informatique réseau
+  - valeur: 3 mois
+    texte: Formation militaire initiale intensive
 profil:
-  titre: "Sérieux, discipliné,"
-  titre_italique: "curieux."
+  titre: Sérieux, discipliné,
+  titre_italique: curieux.
   paragraphes:
-    - "Formé par trois mois de formation militaire intensive, je suis aujourd'hui gendarme adjoint volontaire, emploi particulier *assistant informaticien*. Mon quotidien, sur un parc majoritairement Ubuntu (GendBuntu) : préparer les postes, administrer les serveurs, gérer les droits et les sauvegardes, et accompagner les utilisateurs, là où la disponibilité des outils compte vraiment."
-    - "Je me spécialise dans les infrastructures, la cybersécurité, la virtualisation et le support aux utilisateurs. Je recherche un emploi civil qui me permette de valoriser ce que la Gendarmerie m'a appris : rigueur, esprit d'équipe et sens des responsabilités."
-  citation: "« Contribuer à la sécurité des systèmes et à la performance des outils numériques. »"
+    - "Formé par trois mois de formation militaire intensive, je suis
+      aujourd'hui gendarme adjoint volontaire, emploi particulier *assistant
+      informaticien*. Mon quotidien, sur un parc majoritairement Ubuntu
+      (GendBuntu) : préparer les postes, administrer les serveurs, gérer les
+      droits et les sauvegardes, et accompagner les utilisateurs, là où la
+      disponibilité des outils compte vraiment."
+    - "Je me spécialise dans les infrastructures, la cybersécurité, la
+      virtualisation et le support aux utilisateurs. Je recherche un emploi
+      civil qui me permette de valoriser ce que la Gendarmerie m'a appris :
+      rigueur, esprit d'équipe et sens des responsabilités."
+  citation: « Contribuer à la sécurité des systèmes et à la performance des outils
+    numériques. »
   infos:
-    - libelle: "Statut"
-      valeur: "Gendarme adjoint volontaire"
-    - libelle: "Recherche"
-      valeur: "Emploi civil, systèmes & réseaux"
-    - libelle: "Secteur"
-      valeur: "Eure (27) & Seine-Maritime (76)"
-    - libelle: "Langues"
-      valeur: "Anglais, espagnol"
-    - libelle: "Qualités"
-      valeur: "Gestion du stress, respect des procédures, flexibilité"
-
+    - libelle: Statut
+      valeur: Gendarme adjoint volontaire
+    - libelle: Recherche
+      valeur: Emploi civil, systèmes & réseaux
+    - libelle: Secteur
+      valeur: Eure (27) & Seine-Maritime (76)
+    - libelle: Langues
+      valeur: Anglais, espagnol
+    - libelle: Qualités
+      valeur: Gestion du stress, respect des procédures, flexibilité
 competences:
-  titre: "Ce que je sais"
-  titre_italique: "faire tourner."
+  titre: Ce que je sais
+  titre_italique: faire tourner.
   liste:
-    - titre: "Administration système"
+    - titre: Administration système
       icone: serveur
-      texte: "Préparation des postes, administration de serveurs, gestion des droits et des sauvegardes, sur Linux (Ubuntu, GendBuntu) et Windows."
-      tags: ["Ubuntu", "GendBuntu", "Linux", "Windows Server", "Sauvegardes", "Utilisateurs & permissions", "Performances"]
-    - titre: "Réseau"
+      texte: Préparation des postes, administration de serveurs, gestion des droits et
+        des sauvegardes, sur Linux (Ubuntu, GendBuntu) et Windows.
+      tags:
+        - Ubuntu
+        - GendBuntu
+        - Linux
+        - Windows Server
+        - Sauvegardes
+        - Utilisateurs & permissions
+        - Performances
+    - titre: Réseau
       icone: reseau
-      texte: "Configuration de commutateurs et routeurs, adressage IP et diagnostic des pannes réseau."
-      tags: ["Commutateurs", "Routeurs", "Adressage IP", "Dépannage"]
-    - titre: "Cybersécurité"
+      texte: Configuration de commutateurs et routeurs, adressage IP et diagnostic des
+        pannes réseau.
+      tags:
+        - Commutateurs
+        - Routeurs
+        - Adressage IP
+        - Dépannage
+    - titre: Cybersécurité
       icone: bouclier
-      texte: "Suivi des vulnérabilités, lecture des journaux système et application des correctifs."
-      tags: ["Vulnérabilités", "Journaux système", "Correctifs"]
-    - titre: "Virtualisation"
+      texte: Suivi des vulnérabilités, lecture des journaux système et application des
+        correctifs.
+      tags:
+        - Vulnérabilités
+        - Journaux système
+        - Correctifs
+    - titre: Virtualisation
       icone: virtualisation
-      texte: "Mise en place et gestion de machines virtuelles pour les tests et les maquettes d'infrastructure."
-      tags: ["Hyper-V", "VirtualBox"]
-    - titre: "Support & parc"
+      texte: Mise en place et gestion de machines virtuelles pour les tests et les
+        maquettes d'infrastructure.
+      tags:
+        - Hyper-V
+        - VirtualBox
+    - titre: Support & parc
       icone: casque
-      texte: "Helpdesk, traitement des incidents et des demandes, gestion du parc informatique."
-      tags: ["Helpdesk", "Incidents", "Gestion de parc", "Service client"]
-    - titre: "Savoir-être"
+      texte: Helpdesk, traitement des incidents et des demandes, gestion du parc
+        informatique.
+      tags:
+        - Helpdesk
+        - Incidents
+        - Gestion de parc
+        - Service client
+    - titre: Savoir-être
       icone: equipe
-      texte: "Travail en équipe, respect des délais et de la hiérarchie, coordination de projets techniques."
-      tags: ["Esprit d'équipe", "Gestion du stress", "Procédures", "Rigueur"]
-
+      texte: Travail en équipe, respect des délais et de la hiérarchie, coordination
+        de projets techniques.
+      tags:
+        - Esprit d'équipe
+        - Gestion du stress
+        - Procédures
+        - Rigueur
 parcours:
-  titre: "De l'école"
-  titre_italique: "au terrain."
-  experiences_sous_titre: "Gendarmerie"
+  titre: De l'école
+  titre_italique: au terrain.
+  experiences_sous_titre: Gendarmerie
   experiences:
-    - dates: "Avril 2026 — aujourd'hui"
+    - dates: Avril 2026 — aujourd'hui
       en_cours: true
-      poste: "Gendarme adjoint volontaire, assistant informaticien"
-      lieu: "Gendarmerie des Yvelines (78)"
-      description: "Support informatique pour l'ensemble du département, sur un environnement principalement **Ubuntu** avec la surcouche Gendarmerie **GendBuntu** :"
+      poste: Gendarme adjoint volontaire, assistant informaticien
+      lieu: Gendarmerie des Yvelines (78)
+      description: "Support informatique pour l'ensemble du département, sur un
+        environnement principalement **Ubuntu** avec la surcouche Gendarmerie
+        **GendBuntu** :"
       missions:
-        - "Préparation et déploiement des postes utilisateurs"
-        - "Administration des serveurs"
-        - "Gestion des droits et des accès"
-        - "Sauvegardes"
-        - "Assistance aux utilisateurs et traitement des incidents"
-      tags: ["GendBuntu", "Ubuntu", "Linux", "Serveurs", "Droits & accès", "Sauvegarde", "Support"]
-    - dates: "Mai 2025 — Avril 2026"
+        - Préparation et déploiement des postes utilisateurs
+        - Administration des serveurs
+        - Gestion des droits et des accès
+        - Sauvegardes
+        - Assistance aux utilisateurs et traitement des incidents
+      tags:
+        - GendBuntu
+        - Ubuntu
+        - Linux
+        - Serveurs
+        - Droits & accès
+        - Sauvegarde
+        - Support
+    - dates: Mai 2025 — Avril 2026
       en_cours: false
-      poste: "Gendarme adjoint volontaire, assistant informaticien"
-      lieu: "École de Gendarmerie de Tulle (19)"
-      description: "Trois mois de formation militaire initiale, puis support informatique de l'école."
-      missions: []
-      tags: ["Formation militaire", "Helpdesk", "Parc informatique"]
-  formations_sous_titre: "Cursus"
+      poste: Gendarme adjoint volontaire, assistant informaticien
+      lieu: École de Gendarmerie de Tulle (19)
+      description: Trois mois de formation militaire initiale, puis support
+        informatique de l'école.
+      tags:
+        - Formation militaire
+        - Helpdesk
+        - Parc informatique
+  formations_sous_titre: Cursus
   formations:
-    - dates: "2023 — 2024"
-      diplome: "BTS SIO, option SISR"
-      lieu: "Campus La Châtaigneraie · cursus suivi, sans diplôme"
-      description: "Services informatiques aux organisations, spécialité solutions d'infrastructure, systèmes et réseaux."
-    - dates: "2022 — 2023"
-      diplome: "Gestionnaire en maintenance informatique"
-      lieu: "CESI · cursus suivi, sans diplôme"
-      description: ""
-    - dates: "2020 — 2022"
-      diplome: "Bac Pro Systèmes numériques, option RISC"
-      lieu: "Lycée Modeste Leroy"
-      description: "Réseaux informatiques et systèmes communicants."
+    - dates: 2023 — 2024
+      diplome: BTS SIO, option SISR
+      lieu: Campus La Châtaigneraie · cursus suivi, sans diplôme
+      description: Services informatiques aux organisations, spécialité solutions
+        d'infrastructure, systèmes et réseaux.
+    - dates: 2022 — 2023
+      diplome: Gestionnaire en maintenance informatique
+      lieu: CESI · cursus suivi, sans diplôme
+    - dates: 2020 — 2022
+      diplome: Bac Pro Systèmes numériques, option RISC
+      lieu: Lycée Modeste Leroy
+      description: Réseaux informatiques et systèmes communicants.
   encarts:
-    - titre: "Langues"
-      texte: "Anglais LV2 · Espagnol LV1"
-    - titre: "Passions"
-      texte: "Bicross, enduro, moto, Formule 1, course à pied"
-    - titre: "Mobilité"
-      texte: "Permis B"
-
+    - titre: Langues
+      texte: Anglais LV2 · Espagnol LV1
+    - titre: Passions
+      texte: Bicross, enduro, moto, Formule 1, course à pied
+    - titre: Mobilité
+      texte: Permis B
 faq:
-  titre: "Questions"
-  titre_italique: "fréquentes."
+  titre: Questions
+  titre_italique: fréquentes.
   questions:
-    - question: "Quel type de poste recherchez-vous ?"
-      reponse: "Un emploi civil en informatique : technicien support, technicien ou administrateur systèmes & réseaux. Je suis aussi ouvert aux alternances qui me permettent de monter en compétences."
-    - question: "Pourquoi quitter la Gendarmerie ?"
-      reponse: "Mon contrat de gendarme adjoint volontaire m'a permis de mettre un pied dans l'informatique opérationnelle. Je souhaite maintenant m'y consacrer pleinement, dans une structure où je pourrai évoluer techniquement sur le long terme."
-    - question: "Qu'apporte votre expérience militaire à un poste IT ?"
-      reponse: "Le respect des procédures, la gestion du stress et la capacité à intervenir vite quand un service est critique. Ce sont exactement les réflexes attendus en support et en exploitation."
-    - question: "Où pouvez-vous travailler ?"
-      reponse: "Je suis basé entre l'Eure et la Seine-Maritime (Normandie) et titulaire du permis B. Je travaille actuellement dans les Yvelines : les postes en Normandie comme en Île-de-France m'intéressent."
-    - question: "Quand êtes-vous disponible ?"
-      reponse: "Contactez-moi pour en discuter : je vous indiquerai ma date de disponibilité en fonction de mon contrat actuel."
-
+    - question: Quel type de poste recherchez-vous ?
+      reponse: "Un emploi civil en informatique : technicien support, technicien ou
+        administrateur systèmes & réseaux. Je suis aussi ouvert aux alternances
+        qui me permettent de monter en compétences."
+    - question: Pourquoi quitter la Gendarmerie ?
+      reponse: Mon contrat de gendarme adjoint volontaire m'a permis de mettre un pied
+        dans l'informatique opérationnelle. Je souhaite maintenant m'y consacrer
+        pleinement, dans une structure où je pourrai évoluer techniquement sur
+        le long terme.
+    - question: Qu'apporte votre expérience militaire à un poste IT ?
+      reponse: Le respect des procédures, la gestion du stress et la capacité à
+        intervenir vite quand un service est critique. Ce sont exactement les
+        réflexes attendus en support et en exploitation.
+    - question: Où pouvez-vous travailler ?
+      reponse: "Je suis basé entre l'Eure et la Seine-Maritime (Normandie) et
+        titulaire du permis B. Je travaille actuellement dans les Yvelines : les
+        postes en Normandie comme en Île-de-France m'intéressent."
+    - question: Quand êtes-vous disponible ?
+      reponse: "Contactez-moi pour en discuter : je vous indiquerai ma date de
+        disponibilité en fonction de mon contrat actuel."
 contact:
-  titre: "Un poste à"
-  titre_italique: "pourvoir ?"
-  texte: "Écrivez-moi, je réponds rapidement. Le problème est souvent entre la chaise et le clavier : je suis là pour le résoudre."
-  email: "contact@ethanledorze.fr"
-  linkedin: "https://www.linkedin.com/in/ethan-ledorze-32000025a/"
+  titre: Un poste à
+  titre_italique: pourvoir ?
+  texte: "Écrivez-moi, je réponds rapidement. Le problème est souvent entre la
+    chaise et le clavier : je suis là pour le résoudre."
+  email: contact@ethanledorze.fr
+  linkedin: https://www.linkedin.com/in/ethan-ledorze-32000025a/
