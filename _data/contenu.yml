@@ -6,7 +6,7 @@ seo:
 hero:
   edition: Portfolio — Édition 2026
   statut: Ouvert à un emploi civil en informatique
-  statut_visible: false
+  statut_visible: true
   surtitre: Systèmes & réseaux · Support IT
   nom: Ethan Ledorze
   accroche: La rigueur de la Gendarmerie, au service de vos infrastructures.
