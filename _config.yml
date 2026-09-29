@@ -12,4 +12,5 @@ defaults:
     values: { layout: page, permalink: /mentions-legales/ }
 exclude:
   - README.md
+  - scripts
   - .pages.yml

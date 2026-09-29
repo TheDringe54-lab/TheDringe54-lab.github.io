@@ -18,8 +18,8 @@ fr:
   sec_profil: "01 — Profil"
   sec_competences: "02 — Compétences"
   sec_parcours: "03 — Parcours"
-  sec_faq: "04 — FAQ"
-  sec_contact: "05 — Contact"
+  sec_faq: "05 — FAQ"
+  sec_contact: "06 — Contact"
   infos_label: "Informations clés"
   experiences: "Expériences"
   formation: "Formation"
@@ -29,6 +29,14 @@ fr:
   mentions: "Mentions légales"
   accueil: "Retour à l'accueil"
   accueil_url: "/"
+  nav_veille: "Veille"
+  sec_veille: "04 — Veille"
+  veille_titre: "Ce qui bouge"
+  veille_titre_italique: "en ce moment."
+  veille_intro: "Ma veille technologique, mise à jour automatiquement chaque matin à partir de sources reconnues : le CERT-FR (ANSSI), LinuxFR et IT-Connect."
+  veille_maj: "Dernière mise à jour"
+  veille_lire: "Lire l'article sur"
+  mois: ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."]
 
 en:
   locale: en_GB
@@ -49,8 +57,8 @@ en:
   sec_profil: "01 — Profile"
   sec_competences: "02 — Skills"
   sec_parcours: "03 — Background"
-  sec_faq: "04 — FAQ"
-  sec_contact: "05 — Contact"
+  sec_faq: "05 — FAQ"
+  sec_contact: "06 — Contact"
   infos_label: "Key facts"
   experiences: "Experience"
   formation: "Education"
@@ -60,3 +68,11 @@ en:
   mentions: "Legal notice (FR)"
   accueil: "Back to home"
   accueil_url: "/en/"
+  nav_veille: "Tech watch"
+  sec_veille: "04 — Tech watch"
+  veille_titre: "What's happening"
+  veille_titre_italique: "right now."
+  veille_intro: "My technology watch, updated automatically every morning from trusted French sources: CERT-FR (the national cybersecurity agency), LinuxFR and IT-Connect. Articles are in French."
+  veille_maj: "Last updated"
+  veille_lire: "Read the article on"
+  mois: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]

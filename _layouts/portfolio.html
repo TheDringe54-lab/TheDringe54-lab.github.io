@@ -148,6 +148,44 @@ layout: base
     </div>
   </section>
 
+  <!-- VEILLE (mise à jour automatique : scripts/veille.py) -->
+  {%- assign veille = site.data.veille %}
+  {%- if veille.themes.size > 0 %}
+  <section class="block" id="veille" aria-labelledby="veille-t">
+    <div class="wrap">
+      <div class="sec-head">
+        <span class="num">{{ ui.sec_veille }}</span>
+        <h2 class="display" id="veille-t">{{ ui.veille_titre }} <em>{{ ui.veille_titre_italique }}</em></h2>
+      </div>
+      <div class="veille-intro">
+        <p class="lede">{{ ui.veille_intro }}</p>
+        {%- if veille.mise_a_jour != "" %}
+        {%- assign d = veille.mise_a_jour | split: "-" %}{% assign m = d[1] | plus: 0 | minus: 1 %}
+        <p class="kicker">{{ ui.veille_maj }} : <time datetime="{{ veille.mise_a_jour }}">{{ d[2] | plus: 0 }} {{ ui.mois[m] }} {{ d[0] }}</time></p>
+        {%- endif %}
+      </div>
+      <div class="veille">
+        {%- for t in veille.themes %}{% if t.articles.size > 0 %}
+        <div class="veille-col reveal">
+          <h3 class="col-title-sm">{% if page.lang == "en" %}{{ t.titre_en | escape }}{% else %}{{ t.titre | escape }}{% endif %}</h3>
+          <ul class="veille-list">
+            {%- for a in t.articles %}
+            <li>
+              <span class="kicker">{% if a.date != "" %}{% assign d = a.date | split: "-" %}{% assign m = d[1] | plus: 0 | minus: 1 %}<time datetime="{{ a.date }}">{{ d[2] | plus: 0 }} {{ ui.mois[m] }} {{ d[0] }}</time> · {% endif %}{{ a.source | escape }}</span>
+              <a href="{{ a.lien | escape }}" target="_blank" rel="noopener" lang="fr" aria-label="{{ a.titre | escape }} — {{ ui.veille_lire }} {{ a.source | escape }}">{{ a.titre | escape }}</a>
+              {%- if a.resume != "" %}
+              <p lang="fr">{{ a.resume | escape }}</p>
+              {%- endif %}
+            </li>
+            {%- endfor %}
+          </ul>
+        </div>
+        {%- endif %}{% endfor %}
+      </div>
+    </div>
+  </section>
+  {%- endif %}
+
   <!-- FAQ -->
   <section class="block" id="faq" aria-labelledby="faq-t">
     <div class="wrap">

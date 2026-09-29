@@ -20,6 +20,9 @@
         <li><a href="{{ ancre }}#profil">{{ ui.nav_profil }}</a></li>
         <li><a href="{{ ancre }}#competences">{{ ui.nav_competences }}</a></li>
         <li><a href="{{ ancre }}#parcours">{{ ui.nav_parcours }}</a></li>
+        {%- if site.data.veille.themes.size > 0 %}
+        <li><a href="{{ ancre }}#veille">{{ ui.nav_veille }}</a></li>
+        {%- endif %}
         <li><a href="{{ ancre }}#faq">{{ ui.nav_faq }}</a></li>
       </ul>
     </nav>
