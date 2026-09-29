@@ -1,0 +1,29 @@
+{
+  "themes": [
+    {
+      "id": "cyber",
+      "titre": "Cybersécurité",
+      "titre_en": "Cybersecurity",
+      "sources": [
+        { "nom": "CERT-FR", "flux": "https://www.cert.ssi.gouv.fr/alerte/feed/" },
+        { "nom": "CERT-FR", "flux": "https://www.cert.ssi.gouv.fr/actualite/feed/" }
+      ]
+    },
+    {
+      "id": "linux",
+      "titre": "Linux & logiciel libre",
+      "titre_en": "Linux & open source",
+      "sources": [
+        { "nom": "LinuxFR", "flux": "https://linuxfr.org/news.atom" }
+      ]
+    },
+    {
+      "id": "sysres",
+      "titre": "Systèmes & réseaux",
+      "titre_en": "Systems & networks",
+      "sources": [
+        { "nom": "IT-Connect", "flux": "https://www.it-connect.fr/feed/" }
+      ]
+    }
+  ]
+}

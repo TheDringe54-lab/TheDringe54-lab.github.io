@@ -29,6 +29,9 @@ On peut aussi modifier directement le fichier [`_data/contenu.yml`](_data/conten
 |---|---|
 | `_data/contenu.yml` | Textes du site en français : en-tête, chiffres clés, profil, compétences, parcours, FAQ, contact |
 | `_data/contenu_en.yml` | Les mêmes textes, en anglais (page `/en/`) |
+| `_data/veille.json` | Articles de la rubrique « Veille », mis à jour automatiquement (ne pas modifier à la main) |
+| `_data/veille_sources.json` | Liste des flux RSS utilisés pour la veille |
+| `scripts/veille.py`, `.github/workflows/veille.yml` | Script et robot de mise à jour quotidienne de la veille |
 | `_data/ui.yml` | Textes fixes de l'interface (menu, boutons, titres de sections) en français et en anglais |
 | `index.html`, `en/index.html` | Pages d'accueil française et anglaise |
 | `mentions-legales.md` | Page des mentions légales |
@@ -57,6 +60,17 @@ On peut aussi modifier directement le fichier [`_data/contenu.yml`](_data/conten
 - **Référencement** : plan du site généré automatiquement (`jekyll-sitemap`), balise canonique, données structurées schema.org (`Person`).
 - **Aperçu de partage** : balises Open Graph avec une image 1200 × 630 par langue.
 - **Polices hébergées sur le site**, sans appel à Google Fonts.
+
+## Veille techno automatique
+
+La rubrique « Veille » se met à jour toute seule, chaque matin vers 7 h :
+
+1. Le robot GitHub Actions [`.github/workflows/veille.yml`](.github/workflows/veille.yml) lance le script [`scripts/veille.py`](scripts/veille.py).
+2. Le script lit les flux RSS listés dans [`_data/veille_sources.json`](_data/veille_sources.json) (CERT-FR, LinuxFR, IT-Connect) et garde les 3 articles les plus récents de chaque thème.
+3. S'il y a du nouveau, il enregistre `_data/veille.json` et le site est republié.
+
+Pour lancer une mise à jour à la main : onglet **Actions** → **Veille techno** → **Run workflow**.
+Pour ajouter ou retirer une source, modifier `_data/veille_sources.json`.
 
 ## Hébergement
 

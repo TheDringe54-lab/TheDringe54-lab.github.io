@@ -1,0 +1,45 @@
+# Veille techno automatique : récupère les derniers articles chaque matin
+# et met à jour _data/veille.json (affiché dans la rubrique « Veille techno »).
+name: Veille techno
+
+on:
+  schedule:
+    - cron: "17 5 * * *"   # tous les jours vers 7 h (heure de Paris)
+  workflow_dispatch:        # bouton « Run workflow » pour lancer à la main
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: veille
+  cancel-in-progress: false
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Récupérer les articles
+        run: python3 scripts/veille.py
+
+      - name: Enregistrer et republier le site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if git diff --quiet -- _data/veille.json; then
+            echo "Rien de nouveau."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data/veille.json
+          git commit -m "Veille techno : mise à jour automatique"
+          git push
+          # Un push fait par le robot ne relance pas toujours GitHub Pages : on le demande explicitement.
+          gh api -X POST "repos/${{ github.repository }}/pages/builds" || echo "Reconstruction Pages non demandée (elle se fera au prochain changement)."

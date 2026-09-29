@@ -30,6 +30,10 @@ Le nom de domaine est enregistré auprès d'**OVH SAS**, 2 rue Kellermann, 59100
 
 Conformément au Règlement général sur la protection des données (RGPD), vous pouvez demander l'accès à vos données ou leur suppression en écrivant à [contact@ethanledorze.fr](mailto:contact@ethanledorze.fr). Vous pouvez aussi adresser une réclamation à la [CNIL](https://www.cnil.fr).
 
+## Veille technologique
+
+La rubrique « Veille » affiche automatiquement les titres et un court extrait des derniers articles publiés par le [CERT-FR](https://www.cert.ssi.gouv.fr), [LinuxFR](https://linuxfr.org) et [IT-Connect](https://www.it-connect.fr), à partir de leurs flux RSS publics. Chaque article renvoie vers son site d'origine. Ces contenus appartiennent à leurs auteurs respectifs.
+
 ## Propriété intellectuelle
 
 Les textes et la photo de ce site appartiennent à Ethan Ledorze. Toute reproduction sans autorisation est interdite.
