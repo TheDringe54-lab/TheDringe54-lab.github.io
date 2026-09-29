@@ -5,8 +5,14 @@
       "titre": "Cybersécurité",
       "titre_en": "Cybersecurity",
       "sources": [
-        { "nom": "CERT-FR", "flux": "https://www.cert.ssi.gouv.fr/alerte/feed/" },
-        { "nom": "CERT-FR", "flux": "https://www.cert.ssi.gouv.fr/actualite/feed/" }
+        {
+          "nom": "CERT-FR",
+          "flux": "https://www.cert.ssi.gouv.fr/alerte/feed/"
+        },
+        {
+          "nom": "CERT-FR",
+          "flux": "https://www.cert.ssi.gouv.fr/actualite/feed/"
+        }
       ]
     },
     {
@@ -14,7 +20,10 @@
       "titre": "Linux & logiciel libre",
       "titre_en": "Linux & open source",
       "sources": [
-        { "nom": "LinuxFR", "flux": "https://linuxfr.org/news.atom" }
+        {
+          "nom": "LinuxFR",
+          "flux": "https://linuxfr.org/news.atom"
+        }
       ]
     },
     {
@@ -22,7 +31,25 @@
       "titre": "Systèmes & réseaux",
       "titre_en": "Systems & networks",
       "sources": [
-        { "nom": "IT-Connect", "flux": "https://www.it-connect.fr/feed/" }
+        {
+          "nom": "IT-Connect",
+          "flux": "https://www.it-connect.fr/feed/"
+        }
+      ]
+    },
+    {
+      "id": "ia",
+      "titre": "Intelligence artificielle",
+      "titre_en": "Artificial intelligence",
+      "sources": [
+        {
+          "nom": "ActuIA",
+          "flux": "https://www.actuia.com/feed/"
+        },
+        {
+          "nom": "Siècle Digital",
+          "flux": "https://siecledigital.fr/intelligence-artificielle/feed/"
+        }
       ]
     }
   ]

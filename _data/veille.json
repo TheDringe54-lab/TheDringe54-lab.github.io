@@ -63,6 +63,13 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
+          "titre": "Wi-Fi 7 en pratique : ce qui bride vraiment votre débit",
+          "lien": "https://www.it-connect.fr/wifi-7-pratique-debit-tp-link-omada/",
+          "source": "IT-Connect",
+          "date": "2026-09-29",
+          "resume": "Débit Wi-Fi 7 décevant ? Lien 1 GbE, largeur de canal, MLO : les pièges qui brident votre réseau, mesurés avec une borne TP-Link Omada. Le post Wi-Fi 7 en…"
+        },
+        {
           "titre": "Claude Code : Anthropic offre jusqu’à 250 dollars de crédit, mais seulement pour les sessions cloud",
           "lien": "https://www.it-connect.fr/claude-code-sessions-cloud-credit-offert/",
           "source": "IT-Connect",
@@ -75,13 +82,34 @@
           "source": "IT-Connect",
           "date": "2026-09-29",
           "resume": "Submergé par les CVE découvertes grâce à l'IA, Canonical abandonne le cycle 4/2 : Ubuntu recevra un nouveau noyau chaque semaine à partir de fin octobre 2026…"
+        }
+      ]
+    },
+    {
+      "id": "ia",
+      "titre": "Intelligence artificielle",
+      "titre_en": "Artificial intelligence",
+      "articles": [
+        {
+          "titre": "Résumés AI Act : 21 documents sur 24 ne nomment aucun site moissonné dans la rubrique prévue",
+          "lien": "https://www.actuia.com/actualite/vingt-et-un-resumes-ai-act-sans-liste-des-sites-moissonnes/",
+          "source": "ActuIA",
+          "date": "2026-09-25",
+          "resume": "Le formulaire de la Commission demande aux fournisseurs de modèles à usage général la liste des principaux domaines moissonnés pour l'entraînement. Sur 24…"
         },
         {
-          "titre": "Firefox 157 : Mozilla active Nova, la plus grosse refonte visuelle du navigateur depuis des années",
-          "lien": "https://www.it-connect.fr/firefox-157-nova-refonte-interface/",
-          "source": "IT-Connect",
-          "date": "2026-09-29",
-          "resume": "Firefox 157 intègre Nova, la plus grosse refonte visuelle du navigateur depuis des années : interface, thèmes, mode compact. Voici ce qui change. Le post…"
+          "titre": "Proposition de loi n° 3149 : 70 députés LFI veulent une autorisation préalable des modèles d'IA et des amendes à 7 %",
+          "lien": "https://www.actuia.com/actualite/autorisation-prealable-et-amendes-a-7-la-proposition-de-loi-n-3149-sur-lia/",
+          "source": "ActuIA",
+          "date": "2026-09-25",
+          "resume": "Soixante-dix députés LFI, René Pilato en tête, ont déposé le 15 septembre 2026 une proposition de loi créant une autorisation préalable pour les modèles d'IA à…"
+        },
+        {
+          "titre": "GPT-6 Sol à moitié prix, Claude Opus 5.5 à 20 % de moins : ce que les grilles du 22 septembre changent au coût d'un agent",
+          "lien": "https://www.actuia.com/actualite/gpt-6-sol-claude-opus-55-ce-que-coute-une-session-dagent/",
+          "source": "ActuIA",
+          "date": "2026-09-25",
+          "resume": "Le 22 septembre, OpenAI a divisé par deux les tarifs de GPT-6 Sol et Luna par rapport à GPT-5.6 ; Anthropic a baissé Claude Opus 5.5 de 20 % sur le prix de…"
         }
       ]
     }

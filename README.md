@@ -66,7 +66,7 @@ On peut aussi modifier directement le fichier [`_data/contenu.yml`](_data/conten
 La rubrique « Veille » se met à jour toute seule, chaque matin vers 7 h :
 
 1. Le robot GitHub Actions [`.github/workflows/veille.yml`](.github/workflows/veille.yml) lance le script [`scripts/veille.py`](scripts/veille.py).
-2. Le script lit les flux RSS listés dans [`_data/veille_sources.json`](_data/veille_sources.json) (CERT-FR, LinuxFR, IT-Connect) et garde les 3 articles les plus récents de chaque thème.
+2. Le script lit les flux RSS listés dans [`_data/veille_sources.json`](_data/veille_sources.json) (CERT-FR, LinuxFR, IT-Connect, ActuIA, Siècle Digital) et garde les 3 articles les plus récents de chaque thème.
 3. S'il y a du nouveau, il enregistre `_data/veille.json` et le site est republié.
 
 Pour lancer une mise à jour à la main : onglet **Actions** → **Veille techno** → **Run workflow**.
