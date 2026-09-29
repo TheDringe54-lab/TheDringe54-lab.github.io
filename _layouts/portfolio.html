@@ -167,7 +167,8 @@ layout: base
       <div class="veille">
         {%- for t in veille.themes %}{% if t.articles.size > 0 %}
         <div class="veille-col reveal">
-          <h3 class="col-title-sm">{% if page.lang == "en" %}{{ t.titre_en | escape }}{% else %}{{ t.titre | escape }}{% endif %}</h3>
+          {%- assign sources = t.articles | map: "source" | uniq | join: " · " %}
+          <h3 class="col-title-sm">{% if page.lang == "en" %}{{ t.titre_en | escape }}{% else %}{{ t.titre | escape }}{% endif %}<span>{{ sources | escape }}</span></h3>
           <ul class="veille-list">
             {%- for a in t.articles %}
             <li>
