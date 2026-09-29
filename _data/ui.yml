@@ -33,7 +33,7 @@ fr:
   sec_veille: "04 — Veille"
   veille_titre: "Ce qui bouge"
   veille_titre_italique: "en ce moment."
-  veille_intro: "Ma veille technologique, mise à jour automatiquement chaque matin à partir de sources reconnues : le CERT-FR (ANSSI), LinuxFR et IT-Connect."
+  veille_intro: "Ma veille technologique, mise à jour automatiquement chaque matin à partir de sources reconnues : le CERT-FR (ANSSI), LinuxFR, IT-Connect, ActuIA et Siècle Digital."
   veille_maj: "Dernière mise à jour"
   veille_lire: "Lire l'article sur"
   mois: ["janv.", "févr.", "mars", "avr.", "mai", "juin", "juil.", "août", "sept.", "oct.", "nov.", "déc."]
@@ -72,7 +72,7 @@ en:
   sec_veille: "04 — Tech watch"
   veille_titre: "What's happening"
   veille_titre_italique: "right now."
-  veille_intro: "My technology watch, updated automatically every morning from trusted French sources: CERT-FR (the national cybersecurity agency), LinuxFR and IT-Connect. Articles are in French."
+  veille_intro: "My technology watch, updated automatically every morning from trusted French sources: CERT-FR (the national cybersecurity agency), LinuxFR, IT-Connect, ActuIA and Siècle Digital. Articles are in French."
   veille_maj: "Last updated"
   veille_lire: "Read the article on"
   mois: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]

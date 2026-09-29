@@ -32,7 +32,7 @@ Conformément au Règlement général sur la protection des données (RGPD), vou
 
 ## Veille technologique
 
-La rubrique « Veille » affiche automatiquement les titres et un court extrait des derniers articles publiés par le [CERT-FR](https://www.cert.ssi.gouv.fr), [LinuxFR](https://linuxfr.org) et [IT-Connect](https://www.it-connect.fr), à partir de leurs flux RSS publics. Chaque article renvoie vers son site d'origine. Ces contenus appartiennent à leurs auteurs respectifs.
+La rubrique « Veille » affiche automatiquement les titres et un court extrait des derniers articles publiés par le [CERT-FR](https://www.cert.ssi.gouv.fr), [LinuxFR](https://linuxfr.org), [IT-Connect](https://www.it-connect.fr), [ActuIA](https://www.actuia.com) et [Siècle Digital](https://siecledigital.fr), à partir de leurs flux RSS publics. Chaque article renvoie vers son site d'origine. Ces contenus appartiennent à leurs auteurs respectifs.
 
 ## Propriété intellectuelle
 
