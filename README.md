@@ -13,13 +13,11 @@ Contact : contact@ethanledorze.fr · [LinkedIn](https://www.linkedin.com/in/etha
 Le contenu se modifie depuis un **panneau d'administration**, sans toucher au code :
 
 1. Aller sur **https://app.pagescms.org** et se connecter avec GitHub.
-2. Ouvrir ce dépôt, puis **Contenu du site (français)**, **Contenu du site (anglais)** ou **Mentions légales**.
+2. Ouvrir ce dépôt, puis **Contenu du site**, **Mentions légales** ou **Réglages**.
 3. Modifier les textes, les listes ou la photo, puis cliquer sur **Save**.
 4. Le site en ligne est mis à jour en une ou deux minutes.
 
 Dans les champs de texte, `**mot**` s'affiche en **gras** et `*mot*` en *italique*.
-
-Les versions française et anglaise sont indépendantes : une modification faite en français doit aussi être reportée en anglais.
 
 On peut aussi modifier directement le fichier [`_data/contenu.yml`](_data/contenu.yml) sur GitHub.
 
@@ -27,14 +25,14 @@ On peut aussi modifier directement le fichier [`_data/contenu.yml`](_data/conten
 
 | Fichier | Rôle |
 |---|---|
-| `_data/contenu.yml` | Textes du site en français : en-tête, chiffres clés, profil, compétences, parcours, FAQ, contact |
-| `_data/contenu_en.yml` | Les mêmes textes, en anglais (page `/en/`) |
+| `_data/contenu.yml` | Textes du site : en-tête, chiffres clés, profil, compétences, parcours, FAQ, contact |
 | `_data/veille.json` | Articles de la rubrique « Veille », mis à jour automatiquement (ne pas modifier à la main) |
 | `_data/veille_sources.json` | Liste des flux RSS utilisés pour la veille |
 | `scripts/veille.py`, `.github/workflows/veille.yml` | Script et robot de mise à jour quotidienne de la veille |
 | `_data/reglages.yml` | Réglages du site (clé du formulaire de contact) |
-| `_data/ui.yml` | Textes fixes de l'interface (menu, boutons, titres de sections) en français et en anglais |
-| `index.html`, `en/index.html` | Pages d'accueil française et anglaise |
+| `_data/ui.yml` | Textes fixes de l'interface (menu, boutons, titres de sections) |
+| `index.html` | Page d'accueil |
+| `en/index.html` | Redirige l'ancienne adresse de la version anglaise vers l'accueil |
 | `mentions-legales.md` | Page des mentions légales |
 | `404.html` | Page affichée quand une adresse n'existe pas |
 | `_layouts/` | Gabarits : `base` (en-tête, menu, pied de page), `portfolio` (page d'accueil), `page` (pages de texte) |
@@ -43,7 +41,7 @@ On peut aussi modifier directement le fichier [`_data/contenu.yml`](_data/conten
 | `_includes/md.html` | Gère le gras et l'italique dans les textes |
 | `assets/css/style.css` | Styles du site |
 | `assets/fonts/` | Polices hébergées sur le site |
-| `assets/` | Photo de profil, images d'aperçu de partage (`og-image-*.png`), favicons |
+| `assets/` | Photo de profil, image d'aperçu de partage (`og-image-fr.png`), favicons |
 | `robots.txt` | Indique aux moteurs de recherche où trouver le plan du site |
 | `.pages.yml` | Configuration du panneau Pages CMS |
 | `_config.yml` | Configuration de Jekyll |
@@ -57,9 +55,8 @@ On peut aussi modifier directement le fichier [`_data/contenu.yml`](_data/conten
 - **Thème clair ou sombre**, automatique ou au choix du visiteur.
 - **Accessibilité** : contrastes ≥ 4,5:1, zones cliquables ≥ 44 px, lien d'évitement, respect de `prefers-reduced-motion`. Le contenu reste lisible même sans JavaScript.
 - **Responsive**, testé de 320 px au grand écran.
-- **Bilingue** : français sur `/`, anglais sur `/en/`, avec balises `hreflang`.
 - **Référencement** : plan du site généré automatiquement (`jekyll-sitemap`), balise canonique, données structurées schema.org (`Person`).
-- **Aperçu de partage** : balises Open Graph avec une image 1200 × 630 par langue.
+- **Aperçu de partage** : balises Open Graph avec une image 1200 × 630.
 - **Polices hébergées sur le site**, sans appel à Google Fonts.
 
 ## Veille techno automatique
