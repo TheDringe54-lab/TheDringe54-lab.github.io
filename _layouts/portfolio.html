@@ -206,15 +206,77 @@ layout: base
   </section>
 
   <!-- CONTACT -->
+  {%- assign cle = site.data.reglages.formulaire_cle | strip %}
   <section class="block contact" id="contact" aria-labelledby="contact-t">
     <div class="wrap">
-      <div class="contact-grid">
+      <div class="contact-grid{% if cle != "" %} avec-formulaire{% endif %}">
         <div>
           <span class="kicker">{{ ui.sec_contact }}</span>
           <h2 class="display" id="contact-t" style="margin-top:var(--s3)">{{ c.contact.titre | escape }} <em>{{ c.contact.titre_italique | escape | replace: " ?", "&nbsp;?" }}</em></h2>
           <p class="lede" style="margin-top:var(--s3)">{% include md.html t=c.contact.texte %}</p>
+          {%- if cle != "" %}<p class="kicker contact-ou">{{ ui.form_ou }}</p>{% endif %}
           <a class="mail" href="mailto:{{ c.contact.email | escape }}">{{ c.contact.email | escape }}</a>
+          {%- if cle != "" %}
+          <ul class="links">
+            {%- assign v = c.contact.linkedin | strip %}{%- if v != "" %}
+            <li><a href="{{ c.contact.linkedin | escape }}" target="_blank" rel="noopener">LinkedIn
+              {{ fleche }}</a></li>
+            {%- endif %}
+          </ul>
+          {%- endif %}
         </div>
+        {%- if cle != "" %}
+        <form class="form" id="contact-form" action="https://api.web3forms.com/submit" method="POST" accept-charset="UTF-8">
+          <input type="hidden" name="access_key" value="{{ cle | escape }}">
+          <input type="hidden" name="subject" value="{{ ui.form_sujet | escape }}">
+          <input type="hidden" name="from_name" value="ethanledorze.fr">
+          <input type="checkbox" name="botcheck" class="pot" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="field">
+            <label for="f-nom">{{ ui.form_nom }}</label>
+            <input id="f-nom" name="name" type="text" autocomplete="name" required maxlength="120">
+          </div>
+          <div class="field">
+            <label for="f-email">{{ ui.form_email }}</label>
+            <input id="f-email" name="email" type="email" autocomplete="email" required maxlength="200">
+          </div>
+          <div class="field">
+            <label for="f-entreprise">{{ ui.form_entreprise }} <span>({{ ui.form_facultatif }})</span></label>
+            <input id="f-entreprise" name="entreprise" type="text" autocomplete="organization" maxlength="160">
+          </div>
+          <div class="field">
+            <label for="f-message">{{ ui.form_message }}</label>
+            <textarea id="f-message" name="message" rows="5" required maxlength="5000"></textarea>
+          </div>
+          <p class="form-rgpd">{{ ui.form_rgpd }} <a href="{{ '/mentions-legales/' | relative_url }}">{{ ui.form_rgpd_lien }}</a></p>
+          <button class="btn btn-light" type="submit">{{ ui.form_envoyer }}
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+        <script>
+          (function () {
+            var form = document.getElementById('contact-form');
+            if (!form || !window.fetch) return; // sans JavaScript, le formulaire est envoyé normalement
+            var btn = form.querySelector('button'), statut = form.querySelector('.form-status'), label = btn.firstChild.nodeValue;
+            form.addEventListener('submit', function (e) {
+              e.preventDefault();
+              btn.disabled = true; btn.firstChild.nodeValue = {{ ui.form_envoi | jsonify }};
+              statut.className = 'form-status'; statut.textContent = '';
+              var donnees = {}; new FormData(form).forEach(function (v, k) { donnees[k] = v; });
+              fetch(form.action, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(donnees) })
+                .then(function (r) { return r.json(); })
+                .then(function (j) {
+                  if (!j.success) throw new Error(j.message);
+                  form.reset(); statut.className = 'form-status ok'; statut.textContent = {{ ui.form_ok | jsonify }};
+                })
+                .catch(function () {
+                  statut.className = 'form-status erreur';
+                  statut.innerHTML = {{ ui.form_erreur | jsonify }} + ' <a href="mailto:{{ c.contact.email | escape }}">{{ c.contact.email | escape }}</a>.';
+                })
+                .then(function () { btn.disabled = false; btn.firstChild.nodeValue = label; });
+            });
+          })();
+        </script>
+        {%- else %}
         <ul class="links">
           {%- assign v = c.contact.linkedin | strip %}{%- if v != "" %}
           <li><a href="{{ c.contact.linkedin | escape }}" target="_blank" rel="noopener">LinkedIn
@@ -223,6 +285,7 @@ layout: base
           <li><a href="mailto:{{ c.contact.email | escape }}">{{ ui.email }}
             {{ fleche }}</a></li>
         </ul>
+        {%- endif %}
       </div>
     </div>
   </section>

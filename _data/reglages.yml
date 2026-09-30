@@ -1,0 +1,5 @@
+# Réglages du site (modifiables dans le panneau Pages CMS → « Réglages »)
+
+# Clé d'accès Web3Forms pour le formulaire de contact.
+# Tant qu'elle est vide, le formulaire n'est pas affiché.
+formulaire_cle: ""

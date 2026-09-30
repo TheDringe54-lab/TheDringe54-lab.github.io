@@ -126,7 +126,7 @@ content:
               - { name: texte, label: Texte, type: string }
 
       - name: faq
-        label: 04 — FAQ
+        label: 05 — FAQ
         type: object
         fields:
           - { name: titre, label: Titre, type: string }
@@ -140,7 +140,7 @@ content:
               - { name: reponse, label: Réponse, type: text, description: "**gras** et *italique* possibles" }
 
       - name: contact
-        label: 05 — Contact
+        label: 06 — Contact
         type: object
         fields:
           - { name: titre, label: Titre, type: string }
@@ -166,3 +166,14 @@ content:
       - { name: surtitre, label: Surtitre, type: string }
       - { name: description, label: Description pour Google, type: string }
       - { name: body, label: Texte, type: rich-text }
+
+  - name: reglages
+    label: Réglages
+    type: file
+    path: _data/reglages.yml
+    format: yaml
+    fields:
+      - name: formulaire_cle
+        label: Clé du formulaire de contact (Web3Forms)
+        type: string
+        description: "Clé reçue par e-mail sur web3forms.com. Laisser vide pour masquer le formulaire."

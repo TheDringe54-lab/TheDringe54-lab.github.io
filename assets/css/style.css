@@ -527,3 +527,33 @@
     .veille { grid-template-columns: repeat(2, 1fr); }
     .veille-col { padding: var(--s4); }
   }
+
+  /* formulaire de contact */
+  .contact-grid.avec-formulaire .links { margin-top: var(--s5); }
+  .contact-ou { margin: var(--s4) 0 0; }
+  .contact-ou + .mail { margin-top: var(--s1); font-size: clamp(20px, 3vw, 30px); }
+  @media (min-width: 900px) { .contact-grid.avec-formulaire { grid-template-columns: 1fr 1fr; align-items: start; gap: var(--s6); } }
+  .form { display: grid; gap: var(--s3); }
+  .pot { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+  .field { display: grid; gap: 8px; }
+  .field label { font-family: var(--f-mono); font-size: 12px; letter-spacing: .12em; text-transform: uppercase; color: color-mix(in srgb, var(--on-dark) 75%, transparent); }
+  .field label span { text-transform: none; letter-spacing: .02em; color: color-mix(in srgb, var(--on-dark) 55%, transparent); }
+  .field input, .field textarea {
+    width: 100%; min-height: 48px; padding: 12px 14px; border-radius: 0;
+    font: inherit; font-size: 17px; color: var(--on-dark);
+    background: color-mix(in srgb, var(--on-dark) 6%, transparent);
+    border: 1px solid color-mix(in srgb, var(--on-dark) 30%, transparent);
+    transition: border-color .2s var(--ease), background-color .2s var(--ease);
+  }
+  .field textarea { resize: vertical; min-height: 140px; line-height: 1.5; }
+  .field input:hover, .field textarea:hover { border-color: color-mix(in srgb, var(--on-dark) 55%, transparent); }
+  .field input:focus-visible, .field textarea:focus-visible { outline: 2px solid var(--on-dark); outline-offset: 2px; border-color: var(--on-dark); background: color-mix(in srgb, var(--on-dark) 10%, transparent); }
+  .form-rgpd { margin: 0; font-size: 14px; color: color-mix(in srgb, var(--on-dark) 65%, transparent); }
+  .form-rgpd a, .form-status a { color: var(--on-dark); text-underline-offset: 3px; }
+  .btn-light { justify-self: start; background: var(--on-dark); color: var(--dark-band); border-color: var(--on-dark); }
+  .btn-light:hover { background: transparent; color: var(--on-dark); }
+  .btn-light:focus-visible { outline-color: var(--on-dark); }
+  .btn-light:disabled { opacity: .6; cursor: progress; }
+  .form-status { margin: 0; min-height: 1.5em; font-size: 16px; }
+  .form-status.ok { color: #8FD5A6; }
+  .form-status.erreur { color: #F2A7A0; }

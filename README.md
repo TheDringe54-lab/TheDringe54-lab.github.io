@@ -32,6 +32,7 @@ On peut aussi modifier directement le fichier [`_data/contenu.yml`](_data/conten
 | `_data/veille.json` | Articles de la rubrique « Veille », mis à jour automatiquement (ne pas modifier à la main) |
 | `_data/veille_sources.json` | Liste des flux RSS utilisés pour la veille |
 | `scripts/veille.py`, `.github/workflows/veille.yml` | Script et robot de mise à jour quotidienne de la veille |
+| `_data/reglages.yml` | Réglages du site (clé du formulaire de contact) |
 | `_data/ui.yml` | Textes fixes de l'interface (menu, boutons, titres de sections) en français et en anglais |
 | `index.html`, `en/index.html` | Pages d'accueil française et anglaise |
 | `mentions-legales.md` | Page des mentions légales |
@@ -76,6 +77,7 @@ Pour ajouter ou retirer une source, modifier `_data/veille_sources.json`.
 
 - **Hébergement** : GitHub Pages (gratuit), publié depuis la branche `main`, à la racine du dépôt.
 - **Domaine** : `ethanledorze.fr`, enregistré chez OVH. Il pointe vers GitHub Pages grâce à quatre enregistrements `A` (`185.199.108.153` à `185.199.111.153`) et à un `CNAME` pour `www`. Le HTTPS est fourni par GitHub.
+- **Formulaire de contact** : [Web3Forms](https://web3forms.com) (gratuit). La clé se colle dans le panneau, rubrique **Réglages** ; tant qu'elle est vide, le formulaire est masqué.
 - **Statistiques** : [GoatCounter](https://www.goatcounter.com), sans cookies, donc sans bandeau de consentement.
 
 ## Aperçu en local (facultatif)
