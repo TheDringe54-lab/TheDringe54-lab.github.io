@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-09-29",
+  "mise_a_jour": "2026-09-30",
   "themes": [
     {
       "id": "cyber",
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "Wi-Fi 7 en pratique : ce qui bride vraiment votre débit",
-          "lien": "https://www.it-connect.fr/wifi-7-pratique-debit-tp-link-omada/",
+          "titre": "5 minutes pour voler le hash du mot de passe root sous Linux avec BTR, une variante de Spectre v2",
+          "lien": "https://www.it-connect.fr/spectre-v2-btr-linux-hash-mot-de-passe-root/",
           "source": "IT-Connect",
-          "date": "2026-09-29",
-          "resume": "Débit Wi-Fi 7 décevant ? Lien 1 GbE, largeur de canal, MLO : les pièges qui brident votre réseau, mesurés avec une borne TP-Link Omada. Le post Wi-Fi 7 en…"
+          "date": "2026-09-30",
+          "resume": "Nouvelle variante de Spectre v2, l'attaque BTR vise les moteurs JIT et vole le hash du mot de passe root sous Linux en 3 à 5 minutes. Comment se protéger ? Le…"
         },
         {
-          "titre": "Claude Code : Anthropic offre jusqu’à 250 dollars de crédit, mais seulement pour les sessions cloud",
-          "lien": "https://www.it-connect.fr/claude-code-sessions-cloud-credit-offert/",
+          "titre": "Apple a corrigé une faille CoreGraphics exploitée pour cibler des utilisateurs d’iPhone (CVE-2026-86950)",
+          "lien": "https://www.it-connect.fr/apple-cve-2026-86950-faille-zero-day-coregraphics/",
           "source": "IT-Connect",
-          "date": "2026-09-29",
-          "resume": "Abonné à Claude Pro ou Max ? Anthropic vous offre jusqu'à 250 dollars de crédit pour tester les sessions cloud de Claude Code. Voici comment en profiter. Le…"
+          "date": "2026-09-30",
+          "resume": "Apple a corrigé la CVE-2026-86950, une faille zero-day dans CoreGraphics possiblement exploitée contre des iPhone. Voici les mises à jour à installer…"
         },
         {
-          "titre": "Ubuntu : face à l’explosion des failles, Canonical va publier un nouveau noyau chaque semaine",
-          "lien": "https://www.it-connect.fr/ubuntu-noyau-linux-chaque-semaine-cve-ia/",
+          "titre": "Signal : les sauvegardes locales chiffrées, sur disque ou NAS, arrivent sur iPhone, Windows, macOS et Linux",
+          "lien": "https://www.it-connect.fr/signal-sauvegardes-locales-iphone-desktop/",
           "source": "IT-Connect",
-          "date": "2026-09-29",
-          "resume": "Submergé par les CVE découvertes grâce à l'IA, Canonical abandonne le cycle 4/2 : Ubuntu recevra un nouveau noyau chaque semaine à partir de fin octobre 2026…"
+          "date": "2026-09-30",
+          "resume": "Signal 8.30 apporte les sauvegardes locales chiffrées sur iPhone et ordinateur. Disque externe, NAS : ce qu'il faut savoir à propos de ces évolutions. Le post…"
         }
       ]
     },
