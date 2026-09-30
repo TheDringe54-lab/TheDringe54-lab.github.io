@@ -547,3 +547,7 @@
   .form-status.erreur { color: #F2A7A0; }
   .field-row { display: grid; gap: var(--s3); }
   @media (min-width: 560px) { .field-row { grid-template-columns: 1fr 1fr; } }
+
+  /* utilitaires (remplacent les attributs style="" interdits par la CSP) */
+  .hero-surtitre { margin: 0 0 var(--s3); }
+  .mt-s3 { margin-top: var(--s3); }

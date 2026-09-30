@@ -44,37 +44,7 @@
   </div>
 </footer>
 
-<script>
-  // Thème clair / sombre
-  (function () {
-    var root = document.documentElement, btn = document.getElementById('theme');
-    btn.addEventListener('click', function () {
-      var dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
-      root.dataset.theme = dark ? 'light' : 'dark';
-      try { localStorage.setItem('theme', root.dataset.theme); } catch (e) {}
-    });
-  })();
-  // Apparition douce au défilement (sans dépendance à IntersectionObserver)
-  (function () {
-    var els = [].slice.call(document.querySelectorAll('.reveal'));
-    function showAll() { els.forEach(function (el) { el.classList.add('in'); }); els = []; }
-    if (matchMedia('(prefers-reduced-motion: reduce)').matches) { showAll(); return; }
-    function check() {
-      var limit = window.innerHeight * 0.95;
-      els = els.filter(function (el) {
-        if (el.getBoundingClientRect().top < limit) { el.classList.add('in'); return false; }
-        return true;
-      });
-      if (!els.length) { removeEventListener('scroll', check); removeEventListener('resize', check); }
-    }
-    addEventListener('scroll', check, { passive: true });
-    addEventListener('resize', check);
-    check();
-    // Filet de sécurité : tout le contenu reste lisible même si l'animation ne se déclenche pas
-    setTimeout(function () { if (document.hidden) showAll(); }, 1500);
-    document.addEventListener('visibilitychange', check);
-  })();
-</script>
-  <script data-goatcounter="https://ethanledorze.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+<script src="{{ '/assets/js/site.js' | relative_url }}?v={{ site.time | date: '%s' }}" defer></script>
+  <script data-goatcounter="https://ethanledorze.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>

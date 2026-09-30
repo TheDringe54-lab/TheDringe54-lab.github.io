@@ -5,7 +5,7 @@ layout: base
   <section class="block page" id="top">
     <div class="wrap">
       <div class="sec-head">
-        <span class="num">{{ page.surtitre }}</span>
+        <span class="num">{{ page.surtitre | escape }}</span>
         <h1 class="display">{{ page.titre | escape }}{% if page.titre_italique %} <em>{{ page.titre_italique | escape }}</em>{% endif %}</h1>
       </div>
       <div class="prose">

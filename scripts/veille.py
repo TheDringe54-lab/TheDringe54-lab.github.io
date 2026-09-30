@@ -19,13 +19,17 @@ SOURCES_FICHIER = Path("_data/veille_sources.json")
 SORTIE = Path("_data/veille.json")
 PAR_THEME = 3
 RESUME_MAX = 160
+TAILLE_MAX = 5 * 1024 * 1024  # un flux RSS de plus de 5 Mo est refusé
 ATOM = "{http://www.w3.org/2005/Atom}"
 
 
 def telecharger(url):
     req = urllib.request.Request(url, headers={"User-Agent": "veille-ethanledorze.fr/1.0 (+https://ethanledorze.fr)"})
     with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read()
+        contenu = r.read(TAILLE_MAX + 1)
+    if len(contenu) > TAILLE_MAX:
+        raise ValueError("flux trop volumineux")
+    return contenu
 
 
 def texte(el):

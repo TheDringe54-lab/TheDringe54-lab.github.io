@@ -1,5 +1,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Politique de sécurité : seuls les scripts, styles et connexions listés ici sont autorisés -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://gc.zgo.at; style-src 'self'; img-src 'self' data: https://ethanledorze.goatcounter.com; font-src 'self'; connect-src 'self' https://api.web3forms.com https://ethanledorze.goatcounter.com; form-action https://api.web3forms.com; base-uri 'self'; object-src 'none'; upgrade-insecure-requests">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 {%- if page.titre %}
 <title>{{ page.titre | escape }} — {{ c.hero.nom | escape }}</title>
 {%- else %}
@@ -36,7 +39,7 @@
 <link rel="preload" href="{{ '/assets/fonts/playfair-display-normal-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="{{ '/assets/fonts/source-serif-4-normal-latin.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
-<script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('theme');if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<script src="{{ '/assets/js/init.js' | relative_url }}?v={{ site.time | date: '%s' }}"></script>
 {%- if page.accueil %}
 
 <!-- Données structurées pour Google -->

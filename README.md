@@ -40,6 +40,7 @@ On peut aussi modifier directement le fichier [`_data/contenu.yml`](_data/conten
 | `_includes/icone.html` | Les icônes des compétences |
 | `_includes/md.html` | Gère le gras et l'italique dans les textes |
 | `assets/css/style.css` | Styles du site |
+| `assets/js/` | Scripts du site (`init.js` : thème ; `site.js` : animations et formulaire) |
 | `assets/fonts/` | Polices hébergées sur le site |
 | `assets/` | Photo de profil, image d'aperçu de partage (`og-image-fr.png`), favicons |
 | `robots.txt` | Indique aux moteurs de recherche où trouver le plan du site |
@@ -58,6 +59,7 @@ On peut aussi modifier directement le fichier [`_data/contenu.yml`](_data/conten
 - **Référencement** : plan du site généré automatiquement (`jekyll-sitemap`), balise canonique, données structurées schema.org (`Person`).
 - **Aperçu de partage** : balises Open Graph avec une image 1200 × 630.
 - **Polices hébergées sur le site**, sans appel à Google Fonts.
+- **Sécurité** : politique de sécurité du contenu (CSP) stricte, sans script ni style écrit dans les pages (tout est dans `assets/js/` et `assets/css/`), et politique de référent `strict-origin-when-cross-origin`.
 
 ## Veille techno automatique
 

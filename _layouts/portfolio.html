@@ -16,7 +16,7 @@ layout: base
       </div>
       <div class="hero-grid">
         <div>
-          <p class="kicker" style="margin:0 0 var(--s3)">{{ c.hero.surtitre | escape }}</p>
+          <p class="kicker hero-surtitre">{{ c.hero.surtitre | escape }}</p>
           <h1 class="display">{{ c.hero.nom | escape }}<em>{{ c.hero.accroche | escape }}</em></h1>
           <p class="lede">{% include md.html t=c.hero.intro %}</p>
           <div class="hero-ctas">
@@ -212,8 +212,8 @@ layout: base
       <div class="contact-grid{% if cle != "" %} avec-formulaire{% endif %}">
         <div>
           <span class="kicker">{{ ui.sec_contact }}</span>
-          <h2 class="display" id="contact-t" style="margin-top:var(--s3)">{{ c.contact.titre | escape }} <em>{{ c.contact.titre_italique | escape | replace: " ?", "&nbsp;?" }}</em></h2>
-          <p class="lede" style="margin-top:var(--s3)">{% include md.html t=c.contact.texte %}</p>
+          <h2 class="display mt-s3" id="contact-t">{{ c.contact.titre | escape }} <em>{{ c.contact.titre_italique | escape | replace: " ?", "&nbsp;?" }}</em></h2>
+          <p class="lede mt-s3">{% include md.html t=c.contact.texte %}</p>
           {%- if cle == "" %}
           <a class="mail" href="mailto:{{ c.contact.email | escape }}">{{ c.contact.email | escape }}</a>
           {%- endif %}
@@ -227,7 +227,7 @@ layout: base
           {%- endif %}
         </div>
         {%- if cle != "" %}
-        <form class="form" id="contact-form" action="https://api.web3forms.com/submit" method="POST" accept-charset="UTF-8">
+        <form class="form" id="contact-form" action="https://api.web3forms.com/submit" method="POST" accept-charset="UTF-8" data-envoi="{{ ui.form_envoi | escape }}" data-ok="{{ ui.form_ok | escape }}" data-erreur="{{ ui.form_erreur | escape }}" data-email="{{ c.contact.email | escape }}">
           <input type="hidden" name="access_key" value="{{ cle | escape }}">
           <input type="hidden" name="subject" value="{{ ui.form_sujet | escape }}">
           <input type="hidden" name="from_name" value="ethanledorze.fr">
@@ -259,31 +259,6 @@ layout: base
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></button>
           <p class="form-status" role="status" aria-live="polite"></p>
         </form>
-        <script>
-          (function () {
-            var form = document.getElementById('contact-form');
-            if (!form || !window.fetch) return; // sans JavaScript, le formulaire est envoyé normalement
-            var btn = form.querySelector('button'), statut = form.querySelector('.form-status'), label = btn.firstChild.nodeValue;
-            form.addEventListener('submit', function (e) {
-              e.preventDefault();
-              btn.disabled = true; btn.firstChild.nodeValue = {{ ui.form_envoi | jsonify }};
-              statut.className = 'form-status'; statut.textContent = '';
-              var donnees = {}; new FormData(form).forEach(function (v, k) { donnees[k] = v; });
-              donnees.name = (donnees.prenom + ' ' + donnees.nom).trim(); // nom de l'expéditeur dans l'e-mail reçu
-              fetch(form.action, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(donnees) })
-                .then(function (r) { return r.json(); })
-                .then(function (j) {
-                  if (!j.success) throw new Error(j.message);
-                  form.reset(); statut.className = 'form-status ok'; statut.textContent = {{ ui.form_ok | jsonify }};
-                })
-                .catch(function () {
-                  statut.className = 'form-status erreur';
-                  statut.innerHTML = {{ ui.form_erreur | jsonify }} + ' <a href="mailto:{{ c.contact.email | escape }}">{{ c.contact.email | escape }}</a>.';
-                })
-                .then(function () { btn.disabled = false; btn.firstChild.nodeValue = label; });
-            });
-          })();
-        </script>
         {%- else %}
         <ul class="links">
           {%- assign v = c.contact.linkedin | strip %}{%- if v != "" %}
