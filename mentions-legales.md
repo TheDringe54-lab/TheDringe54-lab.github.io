@@ -26,7 +26,8 @@ Le nom de domaine est enregistré auprès d'**OVH SAS**, 2 rue Kellermann, 59100
 - **Mesure d'audience** : le nombre de visites est mesuré avec [GoatCounter](https://www.goatcounter.com), un outil qui n'utilise pas de cookie et ne conserve aucune donnée permettant d'identifier un visiteur. Seules des statistiques globales sont consultées : nombre de visites, pays, type d'appareil, site de provenance.
 - **Préférence d'affichage** : si vous choisissez le thème clair ou sombre, ce choix est enregistré uniquement dans votre navigateur. Il n'est jamais transmis.
 - **Polices** : les polices de caractères sont hébergées directement sur ce site. Aucune requête n'est envoyée à un service tiers pour les afficher.
-- **Contact par e-mail** : si vous m'écrivez, votre adresse et votre message servent uniquement à vous répondre. Ils ne sont ni partagés ni utilisés à d'autres fins.
+- **Formulaire de contact** : les informations saisies (nom, e-mail, entreprise, message) sont transmises par le service [Web3Forms](https://web3forms.com), qui me les envoie par e-mail. Elles ne sont pas conservées sur ce site.
+- **Contact par e-mail** : si vous m'écrivez, par e-mail ou via le formulaire, votre adresse et votre message servent uniquement à vous répondre. Ils ne sont ni partagés ni utilisés à d'autres fins.
 
 Conformément au Règlement général sur la protection des données (RGPD), vous pouvez demander l'accès à vos données ou leur suppression en écrivant à [contact@ethanledorze.fr](mailto:contact@ethanledorze.fr). Vous pouvez aussi adresser une réclamation à la [CNIL](https://www.cnil.fr).
 
