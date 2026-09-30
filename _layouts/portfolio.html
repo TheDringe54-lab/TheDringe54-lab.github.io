@@ -214,8 +214,9 @@ layout: base
           <span class="kicker">{{ ui.sec_contact }}</span>
           <h2 class="display" id="contact-t" style="margin-top:var(--s3)">{{ c.contact.titre | escape }} <em>{{ c.contact.titre_italique | escape | replace: " ?", "&nbsp;?" }}</em></h2>
           <p class="lede" style="margin-top:var(--s3)">{% include md.html t=c.contact.texte %}</p>
-          {%- if cle != "" %}<p class="kicker contact-ou">{{ ui.form_ou }}</p>{% endif %}
+          {%- if cle == "" %}
           <a class="mail" href="mailto:{{ c.contact.email | escape }}">{{ c.contact.email | escape }}</a>
+          {%- endif %}
           {%- if cle != "" %}
           <ul class="links">
             {%- assign v = c.contact.linkedin | strip %}{%- if v != "" %}
