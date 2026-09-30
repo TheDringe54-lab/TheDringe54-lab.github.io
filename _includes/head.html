@@ -12,11 +12,6 @@
 {%- else %}
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 {%- endif %}
-{%- if page.accueil %}
-<link rel="alternate" hreflang="fr" href="{{ '/' | absolute_url }}">
-<link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}">
-<link rel="alternate" hreflang="x-default" href="{{ '/' | absolute_url }}">
-{%- endif %}
 
 <!-- Aperçu lors d'un partage (LinkedIn, WhatsApp, Facebook, X…) -->
 <meta property="og:type" content="website">
@@ -25,7 +20,7 @@
 <meta property="og:title" content="{% if page.titre %}{{ page.titre | escape }} — {% endif %}{{ c.hero.nom | escape }} · {{ c.hero.surtitre | escape }}">
 <meta property="og:description" content="{{ description | strip | escape }}">
 <meta property="og:url" content="{{ page.url | absolute_url }}">
-<meta property="og:image" content="{{ '/assets/og-image-' | append: page.lang | append: '.png' | absolute_url }}">
+<meta property="og:image" content="{{ '/assets/og-image-fr.png' | absolute_url }}">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="{{ c.hero.nom | escape }} — {{ c.hero.surtitre | escape }}">

@@ -5,7 +5,7 @@ media:
 
 content:
   - name: contenu
-    label: Contenu du site (français)
+    label: Contenu du site
     type: file
     path: _data/contenu.yml
     format: yaml
@@ -148,13 +148,6 @@ content:
           - { name: texte, label: Texte, type: text }
           - { name: email, label: Adresse e-mail, type: string }
           - { name: linkedin, label: Lien LinkedIn (laisser vide pour le masquer), type: string }
-
-  - name: contenu_en
-    label: Contenu du site (anglais)
-    type: file
-    path: _data/contenu_en.yml
-    format: yaml
-    fields: *champs
 
   - name: mentions
     label: Mentions légales

@@ -468,14 +468,6 @@
     *, *::before, *::after { transition-duration: 0s !important; }
   }
 
-  /* bouton de langue */
-  .lang-btn {
-    min-width: 44px; height: 44px; display: inline-grid; place-items: center; padding: 0 10px;
-    border: 1px solid var(--rule); border-radius: 999px; text-decoration: none;
-    font-family: var(--f-mono); font-size: 12px; font-weight: 500; letter-spacing: .08em; color: var(--ink);
-    transition: border-color .2s var(--ease), color .2s var(--ease);
-  }
-  .lang-btn:hover { border-color: var(--ink); color: var(--accent); }
 
   /* lien du pied de page */
   footer.site span a { text-decoration: underline; text-underline-offset: 3px; }
@@ -497,7 +489,6 @@
   .code404 { font-variant-numeric: lining-nums; font-family: var(--f-display); font-weight: 900; font-size: clamp(120px, 26vw, 280px); line-height: .9; letter-spacing: -.05em; margin: var(--s3) 0 var(--s3); color: var(--accent-soft); -webkit-text-stroke: 1px var(--accent); }
   .erreur h1.display { max-width: 18ch; }
   .erreur .lede { margin: var(--s4) 0 0; }
-  .erreur .lede.en { font-style: italic; color: var(--muted); font-size: 17px; margin-top: var(--s2); }
   .erreur .hero-ctas { margin-top: var(--s5); }
 
   /* très petits écrans (320 px) : on resserre l'en-tête */
@@ -505,7 +496,6 @@
     .nav { gap: var(--s1); }
     .nav-right { gap: 4px; }
     .nav .btn-sm { padding: 0 10px; letter-spacing: .04em; }
-    .lang-btn { padding: 0 6px; }
   }
 
   /* veille techno */
