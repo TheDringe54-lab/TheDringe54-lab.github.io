@@ -231,9 +231,15 @@ layout: base
           <input type="hidden" name="subject" value="{{ ui.form_sujet | escape }}">
           <input type="hidden" name="from_name" value="ethanledorze.fr">
           <input type="checkbox" name="botcheck" class="pot" tabindex="-1" autocomplete="off" aria-hidden="true">
-          <div class="field">
-            <label for="f-nom">{{ ui.form_nom }}</label>
-            <input id="f-nom" name="name" type="text" autocomplete="name" required maxlength="120">
+          <div class="field-row">
+            <div class="field">
+              <label for="f-prenom">{{ ui.form_prenom }}</label>
+              <input id="f-prenom" name="prenom" type="text" autocomplete="given-name" required maxlength="80">
+            </div>
+            <div class="field">
+              <label for="f-nom">{{ ui.form_nom }}</label>
+              <input id="f-nom" name="nom" type="text" autocomplete="family-name" required maxlength="80">
+            </div>
           </div>
           <div class="field">
             <label for="f-email">{{ ui.form_email }}</label>
@@ -262,6 +268,7 @@ layout: base
               btn.disabled = true; btn.firstChild.nodeValue = {{ ui.form_envoi | jsonify }};
               statut.className = 'form-status'; statut.textContent = '';
               var donnees = {}; new FormData(form).forEach(function (v, k) { donnees[k] = v; });
+              donnees.name = (donnees.prenom + ' ' + donnees.nom).trim(); // nom de l'expéditeur dans l'e-mail reçu
               fetch(form.action, { method: 'POST', headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' }, body: JSON.stringify(donnees) })
                 .then(function (r) { return r.json(); })
                 .then(function (j) {
