@@ -520,8 +520,6 @@
 
   /* formulaire de contact */
   .contact-grid.avec-formulaire .links { margin-top: var(--s5); }
-  .contact-ou { margin: var(--s4) 0 0; }
-  .contact-ou + .mail { margin-top: var(--s1); font-size: clamp(20px, 3vw, 30px); }
   @media (min-width: 900px) { .contact-grid.avec-formulaire { grid-template-columns: 1fr 1fr; align-items: start; gap: var(--s6); } }
   .form { display: grid; gap: var(--s3); }
   .pot { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
