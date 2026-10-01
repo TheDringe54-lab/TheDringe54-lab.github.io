@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-09-30",
+  "mise_a_jour": "2026-10-01",
   "themes": [
     {
       "id": "cyber",
@@ -11,7 +11,7 @@
           "lien": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-011/",
           "source": "CERT-FR",
           "date": "2026-09-28",
-          "resume": "Le 27 septembre 2026, Citrix a publié un avis de sécurité concernant plusieurs vulnérabilités qui affectent NetScaler ADC et Gateway. Parmi celles-ci, les…"
+          "resume": "[Mise à jour du 30 septembre 2026] Dans un billet de blogue du 29 septembre 2026 (cf. section Documentation), Mandiant et Google Threat Intelligence Group…"
         },
         {
           "titre": "Bulletin d'actualité CERTFR-2026-ACT-041 (28 septembre 2026)",
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "5 minutes pour voler le hash du mot de passe root sous Linux avec BTR, une variante de Spectre v2",
-          "lien": "https://www.it-connect.fr/spectre-v2-btr-linux-hash-mot-de-passe-root/",
+          "titre": "DAWO : les Pays-Bas misent sur NixOS pour remplacer Windows 11 et Microsoft",
+          "lien": "https://www.it-connect.fr/dawo-pays-bas-poste-travail-souverain-nixos/",
           "source": "IT-Connect",
-          "date": "2026-09-30",
-          "resume": "Nouvelle variante de Spectre v2, l'attaque BTR vise les moteurs JIT et vole le hash du mot de passe root sous Linux en 3 à 5 minutes. Comment se protéger ? Le…"
+          "date": "2026-10-01",
+          "resume": "Les Pays-Bas développent DAWO, un poste de travail souverain sous NixOS déjà testé dans huit communes. De quoi pérenniser des PC incompatibles Windows 11. Le…"
         },
         {
-          "titre": "Apple a corrigé une faille CoreGraphics exploitée pour cibler des utilisateurs d’iPhone (CVE-2026-86950)",
-          "lien": "https://www.it-connect.fr/apple-cve-2026-86950-faille-zero-day-coregraphics/",
+          "titre": "Faille Metabase : l’ANSSI et la DINUM victimes d’une fuite de données",
+          "lien": "https://www.it-connect.fr/anssi-dinum-fuite-donnees-metabase/",
           "source": "IT-Connect",
-          "date": "2026-09-30",
-          "resume": "Apple a corrigé la CVE-2026-86950, une faille zero-day dans CoreGraphics possiblement exploitée contre des iPhone. Voici les mises à jour à installer…"
+          "date": "2026-10-01",
+          "resume": "Une faille Metabase a permis de compromettre 118 comptes du laboratoire d'innovation de l'ANSSI et deux instances de la DINUM. Voici ce que l'on sait. Le post…"
         },
         {
-          "titre": "Signal : les sauvegardes locales chiffrées, sur disque ou NAS, arrivent sur iPhone, Windows, macOS et Linux",
-          "lien": "https://www.it-connect.fr/signal-sauvegardes-locales-iphone-desktop/",
+          "titre": "Windows 11 26H2 à peine sorti, Microsoft liste déjà 3 bugs, et chez vous ?",
+          "lien": "https://www.it-connect.fr/windows-11-26h2-problemes-connus/",
           "source": "IT-Connect",
-          "date": "2026-09-30",
-          "resume": "Signal 8.30 apporte les sauvegardes locales chiffrées sur iPhone et ordinateur. Disque externe, NAS : ce qu'il faut savoir à propos de ces évolutions. Le post…"
+          "date": "2026-10-01",
+          "resume": "Windows 11 26H2 est disponible. Microsoft recense déjà trois problèmes connus : et vous, avez-vous rencontré des bugs après l'installation de cette version ?…"
         }
       ]
     },
@@ -91,25 +91,25 @@
       "titre_en": "Artificial intelligence",
       "articles": [
         {
-          "titre": "Résumés AI Act : 21 documents sur 24 ne nomment aucun site moissonné dans la rubrique prévue",
-          "lien": "https://www.actuia.com/actualite/vingt-et-un-resumes-ai-act-sans-liste-des-sites-moissonnes/",
+          "titre": "IA à la Culture : 62 actions, ni calendrier ni budget, selon la Cour des comptes",
+          "lien": "https://www.actuia.com/actualite/ia-a-la-culture-62-actions-ni-calendrier-ni-budget-selon-la-cour-des-comptes/",
           "source": "ActuIA",
-          "date": "2026-09-25",
-          "resume": "Le formulaire de la Commission demande aux fournisseurs de modèles à usage général la liste des principaux domaines moissonnés pour l'entraînement. Sur 24…"
+          "date": "2026-10-01",
+          "resume": "La Cour des comptes juge que la stratégie IA du ministère de la Culture (62 actions, juillet 2025) n'a ni priorités, ni calendrier, ni budget identifiable, et…"
         },
         {
-          "titre": "Proposition de loi n° 3149 : 70 députés LFI veulent une autorisation préalable des modèles d'IA et des amendes à 7 %",
-          "lien": "https://www.actuia.com/actualite/autorisation-prealable-et-amendes-a-7-la-proposition-de-loi-n-3149-sur-lia/",
+          "titre": "Des instructions cachées visent les IA des tribunaux brésiliens",
+          "lien": "https://www.actuia.com/actualite/des-instructions-cachees-visent-les-ia-des-tribunaux-bresiliens/",
           "source": "ActuIA",
-          "date": "2026-09-25",
-          "resume": "Soixante-dix députés LFI, René Pilato en tête, ont déposé le 15 septembre 2026 une proposition de loi créant une autorisation préalable pour les modèles d'IA à…"
+          "date": "2026-10-01",
+          "resume": "Au STF brésilien, le ministre Cristiano Zanin a voté une amende de 3 242 reais et saisi l'ordre des avocats et le parquet fédéral après la découverte…"
         },
         {
-          "titre": "GPT-6 Sol à moitié prix, Claude Opus 5.5 à 20 % de moins : ce que les grilles du 22 septembre changent au coût d'un agent",
-          "lien": "https://www.actuia.com/actualite/gpt-6-sol-claude-opus-55-ce-que-coute-une-session-dagent/",
+          "titre": "NVIDIA livre OpenShell pour borner les agents, Sentry reste sans date",
+          "lien": "https://www.actuia.com/actualite/nvidia-livre-openshell-pour-borner-les-agents-sentry-reste-sans-date/",
           "source": "ActuIA",
-          "date": "2026-09-25",
-          "resume": "Le 22 septembre, OpenAI a divisé par deux les tarifs de GPT-6 Sol et Luna par rapport à GPT-5.6 ; Anthropic a baissé Claude Opus 5.5 de 20 % sur le prix de…"
+          "date": "2026-10-01",
+          "resume": "NVIDIA a lancé le 28 septembre Open Agent Safety Platform : le moteur d'exécution open source OpenShell, qui bloque tout ce qu'aucune règle n'autorise, est…"
         }
       ]
     }
