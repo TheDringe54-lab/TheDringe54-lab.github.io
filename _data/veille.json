@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-10-01",
+  "mise_a_jour": "2026-10-02",
   "themes": [
     {
       "id": "cyber",
@@ -35,6 +35,13 @@
       "titre_en": "Linux & open source",
       "articles": [
         {
+          "titre": "Lettre d’information XMPP d'août 2026",
+          "lien": "https://linuxfr.org/news/lettre-d-information-xmpp-d-aout-2026",
+          "source": "LinuxFR",
+          "date": "2026-10-01",
+          "resume": "N. D. T. — Ceci est une traduction de la lettre d’information publiée régulièrement par l’équipe de communication de la XSF, essayant de conserver les…"
+        },
+        {
           "titre": "postmarketOS devient Nura",
           "lien": "https://linuxfr.org/news/postmarketos-devient-nura",
           "source": "LinuxFR",
@@ -47,13 +54,6 @@
           "source": "LinuxFR",
           "date": "2026-09-28",
           "resume": "Cette revue de presse sur Internet fait partie du travail de veille mené par l’April dans le cadre de son action de défense et de promotion du logiciel libre…"
-        },
-        {
-          "titre": "Au café libre (actualités chaudes, ton relax) — « Libre à vous ! » du 22 septembre 2026 — Podcasts et références",
-          "lien": "https://linuxfr.org/news/au-cafe-libre-actualites-chaudes-ton-relax-libre-a-vous-du-22-septembre-2026-podcasts-et-references",
-          "source": "LinuxFR",
-          "date": "2026-09-28",
-          "resume": "285e émission « Libre à vous ! » de l’April. Podcast et programme : sujet principal : « Au café libre » (débat autour de l’actualité du logiciel libre et des…"
         }
       ]
     },
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "DAWO : les Pays-Bas misent sur NixOS pour remplacer Windows 11 et Microsoft",
-          "lien": "https://www.it-connect.fr/dawo-pays-bas-poste-travail-souverain-nixos/",
+          "titre": "Installation et utilisation de Claude Code : premiers pas",
+          "lien": "https://www.it-connect.fr/tuto-installation-et-utilisation-de-claude-code/",
           "source": "IT-Connect",
-          "date": "2026-10-01",
-          "resume": "Les Pays-Bas développent DAWO, un poste de travail souverain sous NixOS déjà testé dans huit communes. De quoi pérenniser des PC incompatibles Windows 11. Le…"
+          "date": "2026-10-02",
+          "resume": "Apprenez à installer et à utiliser Claude Code sur Windows ou Linux, en GUI ou CLI, pour commencer à lire, écrire et exécuter du code sur votre machine. Le…"
         },
         {
-          "titre": "Faille Metabase : l’ANSSI et la DINUM victimes d’une fuite de données",
-          "lien": "https://www.it-connect.fr/anssi-dinum-fuite-donnees-metabase/",
+          "titre": "GLPI 11.0.11 et GLPI 10.0.28 : 8 failles patchées et la fin annoncée de GLPI 10",
+          "lien": "https://www.it-connect.fr/glpi-11-0-10-10-0-28-failles-fin-glpi-10/",
           "source": "IT-Connect",
-          "date": "2026-10-01",
-          "resume": "Une faille Metabase a permis de compromettre 118 comptes du laboratoire d'innovation de l'ANSSI et deux instances de la DINUM. Voici ce que l'on sait. Le post…"
+          "date": "2026-10-02",
+          "resume": "GLPI 11.0.11 et GLPI 10.0.28 corrigent 8 failles, dont une injection SQL. Teclib' annonce aussi que GLPI 10.0.28 sera la dernière version de la branche 10. Le…"
         },
         {
-          "titre": "Windows 11 26H2 à peine sorti, Microsoft liste déjà 3 bugs, et chez vous ?",
-          "lien": "https://www.it-connect.fr/windows-11-26h2-problemes-connus/",
+          "titre": "TeamViewer a corrigé 5 failles de sécurité, dont une exploitable à distance",
+          "lien": "https://www.it-connect.fr/teamviewer-5-failles-securite-version-15-82/",
           "source": "IT-Connect",
-          "date": "2026-10-01",
-          "resume": "Windows 11 26H2 est disponible. Microsoft recense déjà trois problèmes connus : et vous, avez-vous rencontré des bugs après l'installation de cette version ?…"
+          "date": "2026-10-02",
+          "resume": "TeamViewer a corrigé cinq failles dans ses clients Windows, Linux et macOS, dont une exploitable à distance (CVSS 8,8 sur 10). Voici les versions à installer…"
         }
       ]
     },
