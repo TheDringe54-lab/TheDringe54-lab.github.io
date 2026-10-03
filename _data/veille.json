@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-10-02",
+  "mise_a_jour": "2026-10-03",
   "themes": [
     {
       "id": "cyber",
@@ -63,6 +63,13 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
+          "titre": "Je suis passé de Windows à macOS depuis 6 mois : voici mon retour d’expérience",
+          "lien": "https://www.it-connect.fr/windows-vers-mac-bilan-mon-experience/",
+          "source": "IT-Connect",
+          "date": "2026-10-03",
+          "resume": "Après 6 mois sur macOS, je fais le bilan de ma migration depuis Windows : adaptation, outils, compatibilité et limites rencontrées au quotidien. Le post Je…"
+        },
+        {
           "titre": "Installation et utilisation de Claude Code : premiers pas",
           "lien": "https://www.it-connect.fr/tuto-installation-et-utilisation-de-claude-code/",
           "source": "IT-Connect",
@@ -75,13 +82,6 @@
           "source": "IT-Connect",
           "date": "2026-10-02",
           "resume": "GLPI 11.0.11 et GLPI 10.0.28 corrigent 8 failles, dont une injection SQL. Teclib' annonce aussi que GLPI 10.0.28 sera la dernière version de la branche 10. Le…"
-        },
-        {
-          "titre": "TeamViewer a corrigé 5 failles de sécurité, dont une exploitable à distance",
-          "lien": "https://www.it-connect.fr/teamviewer-5-failles-securite-version-15-82/",
-          "source": "IT-Connect",
-          "date": "2026-10-02",
-          "resume": "TeamViewer a corrigé cinq failles dans ses clients Windows, Linux et macOS, dont une exploitable à distance (CVSS 8,8 sur 10). Voici les versions à installer…"
         }
       ]
     },
@@ -91,25 +91,25 @@
       "titre_en": "Artificial intelligence",
       "articles": [
         {
-          "titre": "IA à la Culture : 62 actions, ni calendrier ni budget, selon la Cour des comptes",
-          "lien": "https://www.actuia.com/actualite/ia-a-la-culture-62-actions-ni-calendrier-ni-budget-selon-la-cour-des-comptes/",
+          "titre": "Le Texas enquête sur des centaines de centres de données pour un formulaire d'eau",
+          "lien": "https://www.actuia.com/actualite/le-texas-enquete-sur-des-centaines-de-centres-de-donnees-pour-un-formulaire-deau/",
           "source": "ActuIA",
-          "date": "2026-10-01",
-          "resume": "La Cour des comptes juge que la stratégie IA du ministère de la Culture (62 actions, juillet 2025) n'a ni priorités, ni calendrier, ni budget identifiable, et…"
+          "date": "2026-10-02",
+          "resume": "Le 24 septembre 2026, le procureur général du Texas Ken Paxton a annoncé l'ouverture d'une enquête sur les projets de centres de données de l'État qui n'ont…"
         },
         {
-          "titre": "Des instructions cachées visent les IA des tribunaux brésiliens",
-          "lien": "https://www.actuia.com/actualite/des-instructions-cachees-visent-les-ia-des-tribunaux-bresiliens/",
+          "titre": "La justice britannique publie le nombre de ses résumés d'IA, pas leur taux d'erreur",
+          "lien": "https://www.actuia.com/actualite/la-justice-britannique-publie-le-nombre-de-ses-resumes-dia-pas-leur-taux-derreur/",
           "source": "ActuIA",
-          "date": "2026-10-01",
-          "resume": "Au STF brésilien, le ministre Cristiano Zanin a voté une amende de 3 242 reais et saisi l'ordre des avocats et le parquet fédéral après la découverte…"
+          "date": "2026-10-02",
+          "resume": "Le 24 septembre 2026, le ministère britannique de la Justice a publié le bilan de la première année de son plan d'action sur l'intelligence artificielle…"
         },
         {
-          "titre": "NVIDIA livre OpenShell pour borner les agents, Sentry reste sans date",
-          "lien": "https://www.actuia.com/actualite/nvidia-livre-openshell-pour-borner-les-agents-sentry-reste-sans-date/",
+          "titre": "Décider de l'IA à l'école sans attendre l'essai randomisé, l'avis anglais",
+          "lien": "https://www.actuia.com/actualite/decider-de-lia-a-lecole-sans-attendre-lessai-randomise-lavis-anglais/",
           "source": "ActuIA",
-          "date": "2026-10-01",
-          "resume": "NVIDIA a lancé le 28 septembre Open Agent Safety Platform : le moteur d'exécution open source OpenShell, qui bloque tout ce qu'aucune règle n'autorise, est…"
+          "date": "2026-10-02",
+          "resume": "Le 24 septembre 2026, le ministère britannique de l'Éducation a mis en ligne un rapport de dix-huit pages produit par le groupe de travail « IA et éducation…"
         }
       ]
     }
