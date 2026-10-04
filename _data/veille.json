@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-10-03",
+  "mise_a_jour": "2026-10-04",
   "themes": [
     {
       "id": "cyber",
@@ -35,6 +35,13 @@
       "titre_en": "Linux & open source",
       "articles": [
         {
+          "titre": "Debian, IA, vibe coding & rsync : la croisée des chemins ?",
+          "lien": "https://linuxfr.org/news/debian-ia-vibe-coding-rsync-la-croisee-des-chemins",
+          "source": "LinuxFR",
+          "date": "2026-10-04",
+          "resume": "rsync est un logiciel libre de synchronisation distante de fichiers ( remote synchronisation ), très utilisé et fréquemment évoqué sur LinuxFr.org. Ce logiciel…"
+        },
+        {
           "titre": "Lettre d’information XMPP d'août 2026",
           "lien": "https://linuxfr.org/news/lettre-d-information-xmpp-d-aout-2026",
           "source": "LinuxFR",
@@ -47,13 +54,6 @@
           "source": "LinuxFR",
           "date": "2026-09-29",
           "resume": "C'est officiel, la distribution Linux postmarketOS change de nom et devient Nura ! Cela avait été évoqué dans l'épisode de Projets Libres consacré au projet…"
-        },
-        {
-          "titre": "Revue de presse de l’April pour la semaine 39 de l’année 2026",
-          "lien": "https://linuxfr.org/news/revue-de-presse-de-l-april-pour-la-semaine-39-de-l-annee-2026",
-          "source": "LinuxFR",
-          "date": "2026-09-28",
-          "resume": "Cette revue de presse sur Internet fait partie du travail de veille mené par l’April dans le cadre de son action de défense et de promotion du logiciel libre…"
         }
       ]
     },
