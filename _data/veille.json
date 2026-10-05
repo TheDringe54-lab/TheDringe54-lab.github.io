@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-10-04",
+  "mise_a_jour": "2026-10-05",
   "themes": [
     {
       "id": "cyber",
@@ -35,25 +35,25 @@
       "titre_en": "Linux & open source",
       "articles": [
         {
+          "titre": "🪶 Les journaux LinuxFr.org les mieux notés de septembre 2026",
+          "lien": "https://linuxfr.org/news/les-journaux-linuxfr-org-les-mieux-notes-de-septembre-2026",
+          "source": "LinuxFR",
+          "date": "2026-10-05",
+          "resume": "LinuxFr.org propose des dépêches et articles, soumis par tout un chacun, puis revus et corrigés par l’équipe de modération avant publication. C’est la partie…"
+        },
+        {
+          "titre": "Agenda du Libre pour la semaine 41 de l’année 2026",
+          "lien": "https://linuxfr.org/news/agenda-du-libre-pour-la-semaine-41-de-l-annee-2026",
+          "source": "LinuxFR",
+          "date": "2026-10-04",
+          "resume": "Calendrier Web, regroupant des événements liés au Libre (logiciel, salon, atelier, install party , conférence), annoncés par leurs organisateurs. Voici un…"
+        },
+        {
           "titre": "Debian, IA, vibe coding & rsync : la croisée des chemins ?",
           "lien": "https://linuxfr.org/news/debian-ia-vibe-coding-rsync-la-croisee-des-chemins",
           "source": "LinuxFR",
           "date": "2026-10-04",
           "resume": "rsync est un logiciel libre de synchronisation distante de fichiers ( remote synchronisation ), très utilisé et fréquemment évoqué sur LinuxFr.org. Ce logiciel…"
-        },
-        {
-          "titre": "Lettre d’information XMPP d'août 2026",
-          "lien": "https://linuxfr.org/news/lettre-d-information-xmpp-d-aout-2026",
-          "source": "LinuxFR",
-          "date": "2026-10-01",
-          "resume": "N. D. T. — Ceci est une traduction de la lettre d’information publiée régulièrement par l’équipe de communication de la XSF, essayant de conserver les…"
-        },
-        {
-          "titre": "postmarketOS devient Nura",
-          "lien": "https://linuxfr.org/news/postmarketos-devient-nura",
-          "source": "LinuxFR",
-          "date": "2026-09-29",
-          "resume": "C'est officiel, la distribution Linux postmarketOS change de nom et devient Nura ! Cela avait été évoqué dans l'épisode de Projets Libres consacré au projet…"
         }
       ]
     },
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
+          "titre": "Word : un bug envoyait les PDF destinés à SharePoint dans un dossier de cache en local",
+          "lien": "https://www.it-connect.fr/word-pdf-sharepoint-dossier-cache-content-mso/",
+          "source": "IT-Connect",
+          "date": "2026-10-05",
+          "resume": "L'application Word de Microsoft 365 Apps enregistrait certains PDF destinés à SharePoint Online dans un dossier local au lieu du Cloud. Attention à vos…"
+        },
+        {
+          "titre": "Le compte X officiel de Microsoft piraté pour promouvoir un token crypto à l’effigie de Clippy",
+          "lien": "https://www.it-connect.fr/compte-x-microsoft-pirate-clippy-crypto/",
+          "source": "IT-Connect",
+          "date": "2026-10-05",
+          "resume": "Le compte X de Microsoft (13 millions d'abonnés) a été piraté pour promouvoir un token crypto Clippy. Microsoft confirme l'accès non autorisé et enquête. Le…"
+        },
+        {
           "titre": "Je suis passé de Windows à macOS depuis 6 mois : voici mon retour d’expérience",
           "lien": "https://www.it-connect.fr/windows-vers-mac-bilan-mon-experience/",
           "source": "IT-Connect",
           "date": "2026-10-03",
           "resume": "Après 6 mois sur macOS, je fais le bilan de ma migration depuis Windows : adaptation, outils, compatibilité et limites rencontrées au quotidien. Le post Je…"
-        },
-        {
-          "titre": "Installation et utilisation de Claude Code : premiers pas",
-          "lien": "https://www.it-connect.fr/tuto-installation-et-utilisation-de-claude-code/",
-          "source": "IT-Connect",
-          "date": "2026-10-02",
-          "resume": "Apprenez à installer et à utiliser Claude Code sur Windows ou Linux, en GUI ou CLI, pour commencer à lire, écrire et exécuter du code sur votre machine. Le…"
-        },
-        {
-          "titre": "GLPI 11.0.11 et GLPI 10.0.28 : 8 failles patchées et la fin annoncée de GLPI 10",
-          "lien": "https://www.it-connect.fr/glpi-11-0-10-10-0-28-failles-fin-glpi-10/",
-          "source": "IT-Connect",
-          "date": "2026-10-02",
-          "resume": "GLPI 11.0.11 et GLPI 10.0.28 corrigent 8 failles, dont une injection SQL. Teclib' annonce aussi que GLPI 10.0.28 sera la dernière version de la branche 10. Le…"
         }
       ]
     },
@@ -91,25 +91,25 @@
       "titre_en": "Artificial intelligence",
       "articles": [
         {
-          "titre": "Le Texas enquête sur des centaines de centres de données pour un formulaire d'eau",
-          "lien": "https://www.actuia.com/actualite/le-texas-enquete-sur-des-centaines-de-centres-de-donnees-pour-un-formulaire-deau/",
+          "titre": "Régulation de l’IA : le point sur la situation mondiale",
+          "lien": "https://www.actuia.com/actualite/regulation-de-lia-le-point-sur-la-situation-mondiale/",
           "source": "ActuIA",
-          "date": "2026-10-02",
-          "resume": "Le 24 septembre 2026, le procureur général du Texas Ken Paxton a annoncé l'ouverture d'une enquête sur les projets de centres de données de l'État qui n'ont…"
+          "date": "2026-10-05",
+          "resume": "La régulation de l’IA associe traités, engagements internationaux et lois nationales, avec des niveaux de contrainte très différents. Au 5 octobre 2026, les…"
         },
         {
-          "titre": "La justice britannique publie le nombre de ses résumés d'IA, pas leur taux d'erreur",
-          "lien": "https://www.actuia.com/actualite/la-justice-britannique-publie-le-nombre-de-ses-resumes-dia-pas-leur-taux-derreur/",
+          "titre": "Agents IA : le client répond de leurs actes, chez OpenAI comme ailleurs",
+          "lien": "https://www.actuia.com/actualite/agents-ia-le-client-repond-de-leurs-actes-chez-openai-comme-ailleurs/",
           "source": "ActuIA",
-          "date": "2026-10-02",
-          "resume": "Le 24 septembre 2026, le ministère britannique de la Justice a publié le bilan de la première année de son plan d'action sur l'intelligence artificielle…"
+          "date": "2026-10-05",
+          "resume": "OpenAI a notifié plus de 100 organisations, chiffre arrêté au 26 septembre, d’une activité de ses agents survenue pendant l’entraînement et l’évaluation de ses…"
         },
         {
-          "titre": "Décider de l'IA à l'école sans attendre l'essai randomisé, l'avis anglais",
-          "lien": "https://www.actuia.com/actualite/decider-de-lia-a-lecole-sans-attendre-lessai-randomise-lavis-anglais/",
+          "titre": "CAC 40 : ChatGPT et Gemini restituent mal quatre chiffres sur dix",
+          "lien": "https://www.actuia.com/actualite/cac-40-chatgpt-et-gemini-restituent-mal-quatre-chiffres-sur-dix/",
           "source": "ActuIA",
-          "date": "2026-10-02",
-          "resume": "Le 24 septembre 2026, le ministère britannique de l'Éducation a mis en ligne un rapport de dix-huit pages produit par le groupe de travail « IA et éducation…"
+          "date": "2026-10-05",
+          "resume": "Selon une étude mise en ligne le 2 octobre 2026 par Reputation Age et Bubbling, 40 % des chiffres semestriels de 39 sociétés du CAC 40 restitués par ChatGPT et…"
         }
       ]
     }
