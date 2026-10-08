@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-10-07",
+  "mise_a_jour": "2026-10-08",
   "themes": [
     {
       "id": "cyber",
@@ -35,6 +35,13 @@
       "titre_en": "Linux & open source",
       "articles": [
         {
+          "titre": "Résultats des Big Brother Awards Allemagne 2026",
+          "lien": "https://linuxfr.org/news/resultats-des-big-brother-awards-allemagne-2026",
+          "source": "LinuxFR",
+          "date": "2026-10-08",
+          "resume": "Vendredi 25 septembre a eu lieu la cérémonie officielle de nomination des Big Brother Awards Allemagne 2026 à Bielefeld (Westphalie Est-Lippe). Si 4 des 6…"
+        },
+        {
           "titre": "Échange avec Cyrielle Chatelain - « Libre à vous ! » du 29 septembre 2026",
           "lien": "https://linuxfr.org/news/echange-avec-cyrielle-chatelain-libre-a-vous-du-29-septembre-2026",
           "source": "LinuxFR",
@@ -47,13 +54,6 @@
           "source": "LinuxFR",
           "date": "2026-10-05",
           "resume": "Cette revue de presse sur Internet fait partie du travail de veille mené par l’April dans le cadre de son action de défense et de promotion du logiciel libre…"
-        },
-        {
-          "titre": "🪶 Les journaux LinuxFr.org les mieux notés de septembre 2026",
-          "lien": "https://linuxfr.org/news/les-journaux-linuxfr-org-les-mieux-notes-de-septembre-2026",
-          "source": "LinuxFR",
-          "date": "2026-10-05",
-          "resume": "LinuxFr.org propose des dépêches et articles, soumis par tout un chacun, puis revus et corrigés par l’équipe de modération avant publication. C’est la partie…"
         }
       ]
     },
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "Les règles de détection publiques : une arme à double tranchant",
-          "lien": "https://www.it-connect.fr/regles-de-detection-publiques-une-arme-a-double-tranchant/",
+          "titre": "PhotoCraft, FilmCraft, LightCraft : la suite Adobe réécrite en Rust par des agents Claude Opus 5.5",
+          "lien": "https://www.it-connect.fr/suite-adobe-rust-claude-opus-artcraft-crafting-apps/",
           "source": "IT-Connect",
-          "date": "2026-10-07",
-          "resume": "Découvrez comment les règles de détection publiques boostent la blue team, leurs limites et comment les attaquants s'en servent pour éviter les alertes. Le…"
+          "date": "2026-10-08",
+          "resume": "Sept clones open source de Photoshop, Premiere ou Lightroom écrits en Rust par des agents Claude Opus 5.5 : voici les Crafting Apps. Le post PhotoCraft…"
         },
         {
-          "titre": "Microsoft Exchange : la faille CVE-2026-96940 permet de lire les boîtes aux lettres des autres utilisateurs",
-          "lien": "https://www.it-connect.fr/exchange-server-cve-2026-96940/",
+          "titre": "Windows devient une plateforme pour agents IA : Microsoft lance MXC, des modèles en local et les PC RTX Spark",
+          "lien": "https://www.it-connect.fr/windows-hybrid-intelligence-mxc-agents-rtx-spark/",
           "source": "IT-Connect",
-          "date": "2026-10-07",
-          "resume": "La faille CVE-2026-96940 découverte dans Exchange Server permet à un utilisateur authentifié de lire les e-mails de ses collègues. Un patch est disponible. Le…"
+          "date": "2026-10-08",
+          "resume": "Microsoft lance MXC pour confiner les agents IA sous Windows 11, fait tourner des modèles IA en local et ouvre les précommandes des PC NVIDIA RTX Spark. Le…"
         },
         {
-          "titre": "Windows 11 : la mise à jour KB5124010 fait planter des jeux et applications qui utilisent le Dolby Digital",
-          "lien": "https://www.it-connect.fr/windows-11-kb5124010-bug-dolby-digital-ac3/",
+          "titre": "À cause d’un slip, le numéro du Premier ministre circule sur Internet",
+          "lien": "https://www.it-connect.fr/numero-telephone-sebastien-lecornu-fuite-slip-francais/",
           "source": "IT-Connect",
-          "date": "2026-10-07",
-          "resume": "Microsoft confirme que la mise à jour KB5124010 de Windows 11 peut faire planter des jeux et des applications qui décodent le Dolby Digital. Le post Windows 11…"
+          "date": "2026-10-08",
+          "resume": "Le numéro de Sébastien Lecornu circule sur Internet, selon Le Canard enchaîné. En cause : la fuite de données du Slip Français en 2024. Ce que l'on sait. Le…"
         }
       ]
     },
