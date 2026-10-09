@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-10-08",
+  "mise_a_jour": "2026-10-09",
   "themes": [
     {
       "id": "cyber",
@@ -35,6 +35,13 @@
       "titre_en": "Linux & open source",
       "articles": [
         {
+          "titre": "Margaret Hamilton (1936-2026)",
+          "lien": "https://linuxfr.org/news/margaret-hamilton-1936-2026",
+          "source": "LinuxFR",
+          "date": "2026-10-08",
+          "resume": "Margaret Hamilton vient de s’éteindre à 90 ans. Margaret Hamilton était la personne qui avait conçu le code du logiciel de navigation de la mission Apollo 11…"
+        },
+        {
           "titre": "Résultats des Big Brother Awards Allemagne 2026",
           "lien": "https://linuxfr.org/news/resultats-des-big-brother-awards-allemagne-2026",
           "source": "LinuxFR",
@@ -47,13 +54,6 @@
           "source": "LinuxFR",
           "date": "2026-10-06",
           "resume": "286e émission « Libre à vous ! » de l’April. Podcast et programme : sujet principal : Échange avec Cyrielle Chatelain, députée, autrice d'un rapport sur les…"
-        },
-        {
-          "titre": "Revue de presse de l’April pour la semaine 40 de l’année 2026",
-          "lien": "https://linuxfr.org/news/revue-de-presse-de-l-april-pour-la-semaine-40-de-l-annee-2026",
-          "source": "LinuxFR",
-          "date": "2026-10-05",
-          "resume": "Cette revue de presse sur Internet fait partie du travail de veille mené par l’April dans le cadre de son action de défense et de promotion du logiciel libre…"
         }
       ]
     },
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "PhotoCraft, FilmCraft, LightCraft : la suite Adobe réécrite en Rust par des agents Claude Opus 5.5",
-          "lien": "https://www.it-connect.fr/suite-adobe-rust-claude-opus-artcraft-crafting-apps/",
+          "titre": "Forensic Windows – Partie 15 : retracer l’historique des périphériques USB",
+          "lien": "https://www.it-connect.fr/forensic-windows-historique-usb/",
           "source": "IT-Connect",
-          "date": "2026-10-08",
-          "resume": "Sept clones open source de Photoshop, Premiere ou Lightroom écrits en Rust par des agents Claude Opus 5.5 : voici les Crafting Apps. Le post PhotoCraft…"
+          "date": "2026-10-09",
+          "resume": "Forensic Windows : retrouvez les clés USB branchées sur un poste grâce à USBSTOR, setupapi.dev.log, MountPoints2, aux journaux d'événements et à USBDeview. Le…"
         },
         {
-          "titre": "Windows devient une plateforme pour agents IA : Microsoft lance MXC, des modèles en local et les PC RTX Spark",
-          "lien": "https://www.it-connect.fr/windows-hybrid-intelligence-mxc-agents-rtx-spark/",
+          "titre": "Ces 16 extensions Firefox malveillantes veulent voler vos cryptos",
+          "lien": "https://www.it-connect.fr/extensions-firefox-malveillantes-rabby-okx-wallet/",
           "source": "IT-Connect",
-          "date": "2026-10-08",
-          "resume": "Microsoft lance MXC pour confiner les agents IA sous Windows 11, fait tourner des modèles IA en local et ouvre les précommandes des PC NVIDIA RTX Spark. Le…"
+          "date": "2026-10-09",
+          "resume": "Mozilla a retiré 16 extensions Firefox clonant Rabby et OKX Wallet pour voler phrases de récupération et clés privées. Voici les détails sur cette campagne. Le…"
         },
         {
-          "titre": "À cause d’un slip, le numéro du Premier ministre circule sur Internet",
-          "lien": "https://www.it-connect.fr/numero-telephone-sebastien-lecornu-fuite-slip-francais/",
+          "titre": "FakeGit est de retour : 17 610 dépôts GitHub piégés pour diffuser le malware SmartLoader",
+          "lien": "https://www.it-connect.fr/fakegit-depots-github-smartloader-stealc/",
           "source": "IT-Connect",
-          "date": "2026-10-08",
-          "resume": "Le numéro de Sébastien Lecornu circule sur Internet, selon Le Canard enchaîné. En cause : la fuite de données du Slip Français en 2024. Ce que l'on sait. Le…"
+          "date": "2026-10-09",
+          "resume": "17 610 dépôts GitHub piégés, dont plus de 13 000 réactivés en 34 heures : la campagne FakeGit est de retour pour diffuser le malware SmartLoader. Le post…"
         }
       ]
     },
