@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-10-10",
+  "mise_a_jour": "2026-10-11",
   "themes": [
     {
       "id": "cyber",
@@ -35,6 +35,13 @@
       "titre_en": "Linux & open source",
       "articles": [
         {
+          "titre": "🏆 Meilleures contributions LinuxFr.org : les primées de septembre 2026",
+          "lien": "https://linuxfr.org/news/meilleures-contributions-linuxfr-org-les-primees-de-septembre-2026",
+          "source": "LinuxFR",
+          "date": "2026-10-11",
+          "resume": "Nous continuons sur notre lancée de récompenser celles et ceux qui chaque mois contribuent au site LinuxFr.org (dépêches, commentaires, logo, journaux…"
+        },
+        {
           "titre": "Nouveautés d’octobre 2026 de la communauté Scenari",
           "lien": "https://linuxfr.org/news/nouveautes-d-octobre-2026-de-la-communaute-scenari",
           "source": "LinuxFR",
@@ -47,13 +54,6 @@
           "source": "LinuxFR",
           "date": "2026-10-09",
           "resume": "Tout administrateur système a croisé un jour, au détour d'un serveur, un script_final_old_v3_OK_last.py sans logs, sans historique, avec un mot de passe en…"
-        },
-        {
-          "titre": "Margaret Hamilton (1936-2026)",
-          "lien": "https://linuxfr.org/news/margaret-hamilton-1936-2026",
-          "source": "LinuxFR",
-          "date": "2026-10-08",
-          "resume": "Margaret Hamilton vient de s’éteindre à 90 ans. Margaret Hamilton était la personne qui avait conçu le code du logiciel de navigation de la mission Apollo 11…"
         }
       ]
     },
