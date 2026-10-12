@@ -1,11 +1,18 @@
 {
-  "mise_a_jour": "2026-10-11",
+  "mise_a_jour": "2026-10-12",
   "themes": [
     {
       "id": "cyber",
       "titre": "Cybersécurité",
       "titre_en": "Cybersecurity",
       "articles": [
+        {
+          "titre": "Bulletin d'actualité CERTFR-2026-ACT-043 (12 octobre 2026)",
+          "lien": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-043/",
+          "source": "CERT-FR",
+          "date": "2026-10-12",
+          "resume": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas…"
+        },
         {
           "titre": "Bulletin d'actualité CERTFR-2026-ACT-042 (05 octobre 2026)",
           "lien": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-042/",
@@ -19,13 +26,6 @@
           "source": "CERT-FR",
           "date": "2026-09-28",
           "resume": "**[Mise à jour du 05 octobre 2026]** Le 4 octobre 2026, Citrix a publié un avis concernant une nouvelle vulnérabilité (CVE-2026-88779) permettant un déni de…"
-        },
-        {
-          "titre": "Bulletin d'actualité CERTFR-2026-ACT-041 (28 septembre 2026)",
-          "lien": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-041/",
-          "source": "CERT-FR",
-          "date": "2026-09-28",
-          "resume": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas…"
         }
       ]
     },
@@ -34,6 +34,13 @@
       "titre": "Linux & logiciel libre",
       "titre_en": "Linux & open source",
       "articles": [
+        {
+          "titre": "Agenda du Libre pour la semaine 42 de l'année 2026",
+          "lien": "https://linuxfr.org/news/agenda-du-libre-pour-la-semaine-42-de-l-annee-2026",
+          "source": "LinuxFR",
+          "date": "2026-10-11",
+          "resume": "Calendrier Web, regroupant des événements liés au Libre (logiciel, salon, atelier, install party , conférence), annoncés par leurs organisateurs. Voici un…"
+        },
         {
           "titre": "🏆 Meilleures contributions LinuxFr.org : les primées de septembre 2026",
           "lien": "https://linuxfr.org/news/meilleures-contributions-linuxfr-org-les-primees-de-septembre-2026",
@@ -47,13 +54,6 @@
           "source": "LinuxFR",
           "date": "2026-10-10",
           "resume": "Scenari est un ensemble de logiciels open source dédiés à la production collaborative, publication et diffusion de documents multi-support . Vous rédigez une…"
-        },
-        {
-          "titre": "Scrippy : en finir avec script_final_old_v3_OK_last.py",
-          "lien": "https://linuxfr.org/news/scrippy-en-finir-avec-script_final_old_v3_ok_last-py",
-          "source": "LinuxFR",
-          "date": "2026-10-09",
-          "resume": "Tout administrateur système a croisé un jour, au détour d'un serveur, un script_final_old_v3_OK_last.py sans logs, sans historique, avec un mot de passe en…"
         }
       ]
     },
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "LiteBox 0.1 : Microsoft veut isoler les applications avec son OS-bibliothèque codé en Rust",
-          "lien": "https://www.it-connect.fr/microsoft-litebox-library-os-rust-sandbox/",
+          "titre": "Super U, Intermarché : des pirates font chauffer les congélateurs à 50 °C, des rayons entiers à la poubelle",
+          "lien": "https://www.it-connect.fr/cyberattaque-supermarches-froid-danfoss/",
           "source": "IT-Connect",
-          "date": "2026-10-09",
-          "resume": "Microsoft publie LiteBox 0.1, un library OS open source écrit en Rust qui réduit l'interface avec l'hôte pour mieux isoler les applications. Le post LiteBox…"
+          "date": "2026-10-12",
+          "resume": "Des congélateurs réglés à 50 °C la nuit : une cyberattaque sur les systèmes de froid Danfoss frappe des magasins U et Intermarché. Voici ce que l'on sait. Le…"
         },
         {
-          "titre": "247 failles patchées d’un coup dans Chrome 155 : l’IA est passée par là",
-          "lien": "https://www.it-connect.fr/google-chrome-155-247-failles-securite-corrigees/",
+          "titre": "Une machine à café connectée envoie plus de 1 To de données en 10 jours sur le Wi-Fi",
+          "lien": "https://www.it-connect.fr/machine-cafe-keurig-1-to-donnees-10-jours/",
           "source": "IT-Connect",
-          "date": "2026-10-09",
-          "resume": "Chrome 155 corrige 247 failles de sécurité, dont 4 critiques. Douze ont été trouvées avec l'aide de l'IA Claude. Voici les versions à installer. Le post 247…"
+          "date": "2026-10-12",
+          "resume": "Une machine à café connectée Keurig a envoyé plus d'un téraoctet de données en dix jours, au point de saturer un point d'accès Wi-Fi. Le post Une machine à…"
         },
         {
-          "titre": "Windows 11 : la fonction de recherche ne se contente plus de chercher, elle exécute des actions",
-          "lien": "https://www.it-connect.fr/windows-11-nouvelle-fonction-recherche-avec-des-actions/",
+          "titre": "Nouvelle vente flash GoDeal24 : Office 2024 Pro Plus à 22.99€ et Windows 11 Pro à 12.25€",
+          "lien": "https://www.it-connect.fr/bon-plan-les-licences-office-2021-et-windows-11-en-promotion/",
           "source": "IT-Connect",
-          "date": "2026-10-09",
-          "resume": "Microsoft teste une recherche Windows 11 reconstruite sur WinUI 3 : une liste unique, plus rapide, et des actions directement en langage naturel. Le post…"
+          "date": "2026-10-12",
+          "resume": "Pour la rentrée, notre partenaire GoDeal24 propose une nouvelle salve de promotions sur les licences de produits Microsoft (Windows, Office, etc.) et d'autres…"
         }
       ]
     },
