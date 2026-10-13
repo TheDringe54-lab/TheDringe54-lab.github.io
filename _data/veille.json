@@ -1,11 +1,18 @@
 {
-  "mise_a_jour": "2026-10-12",
+  "mise_a_jour": "2026-10-13",
   "themes": [
     {
       "id": "cyber",
       "titre": "Cybersécurité",
       "titre_en": "Cybersecurity",
       "articles": [
+        {
+          "titre": "Incident de sécurité ciblant les contrôleurs à distance des installations de réfrigération (12 octobre 2026)",
+          "lien": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-012/",
+          "source": "CERT-FR",
+          "date": "2026-10-12",
+          "resume": "Le CERT-FR a connaissance de nombreuses compromissions des controleurs à distance d'installation de réfrigération Danfoss série AK-SM, AK-SC ainsi que Copeland…"
+        },
         {
           "titre": "Bulletin d'actualité CERTFR-2026-ACT-043 (12 octobre 2026)",
           "lien": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-043/",
@@ -19,13 +26,6 @@
           "source": "CERT-FR",
           "date": "2026-10-05",
           "resume": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas…"
-        },
-        {
-          "titre": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway (28 septembre 2026)",
-          "lien": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-011/",
-          "source": "CERT-FR",
-          "date": "2026-09-28",
-          "resume": "**[Mise à jour du 05 octobre 2026]** Le 4 octobre 2026, Citrix a publié un avis concernant une nouvelle vulnérabilité (CVE-2026-88779) permettant un déni de…"
         }
       ]
     },
@@ -35,25 +35,25 @@
       "titre_en": "Linux & open source",
       "articles": [
         {
-          "titre": "Agenda du Libre pour la semaine 42 de l'année 2026",
-          "lien": "https://linuxfr.org/news/agenda-du-libre-pour-la-semaine-42-de-l-annee-2026",
+          "titre": "Space Cadet Talking : un fork du flipper classique pour Linux et Windows",
+          "lien": "https://linuxfr.org/news/space-cadet-talking-un-fork-du-flipper-classique-pour-linux-et-windows",
           "source": "LinuxFR",
-          "date": "2026-10-11",
-          "resume": "Calendrier Web, regroupant des événements liés au Libre (logiciel, salon, atelier, install party , conférence), annoncés par leurs organisateurs. Voici un…"
+          "date": "2026-10-13",
+          "resume": "3D Pinball Space Cadet Talking est un fork développé par Creatiel à partir de SpaceCadetPinball, le projet de rétro-ingénierie et de portage d’Andrey…"
         },
         {
-          "titre": "🏆 Meilleures contributions LinuxFr.org : les primées de septembre 2026",
-          "lien": "https://linuxfr.org/news/meilleures-contributions-linuxfr-org-les-primees-de-septembre-2026",
+          "titre": "Colibri, enfin une bibliothèque VHDL libre utilisable par tous",
+          "lien": "https://linuxfr.org/news/colibri-enfin-une-bibliotheque-vhdl-libre-utilisable-par-tous",
           "source": "LinuxFR",
-          "date": "2026-10-11",
-          "resume": "Nous continuons sur notre lancée de récompenser celles et ceux qui chaque mois contribuent au site LinuxFr.org (dépêches, commentaires, logo, journaux…"
+          "date": "2026-10-12",
+          "resume": "Le CERN vient de sortir une bibliothèque VHDL (VHDL-2008) indépendante du matériel sous licence CERN-OHL-W-2.0. Le VHDL est le langage de description matériel…"
         },
         {
-          "titre": "Nouveautés d’octobre 2026 de la communauté Scenari",
-          "lien": "https://linuxfr.org/news/nouveautes-d-octobre-2026-de-la-communaute-scenari",
+          "titre": "Dr. Geo 26.06",
+          "lien": "https://linuxfr.org/news/dr-geo-26-06",
           "source": "LinuxFR",
-          "date": "2026-10-10",
-          "resume": "Scenari est un ensemble de logiciels open source dédiés à la production collaborative, publication et diffusion de documents multi-support . Vous rédigez une…"
+          "date": "2026-10-12",
+          "resume": "GNU Dr. Geo est un logiciel de géométrie dynamique et un environnement de programmation de figures géométriques interactives, adapté pour les élèves du collège…"
         }
       ]
     },
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "Super U, Intermarché : des pirates font chauffer les congélateurs à 50 °C, des rayons entiers à la poubelle",
-          "lien": "https://www.it-connect.fr/cyberattaque-supermarches-froid-danfoss/",
+          "titre": "Microsoft Teams ouvre la porte aux détecteurs de deepfakes : ce qui change en novembre",
+          "lien": "https://www.it-connect.fr/microsoft-teams-ouvre-la-porte-aux-detecteurs-de-deepfakes-ce-qui-change-en-novembre/",
           "source": "IT-Connect",
-          "date": "2026-10-12",
-          "resume": "Des congélateurs réglés à 50 °C la nuit : une cyberattaque sur les systèmes de froid Danfoss frappe des magasins U et Intermarché. Voici ce que l'on sait. Le…"
+          "date": "2026-10-13",
+          "resume": "Dès novembre 2026, Microsoft Teams pourra afficher des alertes en réunion grâce à des outils tiers de détection de deepfakes. Voici ce qui va changer. Le post…"
         },
         {
-          "titre": "Une machine à café connectée envoie plus de 1 To de données en 10 jours sur le Wi-Fi",
-          "lien": "https://www.it-connect.fr/machine-cafe-keurig-1-to-donnees-10-jours/",
+          "titre": "Agent Standup : vos agents Claude Code et Codex réunis dans un appel visio pour suivre vos sessions",
+          "lien": "https://www.it-connect.fr/agent-standup-agents-ia-appel-visio/",
           "source": "IT-Connect",
-          "date": "2026-10-12",
-          "resume": "Une machine à café connectée Keurig a envoyé plus d'un téraoctet de données en dix jours, au point de saturer un point d'accès Wi-Fi. Le post Une machine à…"
+          "date": "2026-10-13",
+          "resume": "Agent Standup transforme vos sessions Claude Code, Codex et Mistral Vibe en appel visio animé, avec partage d'écran et replay. Gratuit, open source et local…"
         },
         {
-          "titre": "Nouvelle vente flash GoDeal24 : Office 2024 Pro Plus à 22.99€ et Windows 11 Pro à 12.25€",
-          "lien": "https://www.it-connect.fr/bon-plan-les-licences-office-2021-et-windows-11-en-promotion/",
+          "titre": "Mozilla dévoile Firefox Enterprise : une console on-premise pour piloter le navigateur sur vos PC",
+          "lien": "https://www.it-connect.fr/firefox-enterprise-console-mozilla/",
           "source": "IT-Connect",
-          "date": "2026-10-12",
-          "resume": "Pour la rentrée, notre partenaire GoDeal24 propose une nouvelle salve de promotions sur les licences de produits Microsoft (Windows, Office, etc.) et d'autres…"
+          "date": "2026-10-13",
+          "resume": "Mozilla lance Firefox Enterprise : une console de gestion hébergée chez vous, du DLP intégré et des contrôles sur l'IA pour gérer Firefox à l'échelle d'un…"
         }
       ]
     },
