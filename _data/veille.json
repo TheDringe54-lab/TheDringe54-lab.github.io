@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-10-15",
+  "mise_a_jour": "2026-10-16",
   "themes": [
     {
       "id": "cyber",
@@ -35,6 +35,13 @@
       "titre_en": "Linux & open source",
       "articles": [
         {
+          "titre": "PandoraBox : la borne de décontamination USB",
+          "lien": "https://linuxfr.org/news/pandorabox-la-borne-de-decontamination-usb",
+          "source": "LinuxFR",
+          "date": "2026-10-15",
+          "resume": "PandoraBox est une borne libre de décontamination de clés USB, une « station blanche » : on insère une clé, la borne analyse chaque fichier avec plusieurs…"
+        },
+        {
           "titre": "Journées Nationales de la Réparation - « Libre à vous ! » du 6 octobre 2026 - Podcasts et références",
           "lien": "https://linuxfr.org/news/journees-nationales-de-la-reparation-libre-a-vous-du-6-octobre-2026-podcasts-et-references",
           "source": "LinuxFR",
@@ -47,13 +54,6 @@
           "source": "LinuxFR",
           "date": "2026-10-15",
           "resume": "(NdM : Tempo est une offre commerciale d'EDF, cette dépêche traite des API et flux de données ouverts permettant de connaître et prédire les coûts du kWh.) En…"
-        },
-        {
-          "titre": "Revue de presse de l’April pour la semaine 41 de l’année 2026",
-          "lien": "https://linuxfr.org/news/revue-de-presse-de-l-april-pour-la-semaine-41-de-l-annee-2026",
-          "source": "LinuxFR",
-          "date": "2026-10-14",
-          "resume": "Cette revue de presse sur Internet fait partie du travail de veille mené par l’April dans le cadre de son action de défense et de promotion du logiciel libre…"
         }
       ]
     },
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "GhostPat : cette faille critique Docker Hub permettait d’usurper n’importe quel utilisateur",
-          "lien": "https://www.it-connect.fr/docker-hub-faille-ghostpat-cve-2026-105445/",
+          "titre": "sqlsimtools : une suite open source signée Microsoft pour tester la charge de SQL Server",
+          "lien": "https://www.it-connect.fr/sqlsimtools-microsoft-ostress-sql-server/",
           "source": "IT-Connect",
-          "date": "2026-10-15",
-          "resume": "La faille CVE-2026-105445 alias GhostPat de Docker Hub permettait de détourner un jeton d'accès pour agir au nom d'un autre utilisateur. Le post GhostPat…"
+          "date": "2026-10-16",
+          "resume": "Vous testez la charge de SQL Server avec ostress ? Microsoft dévoile sqlsimtools, une suite open source qui repense cet outil historique en intégrant l'IA. Le…"
         },
         {
-          "titre": "Windows Server : les mises à jour d’octobre 2026 en détail",
-          "lien": "https://www.it-connect.fr/mises-a-jour-octobre-2026-pour-windows-server/",
+          "titre": "Office LTSC 2021 : c’est terminé, Microsoft ne publiera plus aucun correctif de sécurité",
+          "lien": "https://www.it-connect.fr/fin-support-office-ltsc-2021/",
           "source": "IT-Connect",
-          "date": "2026-10-15",
-          "resume": "KB5126646, KB5126655 : Microsoft a publié les mises à jour d'octobre 2026 pour Windows Server. Fin du support principal de WS 2022 et nouveautés à connaître…"
+          "date": "2026-10-16",
+          "resume": "Depuis le 13 octobre 2026, Office LTSC 2021 et Office 2021 ne reçoivent plus de correctifs de sécurité. Microsoft 365 ou Office LTSC 2024 : que choisir ? Le…"
         },
         {
-          "titre": "GitLab corrige une faille critique qui permet d’exécuter du code sans authentification (CVE-2026-97229)",
-          "lien": "https://www.it-connect.fr/gitlab-cve-2026-97229-faille-critique-regex-ci-cd/",
+          "titre": "OpenAI : un ingénieur arrêté pour avoir caché un enregistreur dans la salle de réunion de la direction",
+          "lien": "https://www.it-connect.fr/openai-ingenieur-arrete-enregistreur-salle-reunion-direction/",
           "source": "IT-Connect",
-          "date": "2026-10-14",
-          "resume": "GitLab a corrigé la CVE-2026-97229, une faille critique qui permet d'exécuter du code sans authentification via une regex piégée dans une configuration CI/CD…"
+          "date": "2026-10-15",
+          "resume": "Un ingénieur d’OpenAI aurait caché un micro dans la salle de réunion de la direction. Prompts, vidéosurveillance, second micro : ce que révèle la plainte. Le…"
         }
       ]
     },
@@ -91,25 +91,25 @@
       "titre_en": "Artificial intelligence",
       "articles": [
         {
-          "titre": "Commerce de biens : l'IA porte 47 % de la croissance en valeur",
-          "lien": "https://www.actuia.com/actualite/commerce-de-biens-lia-porte-47-de-la-croissance-en-valeur/",
+          "titre": "Anthropic verrouille Claude contre la distillation, ses clients paient une part",
+          "lien": "https://www.actuia.com/actualite/anthropic-verrouille-claude-contre-la-distillation-ses-clients-paient-une-part/",
           "source": "ActuIA",
-          "date": "2026-10-09",
-          "resume": "L'OMC relève à 3,9 % sa prévision de croissance du commerce mondial de marchandises pour 2026, portée par les biens liés à l'IA. Ces biens représentent 14,8 %…"
+          "date": "2026-10-16",
+          "resume": "Anthropic affirme avoir réduit de 90 à 99 % les données captées par les distillateurs de Claude, huit mois après sa première alerte sur le sujet. L'entreprise…"
         },
         {
-          "titre": "Données personnelles : ce que l'ICO a obtenu des géants de l'IA",
-          "lien": "https://www.actuia.com/actualite/donnees-personnelles-ce-que-lico-a-obtenu-des-geants-de-lia/",
+          "titre": "Vente des renouvelables nord-américaines d'EDF à KKR, un cas test pour la FERC",
+          "lien": "https://www.actuia.com/actualite/vente-des-renouvelables-nord-americaines-dedf-a-kkr-un-cas-test-pour-la-ferc/",
           "source": "ActuIA",
-          "date": "2026-10-09",
-          "resume": "L'ICO a publié le bilan de sa supervision des modèles de fondation : dix développeurs ont modifié ou promis de modifier notices et analyses juridiques. Les…"
+          "date": "2026-10-16",
+          "resume": "Le moniteur indépendant du marché PJM demande à la FERC de conditionner le rachat des renouvelables nord-américaines d'EDF par KKR au maintien de 938 MW sur le…"
         },
         {
-          "titre": "Que devient InstaDeep, trois ans après son rachat record par BioNTech ?",
-          "lien": "https://www.actuia.com/actualite/que-devient-instadeep-trois-ans-apres-son-rachat-record-par-biontech/",
+          "titre": "Un agent IA peut exécuter l'outil que son modèle dit refuser",
+          "lien": "https://www.actuia.com/actualite/un-agent-ia-peut-executer-loutil-que-son-modele-dit-refuser/",
           "source": "ActuIA",
-          "date": "2026-10-09",
-          "resume": "InstaDeep, fondée à Tunis en 2014 et interviewée dans le numéro 12 du magazine ActuIA, a été rachetée par BioNTech en 2023 pour jusqu'à 562 millions de livres…"
+          "date": "2026-10-16",
+          "resume": "Une prépublication montre qu'un agent peut exécuter un outil avant même de formuler un refus, révélant un décalage entre la réponse du modèle et l'action…"
         }
       ]
     }
