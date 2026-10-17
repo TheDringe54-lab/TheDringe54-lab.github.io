@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-10-16",
+  "mise_a_jour": "2026-10-17",
   "themes": [
     {
       "id": "cyber",
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "sqlsimtools : une suite open source signée Microsoft pour tester la charge de SQL Server",
-          "lien": "https://www.it-connect.fr/sqlsimtools-microsoft-ostress-sql-server/",
+          "titre": "PwnEscape : une faille Linux permet de s’évader d’une VM KVM",
+          "lien": "https://www.it-connect.fr/pwnescape-cve-2026-99999-faille-noyau-linux-evasion-vm/",
           "source": "IT-Connect",
           "date": "2026-10-16",
-          "resume": "Vous testez la charge de SQL Server avec ostress ? Microsoft dévoile sqlsimtools, une suite open source qui repense cet outil historique en intégrant l'IA. Le…"
+          "resume": "PwnEscape (CVE-2026-99999), faille critique du noyau Linux, fait fuir la mémoire de l'hôte depuis une VM, jusqu'à l'évasion. Voici comment se protéger. Le post…"
         },
         {
-          "titre": "Office LTSC 2021 : c’est terminé, Microsoft ne publiera plus aucun correctif de sécurité",
-          "lien": "https://www.it-connect.fr/fin-support-office-ltsc-2021/",
+          "titre": "Cloud & Cyber Security Expo Paris 2026 : les inscriptions sont ouvertes",
+          "lien": "https://www.it-connect.fr/cloud-cyber-security-expo-paris-2026-les-inscriptions-sont-ouvertes/",
           "source": "IT-Connect",
           "date": "2026-10-16",
-          "resume": "Depuis le 13 octobre 2026, Office LTSC 2021 et Office 2021 ne reçoivent plus de correctifs de sécurité. Microsoft 365 ou Office LTSC 2024 : que choisir ? Le…"
+          "resume": "Les inscriptions pour l'événement Cloud & Cyber Security Expo Paris 2026 sont désormais ouvertes. Obtenez votre badge gratuitement pour y participer. Le post…"
         },
         {
-          "titre": "OpenAI : un ingénieur arrêté pour avoir caché un enregistreur dans la salle de réunion de la direction",
-          "lien": "https://www.it-connect.fr/openai-ingenieur-arrete-enregistreur-salle-reunion-direction/",
+          "titre": "Backuply : une faille SQL menace 600 000 WordPress, surtout si vous restaurez votre site web",
+          "lien": "https://www.it-connect.fr/backuply-cve-2026-93953-injection-sql-wordpress/",
           "source": "IT-Connect",
-          "date": "2026-10-15",
-          "resume": "Un ingénieur d’OpenAI aurait caché un micro dans la salle de réunion de la direction. Prompts, vidéosurveillance, second micro : ce que révèle la plainte. Le…"
+          "date": "2026-10-16",
+          "resume": "CVE-2026-93953 : une injection SQL dans Backuply, présent sur 600 000 sites WordPress, permet à un simple abonné de devenir administrateur. Mettez à jour. Le…"
         }
       ]
     },
