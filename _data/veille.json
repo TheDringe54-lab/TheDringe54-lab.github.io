@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-10-17",
+  "mise_a_jour": "2026-10-18",
   "themes": [
     {
       "id": "cyber",
@@ -35,25 +35,25 @@
       "titre_en": "Linux & open source",
       "articles": [
         {
+          "titre": "Agenda du Libre pour la semaine 43 de l’année 2026",
+          "lien": "https://linuxfr.org/news/agenda-du-libre-pour-la-semaine-43-de-l-annee-2026",
+          "source": "LinuxFR",
+          "date": "2026-10-17",
+          "resume": "Calendrier Web, regroupant des événements liés au Libre (logiciel, salon, atelier, install party , conférence), annoncés par leurs organisateurs. Voici un…"
+        },
+        {
+          "titre": "Libera Suite, une suite bureautique libre et locale fondée sur Euro-Office, passe en bêta publique",
+          "lien": "https://linuxfr.org/news/libera-suite-une-suite-bureautique-libre-et-locale-fondee-sur-euro-office-passe-en-beta-publique",
+          "source": "LinuxFR",
+          "date": "2026-10-17",
+          "resume": "Libera Suite est une « nouvelle » suite bureautique libre pour Linux, Windows et macOS. Elle comprend actuellement un traitement de texte, un tableur, un…"
+        },
+        {
           "titre": "PandoraBox : la borne de décontamination USB",
           "lien": "https://linuxfr.org/news/pandorabox-la-borne-de-decontamination-usb",
           "source": "LinuxFR",
           "date": "2026-10-15",
           "resume": "PandoraBox est une borne libre de décontamination de clés USB, une « station blanche » : on insère une clé, la borne analyse chaque fichier avec plusieurs…"
-        },
-        {
-          "titre": "Journées Nationales de la Réparation - « Libre à vous ! » du 6 octobre 2026 - Podcasts et références",
-          "lien": "https://linuxfr.org/news/journees-nationales-de-la-reparation-libre-a-vous-du-6-octobre-2026-podcasts-et-references",
-          "source": "LinuxFR",
-          "date": "2026-10-15",
-          "resume": "287ème émission Libre à vous ! de l’April. Podcast et programme : sujet principal : Journées Nationales de la Réparation : les logiciels libres ont un rôle à…"
-        },
-        {
-          "titre": "Tempo, saison 2026‑2027 : couleurs et prévisions en accès libre, sans jeton",
-          "lien": "https://linuxfr.org/news/tempo-saison-2026-2027-couleurs-et-previsions-en-acces-libre-sans-jeton",
-          "source": "LinuxFR",
-          "date": "2026-10-15",
-          "resume": "(NdM : Tempo est une offre commerciale d'EDF, cette dépêche traite des API et flux de données ouverts permettant de connaître et prédire les coûts du kWh.) En…"
         }
       ]
     },
