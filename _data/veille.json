@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-10-18",
+  "mise_a_jour": "2026-10-19",
   "themes": [
     {
       "id": "cyber",
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "PwnEscape : une faille Linux permet de s’évader d’une VM KVM",
-          "lien": "https://www.it-connect.fr/pwnescape-cve-2026-99999-faille-noyau-linux-evasion-vm/",
+          "titre": "Nouvelle vente flash GoDeal24 : complétez votre PC avec Office 2024 Pro Plus à 22.99€ et Windows 11 Pro à 12.25€",
+          "lien": "https://www.it-connect.fr/bon-plan-godeal24-licences-microsoft-logiciels-os/",
           "source": "IT-Connect",
-          "date": "2026-10-16",
-          "resume": "PwnEscape (CVE-2026-99999), faille critique du noyau Linux, fait fuir la mémoire de l'hôte depuis une VM, jusqu'à l'évasion. Voici comment se protéger. Le post…"
+          "date": "2026-10-19",
+          "resume": "GoDeal24 lance une nouvelle vente flash sur les licences Microsoft : Office 2021, Windows 11, Windows 10 LTSC, Windows Server 2025, et d'autres logiciels. Le…"
         },
         {
-          "titre": "Cloud & Cyber Security Expo Paris 2026 : les inscriptions sont ouvertes",
-          "lien": "https://www.it-connect.fr/cloud-cyber-security-expo-paris-2026-les-inscriptions-sont-ouvertes/",
+          "titre": "Nouveautés Proton Pass : dossiers, contrôle du remplissage automatique, mots de passe compromis…",
+          "lien": "https://www.it-connect.fr/proton-pass-dossiers-correspondance-url-mots-de-passe-compromis/",
           "source": "IT-Connect",
-          "date": "2026-10-16",
-          "resume": "Les inscriptions pour l'événement Cloud & Cyber Security Expo Paris 2026 sont désormais ouvertes. Obtenez votre badge gratuitement pour y participer. Le post…"
+          "date": "2026-10-19",
+          "resume": "Proton Pass lance les dossiers, la correspondance d'URL pour le remplissage automatique et la détection locale des mots de passe compromis. Le post Nouveautés…"
         },
         {
-          "titre": "Backuply : une faille SQL menace 600 000 WordPress, surtout si vous restaurez votre site web",
-          "lien": "https://www.it-connect.fr/backuply-cve-2026-93953-injection-sql-wordpress/",
+          "titre": "Ni mot de passe, ni MFA : comment des centaines de tenants Microsoft 365 ont été ouverts via ConnectWise",
+          "lien": "https://www.it-connect.fr/connectwise-cloud-backup-skykick-tenants-microsoft-365-compromis/",
           "source": "IT-Connect",
-          "date": "2026-10-16",
-          "resume": "CVE-2026-93953 : une injection SQL dans Backuply, présent sur 600 000 sites WordPress, permet à un simple abonné de devenir administrateur. Mettez à jour. Le…"
+          "date": "2026-10-19",
+          "resume": "Un identifiant volé chez ConnectWise a ouvert des centaines de tenants Microsoft 365, sans aucun MFA à contourner. Voici ce que les admins doivent vérifier. Le…"
         }
       ]
     },
@@ -90,6 +90,13 @@
       "titre": "Intelligence artificielle",
       "titre_en": "Artificial intelligence",
       "articles": [
+        {
+          "titre": "Italie : dès le 23 octobre, licencier ou sanctionner avec l'IA exige un décideur humain, sous peine de nullité",
+          "lien": "https://www.actuia.com/actualite/italie-des-le-23-octobre-licencier-ou-sanctionner-avec-lia-exige-un-decideur-humain-sous-peine-de-nullite/",
+          "source": "ActuIA",
+          "date": "2026-10-19",
+          "resume": "Dès le 23 octobre 2026, en Italie, une décision d'embauche, d'évaluation, de sanction ou de licenciement prise avec l'IA doit être arrêtée par une personne au…"
+        },
         {
           "titre": "Anthropic verrouille Claude contre la distillation, ses clients paient une part",
           "lien": "https://www.actuia.com/actualite/anthropic-verrouille-claude-contre-la-distillation-ses-clients-paient-une-part/",
@@ -103,13 +110,6 @@
           "source": "ActuIA",
           "date": "2026-10-16",
           "resume": "Le moniteur indépendant du marché PJM demande à la FERC de conditionner le rachat des renouvelables nord-américaines d'EDF par KKR au maintien de 938 MW sur le…"
-        },
-        {
-          "titre": "Un agent IA peut exécuter l'outil que son modèle dit refuser",
-          "lien": "https://www.actuia.com/actualite/un-agent-ia-peut-executer-loutil-que-son-modele-dit-refuser/",
-          "source": "ActuIA",
-          "date": "2026-10-16",
-          "resume": "Une prépublication montre qu'un agent peut exécuter un outil avant même de formuler un refus, révélant un décalage entre la réponse du modèle et l'action…"
         }
       ]
     }
