@@ -1,11 +1,18 @@
 {
-  "mise_a_jour": "2026-10-19",
+  "mise_a_jour": "2026-10-20",
   "themes": [
     {
       "id": "cyber",
       "titre": "Cybersécurité",
       "titre_en": "Cybersecurity",
       "articles": [
+        {
+          "titre": "Bulletin d'actualité CERTFR-2026-ACT-044 (19 octobre 2026)",
+          "lien": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-044/",
+          "source": "CERT-FR",
+          "date": "2026-10-19",
+          "resume": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas…"
+        },
         {
           "titre": "Vulnérabilité dans Ivanti Connect Secure (ICS) (14 octobre 2026)",
           "lien": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-013/",
@@ -19,13 +26,6 @@
           "source": "CERT-FR",
           "date": "2026-10-12",
           "resume": "Le CERT-FR a connaissance de nombreuses compromissions des controleurs à distance d'installation de réfrigération Danfoss série AK-SM, AK-SC ainsi que Copeland…"
-        },
-        {
-          "titre": "Bulletin d'actualité CERTFR-2026-ACT-043 (12 octobre 2026)",
-          "lien": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-043/",
-          "source": "CERT-FR",
-          "date": "2026-10-12",
-          "resume": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas…"
         }
       ]
     },
@@ -35,25 +35,25 @@
       "titre_en": "Linux & open source",
       "articles": [
         {
-          "titre": "Agenda du Libre pour la semaine 43 de l’année 2026",
-          "lien": "https://linuxfr.org/news/agenda-du-libre-pour-la-semaine-43-de-l-annee-2026",
+          "titre": "Parcours libriste de Julie Rymer — « Libre à vous ! » du 13 octobre 2026 — Podcasts et références",
+          "lien": "https://linuxfr.org/news/parcours-libriste-de-julie-rymer-libre-a-vous-du-13-octobre-2026-podcasts-et-references",
           "source": "LinuxFR",
-          "date": "2026-10-17",
-          "resume": "Calendrier Web, regroupant des événements liés au Libre (logiciel, salon, atelier, install party , conférence), annoncés par leurs organisateurs. Voici un…"
+          "date": "2026-10-20",
+          "resume": "288ème émission « Libre à vous ! » de l’April. Podcast et programme : sujet principal : Parcours libriste de Julie Rymer de BIRU : interview d’une seule…"
         },
         {
-          "titre": "Libera Suite, une suite bureautique libre et locale fondée sur Euro-Office, passe en bêta publique",
-          "lien": "https://linuxfr.org/news/libera-suite-une-suite-bureautique-libre-et-locale-fondee-sur-euro-office-passe-en-beta-publique",
+          "titre": "Tenzu, héritier de Taiga pour la gestion collaborative de projets",
+          "lien": "https://linuxfr.org/news/tenzu-heritier-de-taiga-pour-la-gestion-collaborative-de-projets",
           "source": "LinuxFR",
-          "date": "2026-10-17",
-          "resume": "Libera Suite est une « nouvelle » suite bureautique libre pour Linux, Windows et macOS. Elle comprend actuellement un traitement de texte, un tableur, un…"
+          "date": "2026-10-20",
+          "resume": "Je vous présente Tenzu , un logiciel libre de gestion de projets qui propose des tableaux Kanban en ligne collaboratif. Tenzu veut offrir une expérience de…"
         },
         {
-          "titre": "PandoraBox : la borne de décontamination USB",
-          "lien": "https://linuxfr.org/news/pandorabox-la-borne-de-decontamination-usb",
+          "titre": "Revue de presse de l’April pour la semaine 42 de l’année 2026",
+          "lien": "https://linuxfr.org/news/revue-de-presse-de-l-april-pour-la-semaine-42-de-l-annee-2026",
           "source": "LinuxFR",
-          "date": "2026-10-15",
-          "resume": "PandoraBox est une borne libre de décontamination de clés USB, une « station blanche » : on insère une clé, la borne analyse chaque fichier avec plusieurs…"
+          "date": "2026-10-20",
+          "resume": "Cette revue de presse sur Internet fait partie du travail de veille mené par l’April dans le cadre de son action de défense et de promotion du logiciel libre…"
         }
       ]
     },
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "Nouvelle vente flash GoDeal24 : complétez votre PC avec Office 2024 Pro Plus à 22.99€ et Windows 11 Pro à 12.25€",
-          "lien": "https://www.it-connect.fr/bon-plan-godeal24-licences-microsoft-logiciels-os/",
+          "titre": "AOMEI Backupper et AnyViewer : des mises à jour piégées distribuées par vagues de quelques minutes",
+          "lien": "https://www.it-connect.fr/aomei-backupper-anyviewer-mises-a-jour-piegees/",
           "source": "IT-Connect",
-          "date": "2026-10-19",
-          "resume": "GoDeal24 lance une nouvelle vente flash sur les licences Microsoft : Office 2021, Windows 11, Windows 10 LTSC, Windows Server 2025, et d'autres logiciels. Le…"
+          "date": "2026-10-20",
+          "resume": "Des pirates ont piégé les serveurs de mise à jour d'AOMEI en se limitant à des fenêtres de quelques minutes à chaque fois pour infecter les utilisateurs. Le…"
         },
         {
-          "titre": "Nouveautés Proton Pass : dossiers, contrôle du remplissage automatique, mots de passe compromis…",
-          "lien": "https://www.it-connect.fr/proton-pass-dossiers-correspondance-url-mots-de-passe-compromis/",
+          "titre": "Bitwarden passe ses apps sous licence commerciale : ce qui change pour vous",
+          "lien": "https://www.it-connect.fr/bitwarden-applications-stores-licence-commerciale-gplv3/",
           "source": "IT-Connect",
-          "date": "2026-10-19",
-          "resume": "Proton Pass lance les dossiers, la correspondance d'URL pour le remplissage automatique et la détection locale des mots de passe compromis. Le post Nouveautés…"
+          "date": "2026-10-20",
+          "resume": "Vous utilisez Bitwarden ? Ses applications des stores passent sous licence commerciale, la version GPLv3 reste sur GitHub. Voici ce qu'il faut retenir. Le post…"
         },
         {
-          "titre": "Ni mot de passe, ni MFA : comment des centaines de tenants Microsoft 365 ont été ouverts via ConnectWise",
-          "lien": "https://www.it-connect.fr/connectwise-cloud-backup-skykick-tenants-microsoft-365-compromis/",
+          "titre": "WordPress : une version piégée de l’extension SEO Rank Math PRO a été distribuée avec un malware",
+          "lien": "https://www.it-connect.fr/rank-math-pro-malware-supply-chain/",
           "source": "IT-Connect",
-          "date": "2026-10-19",
-          "resume": "Un identifiant volé chez ConnectWise a ouvert des centaines de tenants Microsoft 365, sans aucun MFA à contourner. Voici ce que les admins doivent vérifier. Le…"
+          "date": "2026-10-20",
+          "resume": "Une version piégée de Rank Math PRO a été distribuée avec un malware pendant onze heures. Si vous l'avez activée, votre site WordPress est compromis. Le post…"
         }
       ]
     },
@@ -91,25 +91,25 @@
       "titre_en": "Artificial intelligence",
       "articles": [
         {
-          "titre": "Italie : dès le 23 octobre, licencier ou sanctionner avec l'IA exige un décideur humain, sous peine de nullité",
-          "lien": "https://www.actuia.com/actualite/italie-des-le-23-octobre-licencier-ou-sanctionner-avec-lia-exige-un-decideur-humain-sous-peine-de-nullite/",
+          "titre": "PostgreSQL corrige 44 failles en 2026 contre 7 en 2025, sa version 19 perd 8 à 10 fonctions selon un committer",
+          "lien": "https://www.actuia.com/actualite/postgresql-corrige-44-failles-en-2026-contre-7-en-2025-sa-version-19-perd-8-a-10-fonctions-selon-un-committer/",
           "source": "ActuIA",
-          "date": "2026-10-19",
-          "resume": "Dès le 23 octobre 2026, en Italie, une décision d'embauche, d'évaluation, de sanction ou de licenciement prise avec l'IA doit être arrêtée par une personne au…"
+          "date": "2026-10-20",
+          "resume": "Le registre officiel de PostgreSQL compte 44 failles corrigées en 2026 contre 7 en 2025, dont 28 dans la seule mise à jour du 13 août. La version 19, dont la…"
         },
         {
-          "titre": "Anthropic verrouille Claude contre la distillation, ses clients paient une part",
-          "lien": "https://www.actuia.com/actualite/anthropic-verrouille-claude-contre-la-distillation-ses-clients-paient-une-part/",
+          "titre": "Courbes du NIST : la graine de P-256 tirée en 1997, Filippo Valsorda vérifie le résultat d'Anthropic",
+          "lien": "https://www.actuia.com/actualite/courbes-du-nist-la-graine-de-p-256-tiree-en-1997-filippo-valsorda-verifie-le-resultat-danthropic/",
           "source": "ActuIA",
-          "date": "2026-10-16",
-          "resume": "Anthropic affirme avoir réduit de 90 à 99 % les données captées par les distillateurs de Claude, huit mois après sa première alerte sur le sujet. L'entreprise…"
+          "date": "2026-10-20",
+          "resume": "Anthropic a établi le 16 octobre 2026 que les graines des courbes P-192 à P-521 du NIST, fournies sans explication par la NSA, sortent du générateur lrand48…"
         },
         {
-          "titre": "Vente des renouvelables nord-américaines d'EDF à KKR, un cas test pour la FERC",
-          "lien": "https://www.actuia.com/actualite/vente-des-renouvelables-nord-americaines-dedf-a-kkr-un-cas-test-pour-la-ferc/",
+          "titre": "Danfoss : Claroty reproduit avec l'IA l'exploit de failles connues en 28 minutes pour environ 6 dollars",
+          "lien": "https://www.actuia.com/actualite/danfoss-claroty-reproduit-avec-lia-lexploit-de-failles-connues-en-28-minutes-pour-environ-6-dollars/",
           "source": "ActuIA",
-          "date": "2026-10-16",
-          "resume": "Le moniteur indépendant du marché PJM demande à la FERC de conditionner le rachat des renouvelables nord-américaines d'EDF par KKR au maintien de 938 MW sur le…"
+          "date": "2026-10-20",
+          "resume": "Claroty a reproduit en laboratoire, avec un modèle d'IA grand public guidé par un chercheur, un exploit des contrôleurs Danfoss AK-SM 800A en 28 minutes et…"
         }
       ]
     }
