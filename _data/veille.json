@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-10-20",
+  "mise_a_jour": "2026-10-21",
   "themes": [
     {
       "id": "cyber",
@@ -35,6 +35,13 @@
       "titre_en": "Linux & open source",
       "articles": [
         {
+          "titre": "BarkDog 1.0, un Raspberry Pi qui tient le journal des nuisances sonores",
+          "lien": "https://linuxfr.org/news/barkdog-1-0-un-raspberry-pi-qui-tient-le-journal-des-nuisances-sonores",
+          "source": "LinuxFR",
+          "date": "2026-10-20",
+          "resume": "BarkDog est un logiciel libre, sous licence MIT, qui transforme un Raspberry Pi et un micro USB en enregistreur de nuisances sonores. Une IA qui tourne sur la…"
+        },
+        {
           "titre": "Parcours libriste de Julie Rymer — « Libre à vous ! » du 13 octobre 2026 — Podcasts et références",
           "lien": "https://linuxfr.org/news/parcours-libriste-de-julie-rymer-libre-a-vous-du-13-octobre-2026-podcasts-et-references",
           "source": "LinuxFR",
@@ -47,13 +54,6 @@
           "source": "LinuxFR",
           "date": "2026-10-20",
           "resume": "Je vous présente Tenzu , un logiciel libre de gestion de projets qui propose des tableaux Kanban en ligne collaboratif. Tenzu veut offrir une expérience de…"
-        },
-        {
-          "titre": "Revue de presse de l’April pour la semaine 42 de l’année 2026",
-          "lien": "https://linuxfr.org/news/revue-de-presse-de-l-april-pour-la-semaine-42-de-l-annee-2026",
-          "source": "LinuxFR",
-          "date": "2026-10-20",
-          "resume": "Cette revue de presse sur Internet fait partie du travail de veille mené par l’April dans le cadre de son action de défense et de promotion du logiciel libre…"
         }
       ]
     },
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "AOMEI Backupper et AnyViewer : des mises à jour piégées distribuées par vagues de quelques minutes",
-          "lien": "https://www.it-connect.fr/aomei-backupper-anyviewer-mises-a-jour-piegees/",
+          "titre": "Linux : planifier des tâches avec les timers systemd sur Debian",
+          "lien": "https://www.it-connect.fr/tuto-timer-systemd-debian-planifier-tache/",
           "source": "IT-Connect",
-          "date": "2026-10-20",
-          "resume": "Des pirates ont piégé les serveurs de mise à jour d'AOMEI en se limitant à des fenêtres de quelques minutes à chaque fois pour infecter les utilisateurs. Le…"
+          "date": "2026-10-21",
+          "resume": "Créez un timer systemd sur Debian pour planifier vos tâches : service, timer, syntaxe OnCalendar, rattrapage et logs. Avec un comparatif complet face à cron…"
         },
         {
-          "titre": "Bitwarden passe ses apps sous licence commerciale : ce qui change pour vous",
-          "lien": "https://www.it-connect.fr/bitwarden-applications-stores-licence-commerciale-gplv3/",
+          "titre": "PHP : deux failles critiques ont fuité avant l’heure, un correctif d’urgence arrive ce 21 octobre !",
+          "lien": "https://www.it-connect.fr/php-failles-critiques-rce-cve-2026-109618-cve-2026-109619/",
           "source": "IT-Connect",
-          "date": "2026-10-20",
-          "resume": "Vous utilisez Bitwarden ? Ses applications des stores passent sous licence commerciale, la version GPLv3 reste sur GitHub. Voici ce qu'il faut retenir. Le post…"
+          "date": "2026-10-21",
+          "resume": "Deux failles critiques dans PHP ont fuité avant l'heure. Un correctif d'urgence est attendu le 21 octobre à 16 h. Voici ce que l'on sait et comment se…"
         },
         {
-          "titre": "WordPress : une version piégée de l’extension SEO Rank Math PRO a été distribuée avec un malware",
-          "lien": "https://www.it-connect.fr/rank-math-pro-malware-supply-chain/",
+          "titre": "Linux 7.3 : record historique de commits pour le noyau, voici les nouveautés",
+          "lien": "https://www.it-connect.fr/noyau-linux-7-3-record-historique-de-commits/",
           "source": "IT-Connect",
-          "date": "2026-10-20",
-          "resume": "Une version piégée de Rank Math PRO a été distribuée avec un malware pendant onze heures. Si vous l'avez activée, votre site WordPress est compromis. Le post…"
+          "date": "2026-10-21",
+          "resume": "Le noyau Linux 7.3 est sorti avec un record de 18 765 commits signés par 3 021 développeurs. Mais alors, quelles sont les nouveautés à retenir ? Le post Linux…"
         }
       ]
     },
@@ -91,25 +91,25 @@
       "titre_en": "Artificial intelligence",
       "articles": [
         {
-          "titre": "PostgreSQL corrige 44 failles en 2026 contre 7 en 2025, sa version 19 perd 8 à 10 fonctions selon un committer",
-          "lien": "https://www.actuia.com/actualite/postgresql-corrige-44-failles-en-2026-contre-7-en-2025-sa-version-19-perd-8-a-10-fonctions-selon-un-committer/",
+          "titre": "Agents IA : ce que le Japon exige avant de les confier à ses fonctionnaires",
+          "lien": "https://www.actuia.com/actualite/agents-ia-ce-que-le-japon-exige-avant-de-les-confier-a-ses-fonctionnaires/",
           "source": "ActuIA",
-          "date": "2026-10-20",
-          "resume": "Le registre officiel de PostgreSQL compte 44 failles corrigées en 2026 contre 7 en 2025, dont 28 dans la seule mise à jour du 13 août. La version 19, dont la…"
+          "date": "2026-10-21",
+          "resume": "Le Japon a ouvert le 20 octobre 2026 des agents d'IA aux ministères dans Gennai, en expérimentation sur l'exercice 2026, et publié un référentiel qui fixe les…"
         },
         {
-          "titre": "Courbes du NIST : la graine de P-256 tirée en 1997, Filippo Valsorda vérifie le résultat d'Anthropic",
-          "lien": "https://www.actuia.com/actualite/courbes-du-nist-la-graine-de-p-256-tiree-en-1997-filippo-valsorda-verifie-le-resultat-danthropic/",
+          "titre": "Microsoft applique aux agents d'IA ses outils de surveillance des salariés à risque",
+          "lien": "https://www.actuia.com/actualite/microsoft-applique-aux-agents-dia-ses-outils-de-surveillance-des-salaries-a-risque/",
           "source": "ActuIA",
-          "date": "2026-10-20",
-          "resume": "Anthropic a établi le 16 octobre 2026 que les graines des courbes P-192 à P-521 du NIST, fournies sans explication par la NSA, sortent du générateur lrand48…"
+          "date": "2026-10-21",
+          "resume": "Microsoft étend aux agents d'IA les outils conçus pour les salariés à risque : identité propre, registre et gestion des risques internes de Purview, en…"
         },
         {
-          "titre": "Danfoss : Claroty reproduit avec l'IA l'exploit de failles connues en 28 minutes pour environ 6 dollars",
-          "lien": "https://www.actuia.com/actualite/danfoss-claroty-reproduit-avec-lia-lexploit-de-failles-connues-en-28-minutes-pour-environ-6-dollars/",
+          "titre": "Pages d’aide de WhatsApp : une consigne cachée interdisait de recommander un régulateur",
+          "lien": "https://www.actuia.com/actualite/pages-daide-de-whatsapp-une-consigne-cachee-interdisait-de-recommander-un-regulateur/",
           "source": "ActuIA",
           "date": "2026-10-20",
-          "resume": "Claroty a reproduit en laboratoire, avec un modèle d'IA grand public guidé par un chercheur, un exploit des contrôleurs Danfoss AK-SM 800A en 28 minutes et…"
+          "resume": "Le 19 octobre 2026, Redact a recensé dans 80 des 545 pages d’aide de WhatsApp 102 blocs de texte invisibles destinés à une IA, dont la consigne de ne…"
         }
       ]
     }
