@@ -1,11 +1,18 @@
 {
-  "mise_a_jour": "2026-10-21",
+  "mise_a_jour": "2026-10-22",
   "themes": [
     {
       "id": "cyber",
       "titre": "Cybersécurité",
       "titre_en": "Cybersecurity",
       "articles": [
+        {
+          "titre": "[Màj] Multiples vulnérabilités dans PHP (21 octobre 2026)",
+          "lien": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-014/",
+          "source": "CERT-FR",
+          "date": "2026-10-21",
+          "resume": "**[Mise à jours du 21 octobre 2026]** Les correctifs de sécurité sont disponibles sur le site de l'éditeur. PHP indique que les vulnérabilités CVE-2026-109618…"
+        },
         {
           "titre": "Bulletin d'actualité CERTFR-2026-ACT-044 (19 octobre 2026)",
           "lien": "https://www.cert.ssi.gouv.fr/actualite/CERTFR-2026-ACT-044/",
@@ -19,13 +26,6 @@
           "source": "CERT-FR",
           "date": "2026-10-14",
           "resume": "Une vulnérabilité a été découverte dans Ivanti Connect Secure (ICS). Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance, une…"
-        },
-        {
-          "titre": "Incident de sécurité ciblant les contrôleurs à distance des installations de réfrigération (12 octobre 2026)",
-          "lien": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-012/",
-          "source": "CERT-FR",
-          "date": "2026-10-12",
-          "resume": "Le CERT-FR a connaissance de nombreuses compromissions des controleurs à distance d'installation de réfrigération Danfoss série AK-SM, AK-SC ainsi que Copeland…"
         }
       ]
     },
@@ -34,6 +34,13 @@
       "titre": "Linux & logiciel libre",
       "titre_en": "Linux & open source",
       "articles": [
+        {
+          "titre": "Logiciel libre: « Passer d’une logique d’encouragement à une logique contraignante »",
+          "lien": "https://linuxfr.org/news/logiciel-libre-passer-d-une-logique-d-encouragement-a-une-logique-contraignante",
+          "source": "LinuxFR",
+          "date": "2026-10-22",
+          "resume": "Le 7 octobre 2026, la loi pour une République numérique a eu dix ans. Son article 16 dispose que les administrations « encouragent » l'utilisation des…"
+        },
         {
           "titre": "BarkDog 1.0, un Raspberry Pi qui tient le journal des nuisances sonores",
           "lien": "https://linuxfr.org/news/barkdog-1-0-un-raspberry-pi-qui-tient-le-journal-des-nuisances-sonores",
@@ -47,13 +54,6 @@
           "source": "LinuxFR",
           "date": "2026-10-20",
           "resume": "288ème émission « Libre à vous ! » de l’April. Podcast et programme : sujet principal : Parcours libriste de Julie Rymer de BIRU : interview d’une seule…"
-        },
-        {
-          "titre": "Tenzu, héritier de Taiga pour la gestion collaborative de projets",
-          "lien": "https://linuxfr.org/news/tenzu-heritier-de-taiga-pour-la-gestion-collaborative-de-projets",
-          "source": "LinuxFR",
-          "date": "2026-10-20",
-          "resume": "Je vous présente Tenzu , un logiciel libre de gestion de projets qui propose des tableaux Kanban en ligne collaboratif. Tenzu veut offrir une expérience de…"
         }
       ]
     },
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "Linux : planifier des tâches avec les timers systemd sur Debian",
-          "lien": "https://www.it-connect.fr/tuto-timer-systemd-debian-planifier-tache/",
+          "titre": "eMudhra : des clés privées triviales forcent Mozilla, Google, Apple et Microsoft à bloquer 8 certificats",
+          "lien": "https://www.it-connect.fr/emudhra-certificats-intermediaires-cles-privees-compromises/",
           "source": "IT-Connect",
-          "date": "2026-10-21",
-          "resume": "Créez un timer systemd sur Debian pour planifier vos tâches : service, timer, syntaxe OnCalendar, rattrapage et logs. Avec un comparatif complet face à cron…"
+          "date": "2026-10-22",
+          "resume": "Huit certificats intermédiaires d’eMudhra reposaient sur des clés privées devinables en quelques secondes. Mozilla, Google, Apple et Microsoft les bloquent. Le…"
         },
         {
-          "titre": "PHP : deux failles critiques ont fuité avant l’heure, un correctif d’urgence arrive ce 21 octobre !",
-          "lien": "https://www.it-connect.fr/php-failles-critiques-rce-cve-2026-109618-cve-2026-109619/",
+          "titre": "Panne Orange : près de dix heures sans réseau mobile, une migration vers la 5G SA en cause ?",
+          "lien": "https://www.it-connect.fr/panne-orange-sosh-coeur-reseau-5g-migration/",
           "source": "IT-Connect",
-          "date": "2026-10-21",
-          "resume": "Deux failles critiques dans PHP ont fuité avant l'heure. Un correctif d'urgence est attendu le 21 octobre à 16 h. Voici ce que l'on sait et comment se…"
+          "date": "2026-10-22",
+          "resume": "Dix heures sans réseau mobile chez Orange et Sosh. L'opérateur accuse un équipement de son cœur de réseau, la piste d'une migration 5G ratée est sérieuse. Le…"
         },
         {
-          "titre": "Linux 7.3 : record historique de commits pour le noyau, voici les nouveautés",
-          "lien": "https://www.it-connect.fr/noyau-linux-7-3-record-historique-de-commits/",
+          "titre": "PHP2Shell et Docker : comment vérifier et mettre à jour vos conteneurs PHP ?",
+          "lien": "https://www.it-connect.fr/php2shell-docker-mettre-a-jour-images-conteneurs-php/",
           "source": "IT-Connect",
-          "date": "2026-10-21",
-          "resume": "Le noyau Linux 7.3 est sorti avec un record de 18 765 commits signés par 3 021 développeurs. Mais alors, quelles sont les nouveautés à retenir ? Le post Linux…"
+          "date": "2026-10-22",
+          "resume": "PHP2Shell : sous Docker, PHP est embarqué dans l'image. Vérifiez la version de vos conteneurs, ainsi que celle de PHP, et mettez-les à jour pour vous protéger…"
         }
       ]
     },
@@ -91,25 +91,25 @@
       "titre_en": "Artificial intelligence",
       "articles": [
         {
-          "titre": "Agents IA : ce que le Japon exige avant de les confier à ses fonctionnaires",
-          "lien": "https://www.actuia.com/actualite/agents-ia-ce-que-le-japon-exige-avant-de-les-confier-a-ses-fonctionnaires/",
+          "titre": "Faillite de Getty Images : l'IA n'arrive qu'en quatrième position",
+          "lien": "https://www.actuia.com/actualite/faillite-de-getty-images-lia-narrive-quen-quatrieme-position/",
           "source": "ActuIA",
-          "date": "2026-10-21",
-          "resume": "Le Japon a ouvert le 20 octobre 2026 des agents d'IA aux ministères dans Gennai, en expérimentation sur l'exercice 2026, et publié un référentiel qui fixe les…"
+          "date": "2026-10-22",
+          "resume": "Getty Images a déposé le 21 octobre une demande de chapitre 11 pré-négociée au Delaware. Son dossier attribue la faillite aux warrants, à la fusion manquée…"
         },
         {
-          "titre": "Microsoft applique aux agents d'IA ses outils de surveillance des salariés à risque",
-          "lien": "https://www.actuia.com/actualite/microsoft-applique-aux-agents-dia-ses-outils-de-surveillance-des-salaries-a-risque/",
+          "titre": "Failles PHP : repéré en 2024, le défaut révélé critique avec l'aide de l'IA",
+          "lien": "https://www.actuia.com/actualite/failles-php-repere-en-2024-le-defaut-revele-critique-avec-laide-de-lia/",
           "source": "ActuIA",
-          "date": "2026-10-21",
-          "resume": "Microsoft étend aux agents d'IA les outils conçus pour les salariés à risque : identité propre, registre et gestion des risques internes de Purview, en…"
+          "date": "2026-10-22",
+          "resume": "PHP a corrigé le 21 octobre deux failles critiques permettant l'exécution de code à distance. Le défaut à l'origine de l'une d'elles était connu depuis 2024 et…"
         },
         {
-          "titre": "Pages d’aide de WhatsApp : une consigne cachée interdisait de recommander un régulateur",
-          "lien": "https://www.actuia.com/actualite/pages-daide-de-whatsapp-une-consigne-cachee-interdisait-de-recommander-un-regulateur/",
+          "titre": "Commerce agentique : Walmart impose ses règles aux agents d'IA",
+          "lien": "https://www.actuia.com/actualite/commerce-agentique-walmart-impose-ses-regles-aux-agents-dia/",
           "source": "ActuIA",
-          "date": "2026-10-20",
-          "resume": "Le 19 octobre 2026, Redact a recensé dans 80 des 545 pages d’aide de WhatsApp 102 blocs de texte invisibles destinés à une IA, dont la consigne de ne…"
+          "date": "2026-10-22",
+          "resume": "Walmart a annoncé le 21 octobre 2026 des profils dédiés aux agents d'IA, avec plafond de dépenses, passerelle MCP et conditions d'utilisation permettant de…"
         }
       ]
     }
