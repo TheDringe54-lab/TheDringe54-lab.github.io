@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-10-23",
+  "mise_a_jour": "2026-10-24",
   "themes": [
     {
       "id": "cyber",
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "Node2Shell : la faille Brotli qui expose Node.js à une exécution de code à distance",
-          "lien": "https://www.it-connect.fr/node2shell-nodejs-brotli-rce-cve-2026-111497/",
+          "titre": "Pulse : les journaux d’événements de Windows facilement lisibles, avec de l’IA locale",
+          "lien": "https://www.it-connect.fr/pulse-journaux-evenements-de-windows-facilement-lisibles-avec-ia-locale/",
           "source": "IT-Connect",
-          "date": "2026-10-23",
-          "resume": "Une réponse HTTP compressée en Brotli, et du code qui s'exécute dans votre application Node.js : c'est le risque avec la faille Node2Shell (CVE-2026-111497)…"
+          "date": "2026-10-24",
+          "resume": "Pulse est un outil gratuit et open source qui traduit les journaux d'événements de Windows 10 et 11 en langage clair, avec une IA locale (Ollama, LM Studio)…"
         },
         {
-          "titre": "Réseau Tor : 333 relais de sortie compromis interceptaient les connexions SSH pour diffuser Ebury",
-          "lien": "https://www.it-connect.fr/tor-relais-sortie-compromis-interception-ssh-ebury/",
+          "titre": "PHP signale une nouvelle faille RCE (CVE-2026-115560) : appliquez le même réglage que PHP2Shell",
+          "lien": "https://www.it-connect.fr/php-cve-2026-115560-session-upload-progress/",
           "source": "IT-Connect",
           "date": "2026-10-23",
-          "resume": "333 relais de sortie Tor compromis redirigeaient les connexions SSH vers des serveurs pirates pour voler les mots de passe et installer le malware Ebury. Le…"
+          "resume": "CVE-2026-115560 : PHP signale une nouvelle faille RCE. Désactiver Session Upload Progress, déjà conseillé pour PHP2Shell, suffit en attendant le correctif. Le…"
         },
         {
-          "titre": "Capcom piraté : 11,7 millions de comptes exposés et des mots de passe changés par l’attaquant",
-          "lien": "https://www.it-connect.fr/capcom-fuite-donnees-capcom-id-11-millions-comptes/",
+          "titre": "Windows 11 : avec Project Pantheon, Microsoft teste une mémoire IA qui ne retient que ce que vous choisissez",
+          "lien": "https://www.it-connect.fr/windows-11-project-pantheon-context-vault-memoire-ia/",
           "source": "IT-Connect",
           "date": "2026-10-23",
-          "resume": "Plus de 11,7 millions de comptes CAPCOM ID exposés et 196 mots de passe modifiés par un attaquant : Capcom confirme une fuite de données massive. Le post…"
+          "resume": "Microsoft teste Project Pantheon, une mémoire IA pour Windows 11 qui ne retient que ce que vous sauvegardez, avec un serveur MCP ouvert à Claude et Cursor. Le…"
         }
       ]
     },
