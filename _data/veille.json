@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-10-24",
+  "mise_a_jour": "2026-10-25",
   "themes": [
     {
       "id": "cyber",
@@ -35,6 +35,13 @@
       "titre_en": "Linux & open source",
       "articles": [
         {
+          "titre": "WordPress, ta maison sur le web social décentralisé - Podcast Projets Libres",
+          "lien": "https://linuxfr.org/news/wordpress-ta-maison-sur-le-web-social-decentralise-podcast-projets-libres",
+          "source": "LinuxFR",
+          "date": "2026-10-24",
+          "resume": "Et si votre site WordPress vous servait de porte d'entrée pour les réseaux sociaux décentralisés ? Pourquoi ne pas faire revenir les intéractions sociales chez…"
+        },
+        {
           "titre": "Logiciel libre: « Passer d’une logique d’encouragement à une logique contraignante »",
           "lien": "https://linuxfr.org/news/logiciel-libre-passer-d-une-logique-d-encouragement-a-une-logique-contraignante",
           "source": "LinuxFR",
@@ -47,13 +54,6 @@
           "source": "LinuxFR",
           "date": "2026-10-20",
           "resume": "BarkDog est un logiciel libre, sous licence MIT, qui transforme un Raspberry Pi et un micro USB en enregistreur de nuisances sonores. Une IA qui tourne sur la…"
-        },
-        {
-          "titre": "Parcours libriste de Julie Rymer — « Libre à vous ! » du 13 octobre 2026 — Podcasts et références",
-          "lien": "https://linuxfr.org/news/parcours-libriste-de-julie-rymer-libre-a-vous-du-13-octobre-2026-podcasts-et-references",
-          "source": "LinuxFR",
-          "date": "2026-10-20",
-          "resume": "288ème émission « Libre à vous ! » de l’April. Podcast et programme : sujet principal : Parcours libriste de Julie Rymer de BIRU : interview d’une seule…"
         }
       ]
     },
