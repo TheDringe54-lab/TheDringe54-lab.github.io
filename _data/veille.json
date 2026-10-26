@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-10-25",
+  "mise_a_jour": "2026-10-26",
   "themes": [
     {
       "id": "cyber",
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "Pulse : les journaux d’événements de Windows facilement lisibles, avec de l’IA locale",
-          "lien": "https://www.it-connect.fr/pulse-journaux-evenements-de-windows-facilement-lisibles-avec-ia-locale/",
+          "titre": "Tailworm : 11 failles non corrigées dans Tailscale, dont un accès root via Tailscale SSH",
+          "lien": "https://www.it-connect.fr/tailworm-failles-tailscale-ssh-root-non-corrigees/",
           "source": "IT-Connect",
-          "date": "2026-10-24",
-          "resume": "Pulse est un outil gratuit et open source qui traduit les journaux d'événements de Windows 10 et 11 en langage clair, avec une IA locale (Ollama, LM Studio)…"
+          "date": "2026-10-26",
+          "resume": "Avec Tailworm, Erica Windisch a publié 11 failles non corrigées dans Tailscale et Headscale, dont un accès root via Tailscale SSH. Voici comment vous protéger…"
         },
         {
-          "titre": "PHP signale une nouvelle faille RCE (CVE-2026-115560) : appliquez le même réglage que PHP2Shell",
-          "lien": "https://www.it-connect.fr/php-cve-2026-115560-session-upload-progress/",
+          "titre": "Quad9 quitte la France : le DNS 9.9.9.9 sera coupé le 24 novembre 2026",
+          "lien": "https://www.it-connect.fr/quad9-quitte-la-france-blocage-dns/",
           "source": "IT-Connect",
-          "date": "2026-10-23",
-          "resume": "CVE-2026-115560 : PHP signale une nouvelle faille RCE. Désactiver Session Upload Progress, déjà conseillé pour PHP2Shell, suffit en attendant le correctif. Le…"
+          "date": "2026-10-26",
+          "resume": "Vous utilisez le DNS 9.9.9.9 ? Le 24 novembre 2026, Quad9 cessera de servir la France plutôt que d'appliquer un blocage judiciaire. Voici ce que l'on sait. Le…"
         },
         {
-          "titre": "Windows 11 : avec Project Pantheon, Microsoft teste une mémoire IA qui ne retient que ce que vous choisissez",
-          "lien": "https://www.it-connect.fr/windows-11-project-pantheon-context-vault-memoire-ia/",
+          "titre": "Popcorn Time : un processus oublié menaçait des millions de PC (CVE-2026-30612)",
+          "lien": "https://www.it-connect.fr/popcorn-time-updater-cve-2026-30612/",
           "source": "IT-Connect",
-          "date": "2026-10-23",
-          "resume": "Microsoft teste Project Pantheon, une mémoire IA pour Windows 11 qui ne retient que ce que vous sauvegardez, avec un serveur MCP ouvert à Claude et Cursor. Le…"
+          "date": "2026-10-26",
+          "resume": "Un updater abandonné de Popcorn Time pouvait exécuter du code avec les droits SYSTEM. Eye Security l'a neutralisé à distance sur des millions de machines. Le…"
         }
       ]
     },
