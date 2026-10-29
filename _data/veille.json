@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-10-28",
+  "mise_a_jour": "2026-10-29",
   "themes": [
     {
       "id": "cyber",
@@ -35,6 +35,13 @@
       "titre_en": "Linux & open source",
       "articles": [
         {
+          "titre": "Et si vous louiez votre prochain appareil électronique ?",
+          "lien": "https://linuxfr.org/news/et-si-vous-louiez-votre-prochain-appareil-electronique",
+          "source": "LinuxFR",
+          "date": "2026-10-29",
+          "resume": "J’ai fait récemment deux découvertes étonnantes sur le réseau social du groupe bancaire dans lequel je travaille. Il existe un groupe de veille sur l’open…"
+        },
+        {
           "titre": "Le Capitole du Libre, la conférence sur le libre à Toulouse depuis 2011 - Podcast Projets Libres",
           "lien": "https://linuxfr.org/news/le-capitole-du-libre-la-conference-sur-le-libre-a-toulouse-depuis-2011-podcast-projets-libres",
           "source": "LinuxFR",
@@ -47,13 +54,6 @@
           "source": "LinuxFR",
           "date": "2026-10-27",
           "resume": "289ème émission Libre à vous ! de l’April. Podcast et programme : sujet principal : Au café libre (actualités chaudes, ton relax) : échanges autour de…"
-        },
-        {
-          "titre": "Lettre d'information XMPP de septembre 2026",
-          "lien": "https://linuxfr.org/news/lettre-d-information-xmpp-de-septembre-2026",
-          "source": "LinuxFR",
-          "date": "2026-10-27",
-          "resume": "N. D. T. — Ceci est une traduction de la lettre d’information publiée régulièrement par l’équipe de communication de la XSF, essayant de conserver les…"
         }
       ]
     },
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "Exfiltration DNS : comprendre, détecter et bloquer un canal de fuite discret",
-          "lien": "https://www.it-connect.fr/exfiltration-dns-comprendre-detecter-et-bloquer-un-canal-de-fuite-discret/",
+          "titre": "Microsoft propose un départ volontaire à 60 000 salariés, soit plus d’un quart de ses effectifs",
+          "lien": "https://www.it-connect.fr/microsoft-offre-depart-volontaire-60000-salaries/",
           "source": "IT-Connect",
-          "date": "2026-10-28",
-          "resume": "Apprenez pourquoi le DNS est un canal d'exfiltration puissant pour les cybercriminels, et les mesures pour le détecter et le bloquer sur votre infrastructure…"
+          "date": "2026-10-29",
+          "resume": "Microsoft propose à environ 60 000 salariés de partir avec une indemnité, soit plus d'un quart de ses effectifs. Qui est concerné ? Voici ce qu'il faut…"
         },
         {
-          "titre": "Veeam Backup & Replication 13 (CVE-2026-108142) : une faille critique exploitable sans authentification",
-          "lien": "https://www.it-connect.fr/veeam-backup-replication-13-faille-critique-cve-2026-108142/",
+          "titre": "Halloween chez GoDeal24 : Office 2024 Pro Plus à 22.99€ et Windows 11 Pro à 12.25€",
+          "lien": "https://www.it-connect.fr/bon-plan-licences-godeal24-windows-office-logiciels/",
           "source": "IT-Connect",
-          "date": "2026-10-28",
-          "resume": "Une faille de sécurité critique située dans le composant CDP Coordinator a été patchée dans Veeam Backup & Replication 13 : CVE-2026-108142. Voici les patchs…"
+          "date": "2026-10-29",
+          "resume": "GoDeal24 a lancé une vente flash : des promos sur les tarifs des licences Windows 11, Office 2021, Office 2024 et Windows Server 2025. Le post Halloween chez…"
         },
         {
-          "titre": "Microsoft Authenticator : la faille AuthMask offrait un accès à votre compte Microsoft 365",
-          "lien": "https://www.it-connect.fr/microsoft-authenticator-faille-authmask-jetons-microsoft-365/",
+          "titre": "Ginux : avec l’IA, le fondateur de CentOS crée en 11 jours un noyau Rust compatible Linux",
+          "lien": "https://www.it-connect.fr/ginux-noyau-rust-ia-fondateur-centos-rocky-linux/",
           "source": "IT-Connect",
-          "date": "2026-10-28",
-          "resume": "AuthMask (CVE-2026-80097) : une faille dans Microsoft Authenticator laissait une appli Android sans permission accéder à votre compte Microsoft 365. Le post…"
+          "date": "2026-10-29",
+          "resume": "Le fondateur de CentOS et Rocky Linux dévoile Ginux, un noyau en Rust compatible Linux (mais qui n'est pas Linux), développé avec l'aide de l'IA en 11 jours…"
         }
       ]
     },
@@ -91,25 +91,25 @@
       "titre_en": "Artificial intelligence",
       "articles": [
         {
+          "titre": "Mistral Large 4 passe de 38 à 25 points sur le nouvel indice d'Artificial Analysis",
+          "lien": "https://www.actuia.com/actualite/mistral-large-4-passe-de-38-a-25-points-sur-le-nouvel-indice-dartificial-analysis/",
+          "source": "ActuIA",
+          "date": "2026-10-28",
+          "resume": "La version 5 de l'indice d'Artificial Analysis, publiée le 27 octobre 2026, repose à 60 % sur des évaluations privées ou à réponses secrètes. Douze modèles à…"
+        },
+        {
+          "titre": "OpenAI arrête GPT-4o et GPT-4.1 le 14 janvier, trois mois avant Azure",
+          "lien": "https://www.actuia.com/actualite/openai-arrete-gpt-4o-et-gpt-41-le-14-janvier-trois-mois-avant-azure/",
+          "source": "ActuIA",
+          "date": "2026-10-28",
+          "resume": "OpenAI arrête GPT-4o et GPT-4.1 dans son API le 14 janvier 2027, Microsoft Foundry (Azure) le 14 avril, mais Azure retire o3 le 19 novembre, 22 jours avant…"
+        },
+        {
           "titre": "Administration : l'IA fait basculer le rapport de force vers les usagers",
           "lien": "https://www.actuia.com/actualite/demandes-redigees-par-ia-le-rapport-de-force-commence-a-basculer-vers-les-usagers/",
           "source": "ActuIA",
           "date": "2026-10-23",
           "resume": "L'IA générative rend presque gratuite la rédaction de demandes, de réclamations et de recours ; leur instruction reste humaine. Le droit français permet déjà…"
-        },
-        {
-          "titre": "Microsoft : un groupe aligné sur Pékin a détourné des applications ConnectWise avec des agents d'IA",
-          "lien": "https://www.actuia.com/actualite/microsoft-un-groupe-aligne-sur-pekin-a-detourne-des-applications-connectwise-avec-des-agents-dia/",
-          "source": "ActuIA",
-          "date": "2026-10-22",
-          "resume": "Microsoft attribue à Storm-0940, un groupe qu'il dit aligné sur l'État chinois, la compromission de ConnectWise Cloud Backup et affirme que l'outil open source…"
-        },
-        {
-          "titre": "Clause LLM de la GSA : ce qu'elle impose aux éditeurs européens",
-          "lien": "https://www.actuia.com/actualite/clause-llm-de-la-gsa-ce-quelle-impose-aux-editeurs-europeens/",
-          "source": "ActuIA",
-          "date": "2026-10-22",
-          "resume": "La GSA, centrale d'achat fédérale américaine, devait insérer au plus tard le 19 octobre 2026 la clause 552.239-7001 dans ses nouveaux appels d'offres de LLM…"
         }
       ]
     }
