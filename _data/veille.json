@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-10-29",
+  "mise_a_jour": "2026-10-30",
   "themes": [
     {
       "id": "cyber",
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "Microsoft propose un départ volontaire à 60 000 salariés, soit plus d’un quart de ses effectifs",
-          "lien": "https://www.it-connect.fr/microsoft-offre-depart-volontaire-60000-salaries/",
+          "titre": "Claude Code : à quoi sert la commande /compact et quand l’utiliser à la main",
+          "lien": "https://www.it-connect.fr/claude-code-a-quoi-sert-la-commande-compact-et-quand-lutiliser-a-la-main/",
           "source": "IT-Connect",
-          "date": "2026-10-29",
-          "resume": "Microsoft propose à environ 60 000 salariés de partir avec une indemnité, soit plus d'un quart de ses effectifs. Qui est concerné ? Voici ce qu'il faut…"
+          "date": "2026-10-30",
+          "resume": "Découvrez comment /compact dépoussière les sessions Claude Code quand la fenêtre de contexte est saturée : mode automatique ou action manuelle, que choisir ?…"
         },
         {
-          "titre": "Halloween chez GoDeal24 : Office 2024 Pro Plus à 22.99€ et Windows 11 Pro à 12.25€",
-          "lien": "https://www.it-connect.fr/bon-plan-licences-godeal24-windows-office-logiciels/",
+          "titre": "Test Geekom A5 2027 Edition : ce mini PC passe au Ryzen 7 7730U",
+          "lien": "https://www.it-connect.fr/test-geekom-a5-2027-edition/",
           "source": "IT-Connect",
-          "date": "2026-10-29",
-          "resume": "GoDeal24 a lancé une vente flash : des promos sur les tarifs des licences Windows 11, Office 2021, Office 2024 et Windows Server 2025. Le post Halloween chez…"
+          "date": "2026-10-30",
+          "resume": "Test complet du Geekom A5 2027 Edition (Ryzen 7 7730U, 16 Go, SSD 512 Go) : design, évolutivité, performances et comparatif avec l'A5 2025. Le post Test Geekom…"
         },
         {
-          "titre": "Ginux : avec l’IA, le fondateur de CentOS crée en 11 jours un noyau Rust compatible Linux",
-          "lien": "https://www.it-connect.fr/ginux-noyau-rust-ia-fondateur-centos-rocky-linux/",
+          "titre": "Tor Browser 16.0 passe à Firefox ESR 153, arrive sur Linux ARM64 et peut masquer les titres des fenêtres",
+          "lien": "https://www.it-connect.fr/tor-browser-16-nouveautes-linux-arm64-firefox-esr-153/",
           "source": "IT-Connect",
-          "date": "2026-10-29",
-          "resume": "Le fondateur de CentOS et Rocky Linux dévoile Ginux, un noyau en Rust compatible Linux (mais qui n'est pas Linux), développé avec l'aide de l'IA en 11 jours…"
+          "date": "2026-10-30",
+          "resume": "Vous utilisez Tor Browser ? La version 16.0 passe à Firefox ESR 153, arrive sur Linux ARM64 et peut masquer vos titres de fenêtres. Voici les nouveautés. Le…"
         }
       ]
     },
@@ -91,25 +91,25 @@
       "titre_en": "Artificial intelligence",
       "articles": [
         {
-          "titre": "Mistral Large 4 passe de 38 à 25 points sur le nouvel indice d'Artificial Analysis",
-          "lien": "https://www.actuia.com/actualite/mistral-large-4-passe-de-38-a-25-points-sur-le-nouvel-indice-dartificial-analysis/",
+          "titre": "La question à 10⁴² dollars, par Axel Cypel",
+          "lien": "https://www.actuia.com/actualite/la-question-a-1042-dollars-par-axel-cypel-archive-du-magazine-actuia/",
           "source": "ActuIA",
-          "date": "2026-10-28",
-          "resume": "La version 5 de l'indice d'Artificial Analysis, publiée le 27 octobre 2026, repose à 60 % sur des évaluations privées ou à réponses secrètes. Douze modèles à…"
+          "date": "2026-10-30",
+          "resume": "Axel Cypel distingue l’apprentissage à partir de données de la pensée capable de faire émerger de nouveaux concepts. Les contributions récentes de l’IA aux…"
         },
         {
-          "titre": "OpenAI arrête GPT-4o et GPT-4.1 le 14 janvier, trois mois avant Azure",
-          "lien": "https://www.actuia.com/actualite/openai-arrete-gpt-4o-et-gpt-41-le-14-janvier-trois-mois-avant-azure/",
+          "titre": "Agents d'IA : jusqu'à huit points d'écart pour un même modèle selon le harnais",
+          "lien": "https://www.actuia.com/actualite/agents-dia-jusqua-huit-points-decart-pour-un-meme-modele-selon-le-harnais/",
           "source": "ActuIA",
-          "date": "2026-10-28",
-          "resume": "OpenAI arrête GPT-4o et GPT-4.1 dans son API le 14 janvier 2027, Microsoft Foundry (Azure) le 14 avril, mais Azure retire o3 le 19 novembre, 22 jours avant…"
+          "date": "2026-10-30",
+          "resume": "Le harnais d'un agent d'IA regroupe la boucle d'exécution, les consignes, les outils et leurs permissions, la gestion du contexte, les sous-agents, la…"
         },
         {
-          "titre": "Administration : l'IA fait basculer le rapport de force vers les usagers",
-          "lien": "https://www.actuia.com/actualite/demandes-redigees-par-ia-le-rapport-de-force-commence-a-basculer-vers-les-usagers/",
+          "titre": "Cloud : au troisième trimestre, seul Microsoft a payé ses investissements avec sa trésorerie",
+          "lien": "https://www.actuia.com/actualite/cloud-au-troisieme-trimestre-seul-microsoft-a-paye-ses-investissements-avec-sa-tresorerie/",
           "source": "ActuIA",
-          "date": "2026-10-23",
-          "resume": "L'IA générative rend presque gratuite la rédaction de demandes, de réclamations et de recours ; leur instruction reste humaine. Le droit français permet déjà…"
+          "date": "2026-10-30",
+          "resume": "Au troisième trimestre 2026, Alphabet a dégagé un flux de trésorerie disponible négatif de 9,1 milliards de dollars (positif de 19,7 milliards sur douze mois)…"
         }
       ]
     }
