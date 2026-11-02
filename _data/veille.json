@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-11-01",
+  "mise_a_jour": "2026-11-02",
   "themes": [
     {
       "id": "cyber",
@@ -35,6 +35,13 @@
       "titre_en": "Linux & open source",
       "articles": [
         {
+          "titre": "Découverte du langage Elixir",
+          "lien": "https://linuxfr.org/news/decouverte-du-langage-elixir",
+          "source": "LinuxFR",
+          "date": "2026-11-02",
+          "resume": "Beaucoup de Rust par-ci… Un peu de Go par-là… Saupoudrez de LLM selon vos goûts et vous aurez une bonne photographie des sujets qui préoccupent les…"
+        },
+        {
           "titre": "Emacs a 50 ans",
           "lien": "https://linuxfr.org/news/emacs-a-50-ans",
           "source": "LinuxFR",
@@ -47,13 +54,6 @@
           "source": "LinuxFR",
           "date": "2026-10-30",
           "resume": "Un hadron est une particule composite, composée de particules subatomiques régies par l'interaction forte, nous dit Wikipédia . Si cela vous fait penser à…"
-        },
-        {
-          "titre": "Et si vous louiez votre prochain appareil électronique ?",
-          "lien": "https://linuxfr.org/news/et-si-vous-louiez-votre-prochain-appareil-electronique",
-          "source": "LinuxFR",
-          "date": "2026-10-29",
-          "resume": "J’ai fait récemment deux découvertes étonnantes sur le réseau social du groupe bancaire dans lequel je travaille. Il existe un groupe de veille sur l’open…"
         }
       ]
     },
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "VFS365 : cet outil open source affiche SharePoint et OneDrive comme un lecteur réseau dans Windows",
-          "lien": "https://www.it-connect.fr/vfs365-sharepoint-onedrive-lecteur-reseau/",
+          "titre": "Cloud & Cyber Security Expo Paris 2026 : les grands enjeux cyber au cœur du programme",
+          "lien": "https://www.it-connect.fr/cloud-cyber-security-expo-paris-2026-programme/",
           "source": "IT-Connect",
-          "date": "2026-10-31",
-          "resume": "VFS365 affiche OneDrive, SharePoint et Teams comme un lecteur réseau sous Windows, sans synchronisation. Fonctionnement, limites et risques à connaître. Le…"
+          "date": "2026-11-02",
+          "resume": "IA, gestion des incidents, NIS2, CRA et géopolitique : découvrez les thèmes des conférences de Cloud & Cyber Security Expo Paris, les 18 et 19 novembre 2026…"
         },
         {
-          "titre": "Claude Code : une version piégée de l’extension a ouvert une porte dérobée SSH chez des utilisateurs de Cursor",
-          "lien": "https://www.it-connect.fr/claude-code-extension-cursor-porte-derobee-ssh/",
+          "titre": "CVE-2026-98432 : la faille critique du noyau Linux qui peut offrir un accès root à distance",
+          "lien": "https://www.it-connect.fr/cve-2026-98432-faille-noyau-linux-tcp-root-distance/",
           "source": "IT-Connect",
-          "date": "2026-10-30",
-          "resume": "Diffusée via Cursor, la version 2.1.313 de Claude Code installait la clé SSH d’un attaquant et un tunnel persistant. Voici comment vérifier si vous êtes…"
+          "date": "2026-11-02",
+          "resume": "Une nouvelle faille critique dans le noyau Linux (CVE-2026-98432) : RHEL, Debian, SUSE et Proxmox sont patchés, pas Ubuntu. Quel noyau installer ? Le post…"
         },
         {
-          "titre": "Windows 11 KB5127936 : beaucoup de changements et le menu contextuel devient personnalisable",
-          "lien": "https://www.it-connect.fr/windows-11-kb5127936-menu-contextuel-personnalisable/",
+          "titre": "Steam : des failles permettaient d’exécuter du code à distance sur un PC, sans aucun clic",
+          "lien": "https://www.it-connect.fr/steam-rce-zero-click-elevation-privileges-atredis/",
           "source": "IT-Connect",
-          "date": "2026-10-30",
-          "resume": "KB5127936 : menu contextuel personnalisable, Cloud rebuild, CLAT pour IPv6 et correctif Always On VPN. Voici l'essentiel de la mise à jour Windows 11…"
+          "date": "2026-11-02",
+          "resume": "Un chercheur a découvert dans Steam une faille RCE zero-click entre PC liés au même compte, et quatre élévations de privilèges SYSTEM sous Windows. Le post…"
         }
       ]
     },
@@ -91,25 +91,25 @@
       "titre_en": "Artificial intelligence",
       "articles": [
         {
-          "titre": "La question à 10⁴² dollars, par Axel Cypel",
-          "lien": "https://www.actuia.com/actualite/la-question-a-1042-dollars-par-axel-cypel-archive-du-magazine-actuia/",
+          "titre": "La justice coréenne plaide pour une amende contre les faux arrêts de l'IA",
+          "lien": "https://www.actuia.com/actualite/la-justice-coreenne-plaide-pour-une-amende-contre-les-faux-arrets-de-lia/",
           "source": "ActuIA",
-          "date": "2026-10-30",
-          "resume": "Axel Cypel distingue l’apprentissage à partir de données de la pensée capable de faire émerger de nouveaux concepts. Les contributions récentes de l’IA aux…"
+          "date": "2026-11-02",
+          "resume": "Une enquête de l'administration judiciaire sud-coréenne révèle qu'environ 80 % des juges civils, familiaux et administratifs ayant répondu ont reçu des…"
         },
         {
-          "titre": "Agents d'IA : jusqu'à huit points d'écart pour un même modèle selon le harnais",
-          "lien": "https://www.actuia.com/actualite/agents-dia-jusqua-huit-points-decart-pour-un-meme-modele-selon-le-harnais/",
+          "titre": "Le Canada obtient un siège au conseil des supercalculateurs d'EuroHPC",
+          "lien": "https://www.actuia.com/actualite/le-canada-obtient-un-siege-au-conseil-des-supercalculateurs-deurohpc/",
           "source": "ActuIA",
-          "date": "2026-10-30",
-          "resume": "Le harnais d'un agent d'IA regroupe la boucle d'exécution, les consignes, les outils et leurs permissions, la gestion du contexte, les sous-agents, la…"
+          "date": "2026-11-02",
+          "resume": "Le Canada devient le 39e État participant de l'entreprise commune EuroHPC et obtient un siège au conseil qui décide des achats de supercalculateurs et des…"
         },
         {
-          "titre": "Cloud : au troisième trimestre, seul Microsoft a payé ses investissements avec sa trésorerie",
-          "lien": "https://www.actuia.com/actualite/cloud-au-troisieme-trimestre-seul-microsoft-a-paye-ses-investissements-avec-sa-tresorerie/",
+          "titre": "Abou Dhabi teste OpenAI sur ses contrôles d'importations alimentaires",
+          "lien": "https://www.actuia.com/actualite/abou-dhabi-teste-openai-sur-ses-controles-dimportations-alimentaires/",
           "source": "ActuIA",
-          "date": "2026-10-30",
-          "resume": "Au troisième trimestre 2026, Alphabet a dégagé un flux de trésorerie disponible négatif de 9,1 milliards de dollars (positif de 19,7 milliards sur douze mois)…"
+          "date": "2026-11-02",
+          "resume": "Abou Dhabi a signé quatre accords avec OpenAI, impliquant l'administration émirienne directement ainsi qu'ADNOC et Mubadala via Inception42 (G42). Un premier…"
         }
       ]
     }
