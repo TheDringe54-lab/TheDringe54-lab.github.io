@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-11-03",
+  "mise_a_jour": "2026-11-04",
   "themes": [
     {
       "id": "cyber",
@@ -35,6 +35,13 @@
       "titre_en": "Linux & open source",
       "articles": [
         {
+          "titre": "FOSDEM 2027 : les appels à conférences sont ouverts et les archives numériques ont leur devroom !",
+          "lien": "https://linuxfr.org/news/fosdem-2027-les-appels-a-conferences-sont-ouverts-et-les-archives-numeriques-ont-leur-devroom",
+          "source": "LinuxFR",
+          "date": "2026-11-03",
+          "resume": "Ça n'a pas dû échapper à une bonne partie des Linuxfrisés, le FOSDEM 2027 se tiendra samedi 30 et dimanche 31 janvier 2027 , sur le campus de l'Université…"
+        },
+        {
           "titre": "Revue de presse de l’April pour la semaine 44 de l’année 2026",
           "lien": "https://linuxfr.org/news/revue-de-presse-de-l-april-pour-la-semaine-44-de-l-annee-2026",
           "source": "LinuxFR",
@@ -47,13 +54,6 @@
           "source": "LinuxFR",
           "date": "2026-11-02",
           "resume": "Le Capitole du Libre est un week-end dédié au Logiciel Libre et à la culture libre en Occitanie. Cette année, la treizième édition se tiendra les samedi 14 et…"
-        },
-        {
-          "titre": "Découverte du langage Elixir",
-          "lien": "https://linuxfr.org/news/decouverte-du-langage-elixir",
-          "source": "LinuxFR",
-          "date": "2026-11-02",
-          "resume": "Beaucoup de Rust par-ci… Un peu de Go par-là… Saupoudrez de LLM selon vos goûts et vous aurez une bonne photographie des sujets qui préoccupent les…"
         }
       ]
     },
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "Claude Code : qu’est-ce qu’un Skill et comment en créer un ?",
-          "lien": "https://www.it-connect.fr/claude-code-quest-ce-quun-skill-et-comment-en-creer-un/",
+          "titre": "Pas d’IA, pas de recherche Google : c’est ce que veut imposer Google aux écoles",
+          "lien": "https://www.it-connect.fr/google-ecoles-ia-gemini-recherche-desactivee/",
           "source": "IT-Connect",
-          "date": "2026-11-03",
-          "resume": "Découvrez ce qu'est un Skill dans Claude Code et comment en créer un : structure du fichier SKILL.md, emplacement, exemples et bonnes pratiques. Le post Claude…"
+          "date": "2026-11-04",
+          "resume": "Gemini et Google Search seront désactivés par défaut sur les comptes élèves. Une école qui refuse l'IA de Google perdra aussi l'accès au moteur de recherche…"
         },
         {
-          "titre": "GPT-6 Astra a touché 0,016 % des poids de Qwen : son score en maths est multiplié par 6",
-          "lien": "https://www.it-connect.fr/gpt-6-astra-weight-space-programming-poids-ia/",
+          "titre": "Cloudflare security-audit : prendre en main la skill d’audit de sécurité pour agents IA",
+          "lien": "https://www.it-connect.fr/cloudflare-security-audit-skill-audit-de-securite-agents-ia/",
           "source": "IT-Connect",
-          "date": "2026-11-03",
-          "resume": "GPT-6 Astra a modifié 0,016 % des poids de Qwen3.5-0.8B, sans entraînement : son score MATH-500 passe de 7,9 % à 48,1 %. Quand un LLM en améliore un autre. Le…"
+          "date": "2026-11-04",
+          "resume": "Découvrez la skill open source security-audit de Cloudflare pour auditer votre code avec Claude Code et l'IA afin de débusquer des failles. Le post Cloudflare…"
         },
         {
-          "titre": "Après la France, des pirates font chauffer les frigos de supermarchés en Belgique et en Suède",
-          "lien": "https://www.it-connect.fr/cyberattaque-frigos-supermarches-belgique-suede/",
+          "titre": "Barracuda ESG : exploitées ensemble, ces deux failles offrent un accès root",
+          "lien": "https://www.it-connect.fr/barracuda-esg-waf-failles-acces-root/",
           "source": "IT-Connect",
-          "date": "2026-11-03",
-          "resume": "Delhaize, Carrefour, ICA, Coop : des pirates ont activé à distance le dégivrage des frigos de supermarchés en Belgique et en Suède. Voici ce que l'on sait. Le…"
+          "date": "2026-11-04",
+          "resume": "Barracuda a corrigé deux failles touchant ESG, WAF, Load Balancer ADC et d'autres produits. Sur l'ESG, leur combinaison peut offrir un accès root à distance…"
         }
       ]
     },
