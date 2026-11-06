@@ -1,11 +1,18 @@
 {
-  "mise_a_jour": "2026-11-05",
+  "mise_a_jour": "2026-11-06",
   "themes": [
     {
       "id": "cyber",
       "titre": "Cybersécurité",
       "titre_en": "Cybersecurity",
       "articles": [
+        {
+          "titre": "Vulnérabilité dans OpenSSH (05 novembre 2026)",
+          "lien": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-015/",
+          "source": "CERT-FR",
+          "date": "2026-11-05",
+          "resume": "Le 5 novembre 2026, OpenSSH a publié un avis de sécurité concernant une vulnérabilité qui permet à un attaquant de contourner l’authentification d'un service…"
+        },
         {
           "titre": "Bulletin d'actualité CERTFR-2026-ACT-046 (02 novembre 2026)",
           "lien": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-046/",
@@ -19,13 +26,6 @@
           "source": "CERT-FR",
           "date": "2026-10-26",
           "resume": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas…"
-        },
-        {
-          "titre": "[Màj] Multiples vulnérabilités dans PHP (21 octobre 2026)",
-          "lien": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-014/",
-          "source": "CERT-FR",
-          "date": "2026-10-21",
-          "resume": "**[Mise à jour du 26 octobre 2026]** Le 23 octobre 2026, PHP a publié un avis de sécurité concernant la vulnérabilité CVE-2026-115560. Celle-ci permet une…"
         }
       ]
     },
@@ -39,7 +39,7 @@
           "lien": "https://linuxfr.org/news/fedora-linux-45-est-enfin-disponible",
           "source": "LinuxFR",
           "date": "2026-11-05",
-          "resume": "En ce mardi 3 novembre, les utilisateurs du Projet Fedora seront ravis d'apprendre la disponibilité de la version Fedora Linux 45. Fedora Linux est une…"
+          "resume": "En ce mardi 3 novembre, les utilisateurs du Projet Fedora seront ravis d’apprendre la disponibilité de la version Fedora Linux 45. Fedora Linux est une…"
         },
         {
           "titre": "Flus sort en 3.0",
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "Sync-in 2.4 à 2.6 : Euro-Office, favoris, draw.io et un serveur plus robuste",
-          "lien": "https://www.it-connect.fr/sync-in-nouveautes-euro-office-favoris-draw-io/",
+          "titre": "Faux événements OpenAI, SpaceX et Anthropic : ce phishing vole les comptes Microsoft et Google",
+          "lien": "https://www.it-connect.fr/faux-evenements-openai-spacex-phishing-microsoft-google/",
           "source": "IT-Connect",
-          "date": "2026-11-05",
-          "resume": "Euro-Office, favoris, draw.io et 16 failles corrigées : voici les nouveautés de Sync-in 2.4, 2.5 et 2.6, et ce qu'il faut vérifier avant de mettre à jour. Le…"
+          "date": "2026-11-06",
+          "resume": "Trois mois de ChatGPT Pro offerts pour une simple inscription ? Cette fausse invitation OpenAI sert à pirater votre compte Microsoft ou Google, MFA compris. Le…"
         },
         {
-          "titre": "Windows 11 : Microsoft dévoile ses optimisations pour les PC équipés de 8 Go de RAM",
-          "lien": "https://www.it-connect.fr/windows-11-8-go-ram-optimisations-microsoft/",
+          "titre": "DigiCert : une erreur de migration expose les données et pièces d’identité de clients",
+          "lien": "https://www.it-connect.fr/digicert-une-erreur-de-migration-expose-les-donnees-et-pieces-didentite-de-clients/",
           "source": "IT-Connect",
-          "date": "2026-11-05",
-          "resume": "Votre PC n'a que 8 Go de RAM ? Microsoft assure que Windows 11 y est désormais jusqu'à 20 % plus réactif. Voici ce qui a changé et comment en profiter. Le post…"
+          "date": "2026-11-06",
+          "resume": "Une erreur de migration a ouvert les archives de DigiCert à des comptes créés sur Internet : données clients et pièces d'identité consultées. Ce que l'on sait…"
         },
         {
-          "titre": "SonicWall GMS : deux failles, dont une critique, ne seront jamais corrigées",
-          "lien": "https://www.it-connect.fr/sonicwall-gms-fin-de-vie-failles-non-corrigees/",
+          "titre": "Après l’Europe, le FBI et la CISA alertent sur les cyberattaques contre les systèmes de réfrigération",
+          "lien": "https://www.it-connect.fr/fbi-cisa-alerte-cyberattaques-systemes-refrigeration/",
           "source": "IT-Connect",
-          "date": "2026-11-05",
-          "resume": "Vous gérez vos firewalls SonicWall avec GMS ? Deux failles, dont une critique exploitable sans authentification, ne seront jamais corrigées. Voici pourquoi. Le…"
+          "date": "2026-11-06",
+          "resume": "Après les supermarchés et l'EFS, la CISA et le FBI alertent sur les attaques contre les systèmes de froid industriels. Voici leurs recommandations. Le post…"
         }
       ]
     },
