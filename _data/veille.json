@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-11-07",
+  "mise_a_jour": "2026-11-09",
   "themes": [
     {
       "id": "cyber",
@@ -35,25 +35,25 @@
       "titre_en": "Linux & open source",
       "articles": [
         {
+          "titre": "🪶 Les journaux LinuxFr.org les mieux notés d’octobre 2026",
+          "lien": "https://linuxfr.org/news/les-journaux-linuxfr-org-les-mieux-notes-d-octobre-2026",
+          "source": "LinuxFR",
+          "date": "2026-11-09",
+          "resume": "LinuxFr.org propose des dépêches et articles, soumis par tout un chacun, puis revus et corrigés par l’équipe de modération avant publication. C’est la partie…"
+        },
+        {
+          "titre": "Daylight GNU/Linux 5 : un bureau Fluxbox ajouté à Raspberry Pi OS",
+          "lien": "https://linuxfr.org/news/daylight-gnu-linux-5-un-bureau-fluxbox-ajoute-a-raspberry-pi-os",
+          "source": "LinuxFR",
+          "date": "2026-11-09",
+          "resume": "Daylight GNU/Linux prépare sa version 5, actuellement disponible en version candidate 5.0.0-rc.2. Ce projet libre, développé par Hamdy Abou El Anein en Suisse…"
+        },
+        {
           "titre": "Fedora Linux 45 est enfin disponible !",
           "lien": "https://linuxfr.org/news/fedora-linux-45-est-enfin-disponible",
           "source": "LinuxFR",
           "date": "2026-11-05",
           "resume": "En ce mardi 3 novembre, les utilisateurs du Projet Fedora seront ravis d’apprendre la disponibilité de la version Fedora Linux 45. Fedora Linux est une…"
-        },
-        {
-          "titre": "Flus sort en 3.0",
-          "lien": "https://linuxfr.org/news/flus-sort-en-3-0",
-          "source": "LinuxFR",
-          "date": "2026-11-04",
-          "resume": "Flus est une plateforme de veille en ligne conçue pour suivre, lire, organiser et partager vos liens Web de manière simple. Elle s’intègre à votre écosystème…"
-        },
-        {
-          "titre": "FOSDEM 2027 : les appels à conférences sont ouverts et les archives numériques ont leur devroom !",
-          "lien": "https://linuxfr.org/news/fosdem-2027-les-appels-a-conferences-sont-ouverts-et-les-archives-numeriques-ont-leur-devroom",
-          "source": "LinuxFR",
-          "date": "2026-11-03",
-          "resume": "Ça n'a pas dû échapper à une bonne partie des Linuxfrisés, le FOSDEM 2027 se tiendra samedi 30 et dimanche 31 janvier 2027 , sur le campus de l'Université…"
         }
       ]
     },
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "Firefox cache un jeu Snake dans sa barre d’adresse : voici comment le lancer",
-          "lien": "https://www.it-connect.fr/firefox-jeu-snake-cache-barre-adresse/",
+          "titre": "VMware vSphere Express : Broadcom revient vers les PME avec une nouvelle offre !",
+          "lien": "https://www.it-connect.fr/vmware-vsphere-express-128-coeurs-pme/",
           "source": "IT-Connect",
-          "date": "2026-11-07",
-          "resume": "Un calcul égal à 150 dans la barre d'adresse de Firefox débloque un jeu Snake caché. Voici comment lancer cet easter egg dans le navigateur Firefox. Le post…"
+          "date": "2026-11-09",
+          "resume": "128 cœurs, pas un de plus : avec vSphere Express, Broadcom veut séduire à nouveau les PME, dont beaucoup lorgnent vers Proxmox. Voici ce qu'il faut savoir. Le…"
         },
         {
-          "titre": "LiberNT : ni Windows, ni Linux, qu’est-ce que cet OS open source ?",
-          "lien": "https://www.it-connect.fr/libernt-test-os-libre-windows-11/",
+          "titre": "Bon plan : les serrures connectées WELOCK aux prix les plus bas de l’année pour le 11.11",
+          "lien": "https://www.it-connect.fr/bon-plan-welock-novembre-2026-single-day/",
           "source": "IT-Connect",
-          "date": "2026-11-07",
-          "resume": "J'ai testé LiberNT dans une machine virtuelle, un OS libre basé sur ReactOS qui veut ressembler à Windows 11 : bureau, applications et même un terminal Linux…"
+          "date": "2026-11-09",
+          "resume": "Profitez du 11.11 pour équiper votre porte d’une serrure connectée WELOCK à prix réduit : déverrouillage par empreinte, code ou smartphone. Notre sélection…"
         },
         {
-          "titre": "Test Reolink OMVI 3i WiFi : une caméra triple objectif avec suivi automatique",
-          "lien": "https://www.it-connect.fr/test-reolink-omvi-3i-wifi/",
+          "titre": "Moins d’un PC Windows sur deux patché en 2 semaines, et c’est risqué avec l’IA !",
+          "lien": "https://www.it-connect.fr/microsoft-windows-mises-a-jour-securite-patch-gap-ia/",
           "source": "IT-Connect",
-          "date": "2026-11-07",
-          "resume": "Test de la Reolink OMVI 3i WiFi : une caméra triple objectif avec vue panoramique à 180°, caméra PT 4K, suivi automatique, IA locale et Wi-Fi 6. Le post Test…"
+          "date": "2026-11-09",
+          "resume": "Selon Microsoft, moins d'un appareil Windows sur deux en entreprise installe le patch de sécurité en deux semaines. Un délai risqué face à l'IA. Voici…"
         }
       ]
     },
