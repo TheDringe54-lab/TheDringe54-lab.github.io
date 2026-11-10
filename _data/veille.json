@@ -1,11 +1,18 @@
 {
-  "mise_a_jour": "2026-11-09",
+  "mise_a_jour": "2026-11-10",
   "themes": [
     {
       "id": "cyber",
       "titre": "Cybersécurité",
       "titre_en": "Cybersecurity",
       "articles": [
+        {
+          "titre": "Bulletin d'actualité CERTFR-2026-ACT-047 (09 novembre 2026)",
+          "lien": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-047/",
+          "source": "CERT-FR",
+          "date": "2026-11-09",
+          "resume": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas…"
+        },
         {
           "titre": "[MàJ] Vulnérabilité dans OpenSSH (05 novembre 2026)",
           "lien": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-015/",
@@ -19,13 +26,6 @@
           "source": "CERT-FR",
           "date": "2026-11-02",
           "resume": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas…"
-        },
-        {
-          "titre": "Bulletin d'actualité CERTFR-2026-ACT-045 (26 octobre 2026)",
-          "lien": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-045/",
-          "source": "CERT-FR",
-          "date": "2026-10-26",
-          "resume": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas…"
         }
       ]
     },
@@ -34,6 +34,13 @@
       "titre": "Linux & logiciel libre",
       "titre_en": "Linux & open source",
       "articles": [
+        {
+          "titre": "Revue de presse de l’April pour la semaine 45 de l’année 2026",
+          "lien": "https://linuxfr.org/news/revue-de-presse-de-l-april-pour-la-semaine-45-de-l-annee-2026",
+          "source": "LinuxFR",
+          "date": "2026-11-09",
+          "resume": "Cette revue de presse sur Internet fait partie du travail de veille mené par l’April dans le cadre de son action de défense et de promotion du logiciel libre…"
+        },
         {
           "titre": "🪶 Les journaux LinuxFr.org les mieux notés d’octobre 2026",
           "lien": "https://linuxfr.org/news/les-journaux-linuxfr-org-les-mieux-notes-d-octobre-2026",
@@ -47,13 +54,6 @@
           "source": "LinuxFR",
           "date": "2026-11-09",
           "resume": "Daylight GNU/Linux prépare sa version 5, actuellement disponible en version candidate 5.0.0-rc.2. Ce projet libre, développé par Hamdy Abou El Anein en Suisse…"
-        },
-        {
-          "titre": "Fedora Linux 45 est enfin disponible !",
-          "lien": "https://linuxfr.org/news/fedora-linux-45-est-enfin-disponible",
-          "source": "LinuxFR",
-          "date": "2026-11-05",
-          "resume": "En ce mardi 3 novembre, les utilisateurs du Projet Fedora seront ravis d’apprendre la disponibilité de la version Fedora Linux 45. Fedora Linux est une…"
         }
       ]
     },
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "VMware vSphere Express : Broadcom revient vers les PME avec une nouvelle offre !",
-          "lien": "https://www.it-connect.fr/vmware-vsphere-express-128-coeurs-pme/",
+          "titre": "Faux support IT sur Teams : moins de 15 minutes entre la réponse de la victime et le malware",
+          "lien": "https://www.it-connect.fr/teams-faux-support-it-email-bombing/",
           "source": "IT-Connect",
-          "date": "2026-11-09",
-          "resume": "128 cœurs, pas un de plus : avec vSphere Express, Broadcom veut séduire à nouveau les PME, dont beaucoup lorgnent vers Proxmox. Voici ce qu'il faut savoir. Le…"
+          "date": "2026-11-10",
+          "resume": "Plus de 400 attaques au faux support IT via le chat externe de Teams : l'ordinateur de la victime peut être compromis en moins de 15 minutes. Le post Faux…"
         },
         {
-          "titre": "Bon plan : les serrures connectées WELOCK aux prix les plus bas de l’année pour le 11.11",
-          "lien": "https://www.it-connect.fr/bon-plan-welock-novembre-2026-single-day/",
+          "titre": "Early Black Friday chez GoDeal24 : Office 2024 Pro Plus à 22.11€ et Windows 11 Pro à 12.25€",
+          "lien": "https://www.it-connect.fr/bon-plan-des-promos-sur-les-licences-office-2021-windows-10-et-windows-11/",
           "source": "IT-Connect",
-          "date": "2026-11-09",
-          "resume": "Profitez du 11.11 pour équiper votre porte d’une serrure connectée WELOCK à prix réduit : déverrouillage par empreinte, code ou smartphone. Notre sélection…"
+          "date": "2026-11-10",
+          "resume": "Notre partenaire GoDeal24 propose une nouvelle vente flash avec des prix très intéressants sur les licences Windows 11, Office 2024 et même Windows 10 LTSC. Le…"
         },
         {
-          "titre": "Moins d’un PC Windows sur deux patché en 2 semaines, et c’est risqué avec l’IA !",
-          "lien": "https://www.it-connect.fr/microsoft-windows-mises-a-jour-securite-patch-gap-ia/",
+          "titre": "Exchange Online : comment désactiver SMTP AUTH et sécuriser l’envoi d’e-mails",
+          "lien": "https://www.it-connect.fr/desactiver-smtp-auth-exchange-online/",
           "source": "IT-Connect",
-          "date": "2026-11-09",
-          "resume": "Selon Microsoft, moins d'un appareil Windows sur deux en entreprise installe le patch de sécurité en deux semaines. Un délai risqué face à l'IA. Voici…"
+          "date": "2026-11-10",
+          "resume": "SMTP AUTH reste activé sur votre tenant Microsoft 365 ? Auditez son usage, désactivez-le pour l'organisation et les boîtes aux lettres, et bloquez l'auth…"
         }
       ]
     },
