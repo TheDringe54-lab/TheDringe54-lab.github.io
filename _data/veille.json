@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-11-10",
+  "mise_a_jour": "2026-11-11",
   "themes": [
     {
       "id": "cyber",
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "Faux support IT sur Teams : moins de 15 minutes entre la réponse de la victime et le malware",
-          "lien": "https://www.it-connect.fr/teams-faux-support-it-email-bombing/",
+          "titre": "Outlook et Hotmail : les e-mails rejetés faute de DMARC, c’était un bug de Microsoft",
+          "lien": "https://www.it-connect.fr/outlook-hotmail-bug-rejet-emails-dmarc/",
           "source": "IT-Connect",
-          "date": "2026-11-10",
-          "resume": "Plus de 400 attaques au faux support IT via le chat externe de Teams : l'ordinateur de la victime peut être compromis en moins de 15 minutes. Le post Faux…"
+          "date": "2026-11-11",
+          "resume": "Du 6 au 9 novembre, Outlook.com a rejeté à tort des e-mails, surtout issus de domaines sans DMARC. Microsoft reconnaît un bug. Voici ce qu'il faut vérifier. Le…"
         },
         {
-          "titre": "Early Black Friday chez GoDeal24 : Office 2024 Pro Plus à 22.11€ et Windows 11 Pro à 12.25€",
-          "lien": "https://www.it-connect.fr/bon-plan-des-promos-sur-les-licences-office-2021-windows-10-et-windows-11/",
+          "titre": "Firefox 160 : Mini Window, vitesse de lecture en Picture-in-Picture et reconnaissance vocale locale",
+          "lien": "https://www.it-connect.fr/firefox-160-mini-window-nouveautes/",
           "source": "IT-Connect",
-          "date": "2026-11-10",
-          "resume": "Notre partenaire GoDeal24 propose une nouvelle vente flash avec des prix très intéressants sur les licences Windows 11, Office 2024 et même Windows 10 LTSC. Le…"
+          "date": "2026-11-11",
+          "resume": "Un onglet qui reste au premier plan pendant que vous travaillez ailleurs : c'est Mini Window, la nouveauté phare de Firefox 160. Voici ce qui change. Le post…"
         },
         {
-          "titre": "Exchange Online : comment désactiver SMTP AUTH et sécuriser l’envoi d’e-mails",
-          "lien": "https://www.it-connect.fr/desactiver-smtp-auth-exchange-online/",
+          "titre": "Patch Tuesday – Novembre 2026 : 1 093 failles corrigées, dont une faille zero-day dans Outlook",
+          "lien": "https://www.it-connect.fr/patch-tuesday-novembre-2026-recapitulatif/",
           "source": "IT-Connect",
-          "date": "2026-11-10",
-          "resume": "SMTP AUTH reste activé sur votre tenant Microsoft 365 ? Auditez son usage, désactivez-le pour l'organisation et les boîtes aux lettres, et bloquez l'auth…"
+          "date": "2026-11-11",
+          "resume": "Microsoft a corrigé 1 093 failles avec le Patch Tuesday de novembre 2026. Une faille zero-day est déjà exploitée dans Outlook : voici le récapitulatif complet…"
         }
       ]
     },
