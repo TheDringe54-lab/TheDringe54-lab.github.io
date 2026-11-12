@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-11-11",
+  "mise_a_jour": "2026-11-12",
   "themes": [
     {
       "id": "cyber",
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "Outlook et Hotmail : les e-mails rejetés faute de DMARC, c’était un bug de Microsoft",
-          "lien": "https://www.it-connect.fr/outlook-hotmail-bug-rejet-emails-dmarc/",
+          "titre": "NAS Synology : deux failles exploitables sans authentification dans DSM, dont une injection SQL",
+          "lien": "https://www.it-connect.fr/nas-synology-dsm-failles-sans-authentification-novembre-2026/",
           "source": "IT-Connect",
-          "date": "2026-11-11",
-          "resume": "Du 6 au 9 novembre, Outlook.com a rejeté à tort des e-mails, surtout issus de domaines sans DMARC. Microsoft reconnaît un bug. Voici ce qu'il faut vérifier. Le…"
+          "date": "2026-11-12",
+          "resume": "Synology a corrigé deux failles dans DSM exploitables sans authentification, dont une injection SQL critique. Voici les versions à installer sur votre NAS. Le…"
         },
         {
-          "titre": "Firefox 160 : Mini Window, vitesse de lecture en Picture-in-Picture et reconnaissance vocale locale",
-          "lien": "https://www.it-connect.fr/firefox-160-mini-window-nouveautes/",
+          "titre": "Notion AI : le piratage de Fireworks AI a exposé des conversations de clients",
+          "lien": "https://www.it-connect.fr/notion-ai-fuite-conversations-fireworks/",
           "source": "IT-Connect",
-          "date": "2026-11-11",
-          "resume": "Un onglet qui reste au premier plan pendant que vous travaillez ailleurs : c'est Mini Window, la nouveauté phare de Firefox 160. Voici ce qui change. Le post…"
+          "date": "2026-11-12",
+          "resume": "Le piratage de Fireworks AI, sous-traitant de Notion, a exposé des conversations Notion AI. Moins de 1 % des espaces de travail sont touchés. Le post Notion AI…"
         },
         {
-          "titre": "Patch Tuesday – Novembre 2026 : 1 093 failles corrigées, dont une faille zero-day dans Outlook",
-          "lien": "https://www.it-connect.fr/patch-tuesday-novembre-2026-recapitulatif/",
+          "titre": "Maersk confirme une fuite de données : WhiteArmor réclame 5 millions de dollars",
+          "lien": "https://www.it-connect.fr/maersk-fuite-de-donnees-whitearmor/",
           "source": "IT-Connect",
-          "date": "2026-11-11",
-          "resume": "Microsoft a corrigé 1 093 failles avec le Patch Tuesday de novembre 2026. Une faille zero-day est déjà exploitée dans Outlook : voici le récapitulatif complet…"
+          "date": "2026-11-12",
+          "resume": "Maersk reconnaît un vol de données sur un système hérité d'un rachat. WhiteArmor revendique 100 Go de données volées et exige 5 millions de dollars en…"
         }
       ]
     },
