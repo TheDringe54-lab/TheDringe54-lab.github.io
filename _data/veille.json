@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-11-12",
+  "mise_a_jour": "2026-11-13",
   "themes": [
     {
       "id": "cyber",
@@ -35,25 +35,25 @@
       "titre_en": "Linux & open source",
       "articles": [
         {
+          "titre": "Haro sur les sections de commune françaises",
+          "lien": "https://linuxfr.org/news/haro-sur-les-sections-de-commune-francaises",
+          "source": "LinuxFR",
+          "date": "2026-11-13",
+          "resume": "Une section de commune désigne selon Wikipedia « une personne morale de droit public autre que la commune, qui possède sur tout ou partie du territoire…"
+        },
+        {
+          "titre": "Nouveautés de novembre 2026 de la communauté Scenari",
+          "lien": "https://linuxfr.org/news/nouveautes-de-novembre-2026-de-la-communaute-scenari",
+          "source": "LinuxFR",
+          "date": "2026-11-12",
+          "resume": "Scenari est un ensemble de logiciels open source dédiés à la production collaborative, publication et diffusion de documents multi-support . Vous rédigez une…"
+        },
+        {
           "titre": "Revue de presse de l’April pour la semaine 45 de l’année 2026",
           "lien": "https://linuxfr.org/news/revue-de-presse-de-l-april-pour-la-semaine-45-de-l-annee-2026",
           "source": "LinuxFR",
           "date": "2026-11-09",
           "resume": "Cette revue de presse sur Internet fait partie du travail de veille mené par l’April dans le cadre de son action de défense et de promotion du logiciel libre…"
-        },
-        {
-          "titre": "🪶 Les journaux LinuxFr.org les mieux notés d’octobre 2026",
-          "lien": "https://linuxfr.org/news/les-journaux-linuxfr-org-les-mieux-notes-d-octobre-2026",
-          "source": "LinuxFR",
-          "date": "2026-11-09",
-          "resume": "LinuxFr.org propose des dépêches et articles, soumis par tout un chacun, puis revus et corrigés par l’équipe de modération avant publication. C’est la partie…"
-        },
-        {
-          "titre": "Daylight GNU/Linux 5 : un bureau Fluxbox ajouté à Raspberry Pi OS",
-          "lien": "https://linuxfr.org/news/daylight-gnu-linux-5-un-bureau-fluxbox-ajoute-a-raspberry-pi-os",
-          "source": "LinuxFR",
-          "date": "2026-11-09",
-          "resume": "Daylight GNU/Linux prépare sa version 5, actuellement disponible en version candidate 5.0.0-rc.2. Ce projet libre, développé par Hamdy Abou El Anein en Suisse…"
         }
       ]
     },
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "NAS Synology : deux failles exploitables sans authentification dans DSM, dont une injection SQL",
-          "lien": "https://www.it-connect.fr/nas-synology-dsm-failles-sans-authentification-novembre-2026/",
+          "titre": "Windows : les mises à jour de novembre 2026 provoquent des échecs d’activation, Microsoft confirme",
+          "lien": "https://www.it-connect.fr/windows-activation-slmgr-erreur-080041008/",
           "source": "IT-Connect",
-          "date": "2026-11-12",
-          "resume": "Synology a corrigé deux failles dans DSM exploitables sans authentification, dont une injection SQL critique. Voici les versions à installer sur votre NAS. Le…"
+          "date": "2026-11-13",
+          "resume": "Les mises à jour Windows de novembre 2026 font échouer l'activation via slmgr avec l'erreur 0x80041008. Microsoft confirme le bug et prépare un correctif. Le…"
         },
         {
-          "titre": "Notion AI : le piratage de Fireworks AI a exposé des conversations de clients",
-          "lien": "https://www.it-connect.fr/notion-ai-fuite-conversations-fireworks/",
+          "titre": "Claude Meetings : Anthropic envoie son IA dans vos réunions Google Meet",
+          "lien": "https://www.it-connect.fr/claude-meetings-anthropic-google-meet/",
           "source": "IT-Connect",
-          "date": "2026-11-12",
-          "resume": "Le piratage de Fireworks AI, sous-traitant de Notion, a exposé des conversations Notion AI. Moins de 1 % des espaces de travail sont touchés. Le post Notion AI…"
+          "date": "2026-11-13",
+          "resume": "Anthropic lance Claude Meetings en bêta : l'IA rejoint vos réunions Google Meet, prend des notes et crée des documents. Disponibilité, réglages et limites. Le…"
         },
         {
-          "titre": "Maersk confirme une fuite de données : WhiteArmor réclame 5 millions de dollars",
-          "lien": "https://www.it-connect.fr/maersk-fuite-de-donnees-whitearmor/",
+          "titre": "Panne mondiale de Microsoft 365 : Outlook, Teams et Copilot perturbés depuis plus de 11 heures",
+          "lien": "https://www.it-connect.fr/panne-mondiale-microsoft-365-exchange-online-outlook-teams/",
           "source": "IT-Connect",
-          "date": "2026-11-12",
-          "resume": "Maersk reconnaît un vol de données sur un système hérité d'un rachat. WhiteArmor revendique 100 Go de données volées et exige 5 millions de dollars en…"
+          "date": "2026-11-13",
+          "resume": "Depuis jeudi soir, une panne mondiale de Microsoft 365 perturbe Outlook, Teams et Copilot. Le service n'est pas rétabli en ce vendredi 13 novembre 2026. Le…"
         }
       ]
     },
