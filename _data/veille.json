@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-11-20",
+  "mise_a_jour": "2026-11-21",
   "themes": [
     {
       "id": "cyber",
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "Mon top 5 des commandes Nmap que vous devez connaître",
-          "lien": "https://www.it-connect.fr/mon-top-5-des-commandes-nmap-que-vous-devez-connaitre/",
+          "titre": "Sysinternals : Autoruns arrive sur Linux et Process Explorer sur macOS",
+          "lien": "https://www.it-connect.fr/sysinternals-autoruns-linux-process-explorer-macos/",
           "source": "IT-Connect",
-          "date": "2026-11-20",
-          "resume": "Découverte d’hôtes, détection de versions, audit SMB et HTTP, scan complet : 5 commandes Nmap pour cartographier et auditer un réseau comme un pentester. Le…"
+          "date": "2026-11-21",
+          "resume": "Vous utilisez Autoruns sous Windows ? L'outil Sysinternals a désormais une version Linux, et Process Explorer débarque sur macOS. Voici ce qu'il faut retenir…"
         },
         {
-          "titre": "FastUnlock : une faille zero-day Windows 11 contourne l’écran de verrouillage et menace BitLocker",
-          "lien": "https://www.it-connect.fr/fastunlock-zero-day-windows-11-bitlocker-narrateur/",
+          "titre": "Windows 11 KB5132057 : la nouvelle fonction de recherche exécute des actions !",
+          "lien": "https://www.it-connect.fr/windows-11-kb5132057-nouvelle-recherche-connexion-web/",
           "source": "IT-Connect",
           "date": "2026-11-20",
-          "resume": "FastUnlock, nouvelle zero-day publiée par Nightmare Eclipse, contourne l'écran de verrouillage de Windows 11 via le Narrateur et menace BitLocker. Le post…"
+          "resume": "KB5132057 : nouvelle recherche Windows 11, boîte Exécuter modernisée et connexion web sur les postes hybrides. Voici l'essentiel à savoir sur cette mise à…"
         },
         {
-          "titre": "NAS Synology : une mise à jour DSM corrige deux failles critiques, dont NGINX2Root",
-          "lien": "https://www.it-connect.fr/nginx2root-synology-dsm-faille-oauth-cve-2026-120382/",
+          "titre": "Intune : les fenêtres de maintenance pour Windows Update arrivent enfin !",
+          "lien": "https://www.it-connect.fr/intune-fenetres-de-maintenance-windows-update/",
           "source": "IT-Connect",
           "date": "2026-11-20",
-          "resume": "Synology a publié deux bulletins critiques pour DSM : la faille NGINX2Root et une faille notée 9,8 sur 10 dans OAuth Service. Voici comment protéger votre NAS…"
+          "resume": "Intune prend enfin en charge les fenêtres de maintenance pour Windows Update, un an après leur annonce à Ignite 2025. Voici ce qu'il faut savoir. Le post…"
         }
       ]
     },
@@ -90,6 +90,13 @@
       "titre": "Intelligence artificielle",
       "titre_en": "Artificial intelligence",
       "articles": [
+        {
+          "titre": "Mistral fait de Singapour son siège Asie-Pacifique et un pôle de recherche",
+          "lien": "https://www.actuia.com/actualite/mistral-fait-de-singapour-son-siege-asie-pacifique-et-un-pole-de-recherche/",
+          "source": "ActuIA",
+          "date": "2026-11-20",
+          "resume": "Mistral AI installe son siège Asie-Pacifique à Singapour et vise 200 personnes dans la région d'ici 2027, en science, ingénierie, IA appliquée et robotique. Le…"
+        },
         {
           "titre": "Styliser son raisonnement rend un modèle d'IA moins surveillable",
           "lien": "https://www.actuia.com/actualite/styliser-son-raisonnement-rend-un-modele-dia-moins-surveillable/",
@@ -103,13 +110,6 @@
           "source": "ActuIA",
           "date": "2026-11-19",
           "resume": "Microsoft a annoncé à Ignite une initiative de transparence réunissant plus de 40 organisations pour permettre une vérification indépendante des agents d'IA…"
-        },
-        {
-          "titre": "Le standard ANS fait du nom de domaine l'identité des agents IA",
-          "lien": "https://www.actuia.com/actualite/le-standard-ans-fait-du-nom-de-domaine-lidentite-des-agents-ia/",
-          "source": "ActuIA",
-          "date": "2026-11-19",
-          "resume": "Le standard Agent Name Service (ANS), passé sous la gouvernance de la Linux Foundation en novembre 2026, rattache l'identité d'un agent IA à un nom de domaine…"
         }
       ]
     }
