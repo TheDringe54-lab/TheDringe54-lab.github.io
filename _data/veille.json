@@ -1,11 +1,18 @@
 {
-  "mise_a_jour": "2026-11-21",
+  "mise_a_jour": "2026-11-23",
   "themes": [
     {
       "id": "cyber",
       "titre": "Cybersécurité",
       "titre_en": "Cybersecurity",
       "articles": [
+        {
+          "titre": "Bulletin d'actualité CERTFR-2026-ACT-049 (23 novembre 2026)",
+          "lien": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-049/",
+          "source": "CERT-FR",
+          "date": "2026-11-23",
+          "resume": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas…"
+        },
         {
           "titre": "Vulnérabilité dans Oracle Java SE (18 novembre 2026)",
           "lien": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-016/",
@@ -19,13 +26,6 @@
           "source": "CERT-FR",
           "date": "2026-11-18",
           "resume": "Le 18 novembre 2026, F5 a publié deux avis de sécurité concernant les vulnérabilités CVE-2026-123633 et CVE-2026-123007. Celles-ci affectent NGINX Open Source…"
-        },
-        {
-          "titre": "Bulletin d'actualité CERTFR-2026-ACT-048 (16 novembre 2026)",
-          "lien": "https://www.cert.cyber.gouv.fr/actualite/CERTFR-2026-ACT-048/",
-          "source": "CERT-FR",
-          "date": "2026-11-16",
-          "resume": "Ce bulletin d'actualité du CERT-FR revient sur les vulnérabilités significatives de la semaine passée pour souligner leurs criticités. Il ne remplace pas…"
         }
       ]
     },
@@ -34,6 +34,13 @@
       "titre": "Linux & logiciel libre",
       "titre_en": "Linux & open source",
       "articles": [
+        {
+          "titre": "LuneOS en 2026",
+          "lien": "https://linuxfr.org/news/luneos-en-2026",
+          "source": "LinuxFR",
+          "date": "2026-11-22",
+          "resume": "3 ans déjà… En février 2024 , je vous parlais de la sortie de la distribution GNU/Linux pour téléphones mobiles et tablettes LuneOS « Eiskaffe ». Dans cette…"
+        },
         {
           "titre": "Un Nabaztag, une médecin et une IA : histoire d’une résurrection",
           "lien": "https://linuxfr.org/news/un-nabaztag-une-medecin-et-une-ia-histoire-d-une-resurrection",
@@ -47,13 +54,6 @@
           "source": "LinuxFR",
           "date": "2026-11-19",
           "resume": "Ce rapport d’activité couvre les mois d’août, septembre et octobre, ce qui correspond aux changements numérotés hrev59922 à hrev60317 dans le code source de…"
-        },
-        {
-          "titre": "Chaque Euro : rendre les finances publiques vérifiables avec DuckDB",
-          "lien": "https://linuxfr.org/news/chaque-euro-rendre-les-finances-publiques-verifiables-avec-duckdb",
-          "source": "LinuxFR",
-          "date": "2026-11-17",
-          "resume": "Chaque Euro est un projet libre de consultation des finances publiques françaises, publié sous licence AGPL-3.0. Il rapproche les données de leurs producteurs…"
         }
       ]
     },
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "Sysinternals : Autoruns arrive sur Linux et Process Explorer sur macOS",
-          "lien": "https://www.it-connect.fr/sysinternals-autoruns-linux-process-explorer-macos/",
+          "titre": "Microsoft Edge : avec le Lockdown Mode, Microsoft veut bloquer les attaques",
+          "lien": "https://www.it-connect.fr/edge-lockdown-mode-webgl-webgpu/",
           "source": "IT-Connect",
-          "date": "2026-11-21",
-          "resume": "Vous utilisez Autoruns sous Windows ? L'outil Sysinternals a désormais une version Linux, et Process Explorer débarque sur macOS. Voici ce qu'il faut retenir…"
+          "date": "2026-11-23",
+          "resume": "Microsoft teste dans Edge Canary un Lockdown Mode qui bloque WebGL et WebGPU pour contrer les attaques ciblées. Voici ce qu'il faut savoir sur ce mode. Le post…"
         },
         {
-          "titre": "Windows 11 KB5132057 : la nouvelle fonction de recherche exécute des actions !",
-          "lien": "https://www.it-connect.fr/windows-11-kb5132057-nouvelle-recherche-connexion-web/",
+          "titre": "Black Friday GEEKOM : notre sélection d’offres sur les mini-PC, jusqu’à 30 % de réduction",
+          "lien": "https://www.it-connect.fr/black-friday-geekom-notre-selection-doffres-sur-les-mini-pc-jusqua-30-de-reduction/",
           "source": "IT-Connect",
-          "date": "2026-11-20",
-          "resume": "KB5132057 : nouvelle recherche Windows 11, boîte Exécuter modernisée et connexion web sur les postes hybrides. Voici l'essentiel à savoir sur cette mise à…"
+          "date": "2026-11-23",
+          "resume": "GEEKOM profite du Black Friday 2026 pour proposer des offres sur sa gamme de mini PC, des modèles du quotidien jusqu'aux machines les plus performantes. Le…"
         },
         {
-          "titre": "Intune : les fenêtres de maintenance pour Windows Update arrivent enfin !",
-          "lien": "https://www.it-connect.fr/intune-fenetres-de-maintenance-windows-update/",
+          "titre": "GTA 6 sur PC : le projet Leonida tente de recompiler la version Xbox qui a fuité",
+          "lien": "https://www.it-connect.fr/gta-6-pc-leonida-fuite-xbox-cyberleek/",
           "source": "IT-Connect",
-          "date": "2026-11-20",
-          "resume": "Intune prend enfin en charge les fenêtres de maintenance pour Windows Update, un an après leur annonce à Ignite 2025. Voici ce qu'il faut savoir. Le post…"
+          "date": "2026-11-23",
+          "resume": "Le projet open source Leonida veut faire tourner sous Windows la version Xbox de GTA 6 diffusée par Cyberleek. Mais le jeu ne démarre pas encore. Le post GTA 6…"
         }
       ]
     },
@@ -91,25 +91,25 @@
       "titre_en": "Artificial intelligence",
       "articles": [
         {
-          "titre": "Mistral fait de Singapour son siège Asie-Pacifique et un pôle de recherche",
-          "lien": "https://www.actuia.com/actualite/mistral-fait-de-singapour-son-siege-asie-pacifique-et-un-pole-de-recherche/",
+          "titre": "Les agents d'OpenAI surveillent mieux les entraînements qu'ils ne codent",
+          "lien": "https://www.actuia.com/actualite/les-agents-dopenai-surveillent-mieux-les-entrainements-quils-ne-codent/",
           "source": "ActuIA",
-          "date": "2026-11-20",
-          "resume": "Mistral AI installe son siège Asie-Pacifique à Singapour et vise 200 personnes dans la région d'ici 2027, en science, ingénierie, IA appliquée et robotique. Le…"
+          "date": "2026-11-23",
+          "resume": "OpenAI a publié le 18 novembre 2026 un deuxième bilan de l'usage des agents de code dans sa recherche. Le taux de réussite sans intervention varie selon la…"
         },
         {
-          "titre": "Styliser son raisonnement rend un modèle d'IA moins surveillable",
-          "lien": "https://www.actuia.com/actualite/styliser-son-raisonnement-rend-un-modele-dia-moins-surveillable/",
+          "titre": "OpenRouter durcit son option Zero Data Retention après l'enquête de Dragos",
+          "lien": "https://www.actuia.com/actualite/openrouter-durcit-son-option-zero-data-retention-apres-lenquete-de-dragos/",
           "source": "ActuIA",
-          "date": "2026-11-20",
-          "resume": "Une prépublication arXiv montre qu'un modèle ouvert affiné pour réécrire son raisonnement dans la voix de personnages devient moins lisible par un moniteur…"
+          "date": "2026-11-23",
+          "resume": "OpenRouter a exclu le 22 novembre 2026 trois fournisseurs d'inférence, sans les nommer, et retiré 125 endpoints de l'éligibilité Zero Data Retention (ZDR)…"
         },
         {
-          "titre": "Microsoft lance une initiative pour rendre les agents d'IA vérifiables",
-          "lien": "https://www.actuia.com/actualite/microsoft-lance-une-initiative-pour-rendre-les-agents-dia-verifiables/",
+          "titre": "La résolution mondiale sur l'IA à l'école vise d'abord les éditeurs",
+          "lien": "https://www.actuia.com/actualite/la-resolution-mondiale-sur-lia-a-lecole-vise-dabord-les-editeurs/",
           "source": "ActuIA",
-          "date": "2026-11-19",
-          "resume": "Microsoft a annoncé à Ignite une initiative de transparence réunissant plus de 40 organisations pour permettre une vérification indépendante des agents d'IA…"
+          "date": "2026-11-23",
+          "resume": "La 48e Assemblée mondiale pour la protection de la vie privée a adopté à Bruxelles une résolution sur l'IA à l'école, préparée par le groupe de travail que…"
         }
       ]
     }
