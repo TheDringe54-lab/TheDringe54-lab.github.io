@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-11-23",
+  "mise_a_jour": "2026-11-24",
   "themes": [
     {
       "id": "cyber",
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "Microsoft Edge : avec le Lockdown Mode, Microsoft veut bloquer les attaques",
-          "lien": "https://www.it-connect.fr/edge-lockdown-mode-webgl-webgpu/",
+          "titre": "Free lance Traduction Live : vos appels traduits en direct dans 10 langues, sans application",
+          "lien": "https://www.it-connect.fr/free-traduction-live-appels-traduits-direct/",
           "source": "IT-Connect",
-          "date": "2026-11-23",
-          "resume": "Microsoft teste dans Edge Canary un Lockdown Mode qui bloque WebGL et WebGPU pour contrer les attaques ciblées. Voici ce qu'il faut savoir sur ce mode. Le post…"
+          "date": "2026-11-24",
+          "resume": "Free lance Traduction Live, un service intégré à son réseau mobile qui traduit vos appels en direct dans 10 langues, inclus dans Free Max. Voici l'essentiel…"
         },
         {
-          "titre": "Black Friday GEEKOM : notre sélection d’offres sur les mini-PC, jusqu’à 30 % de réduction",
-          "lien": "https://www.it-connect.fr/black-friday-geekom-notre-selection-doffres-sur-les-mini-pc-jusqua-30-de-reduction/",
+          "titre": "Google Chrome : une seule faille corrigée, mais elle est critique (CVE-2026-134401)",
+          "lien": "https://www.it-connect.fr/cve-2026-134401-faille-critique-chrome/",
           "source": "IT-Connect",
-          "date": "2026-11-23",
-          "resume": "GEEKOM profite du Black Friday 2026 pour proposer des offres sur sa gamme de mini PC, des modèles du quotidien jusqu'aux machines les plus performantes. Le…"
+          "date": "2026-11-24",
+          "resume": "Google a publié Chrome 158.0.8127.88 pour corriger la CVE-2026-134401, une faille critique qui permettrait de sortir de la sandbox : voici ce qu'il faut…"
         },
         {
-          "titre": "GTA 6 sur PC : le projet Leonida tente de recompiler la version Xbox qui a fuité",
-          "lien": "https://www.it-connect.fr/gta-6-pc-leonida-fuite-xbox-cyberleek/",
+          "titre": "Black Friday 2026 chez UGREEN : notre sélection de chargeurs, batteries et NAS en promotion",
+          "lien": "https://www.it-connect.fr/black-friday-2026-chez-ugreen-notre-selection-de-chargeurs-batteries-et-nas-en-promotion/",
           "source": "IT-Connect",
-          "date": "2026-11-23",
-          "resume": "Le projet open source Leonida veut faire tourner sous Windows la version Xbox de GTA 6 diffusée par Cyberleek. Mais le jeu ne démarre pas encore. Le post GTA 6…"
+          "date": "2026-11-24",
+          "resume": "Black Friday UGREEN : chargeurs Nexode, batterie externe, traceurs, webcam et NAS en promotion. Notre sélection des meilleures offres jusqu'au 30 novembre. Le…"
         }
       ]
     },
@@ -91,25 +91,25 @@
       "titre_en": "Artificial intelligence",
       "articles": [
         {
-          "titre": "Les agents d'OpenAI surveillent mieux les entraînements qu'ils ne codent",
-          "lien": "https://www.actuia.com/actualite/les-agents-dopenai-surveillent-mieux-les-entrainements-quils-ne-codent/",
+          "titre": "À Choose France, les 3 milliards de centres de données datent de juillet",
+          "lien": "https://www.actuia.com/actualite/a-choose-france-les-3-milliards-de-centres-de-donnees-datent-de-juillet/",
           "source": "ActuIA",
-          "date": "2026-11-23",
-          "resume": "OpenAI a publié le 18 novembre 2026 un deuxième bilan de l'usage des agents de code dans sa recherche. Le taux de réussite sans intervention varie selon la…"
+          "date": "2026-11-24",
+          "resume": "Le 23 novembre 2026, Bercy a présenté 273 projets d'entreprises françaises pour 42,5 milliards d'euros, dont 14,9 milliards inédits. Le dossier numérique ne…"
         },
         {
-          "titre": "OpenRouter durcit son option Zero Data Retention après l'enquête de Dragos",
-          "lien": "https://www.actuia.com/actualite/openrouter-durcit-son-option-zero-data-retention-apres-lenquete-de-dragos/",
+          "titre": "De la stratégie aux usages métiers : quelles compétences pour piloter et déployer l’intelligence artificielle ?",
+          "lien": "https://www.actuia.com/actualite/de-la-strategie-aux-usages-metiers-quelles-competences-pour-piloter-et-deployer-lintelligence-artificielle-1/",
           "source": "ActuIA",
-          "date": "2026-11-23",
-          "resume": "OpenRouter a exclu le 22 novembre 2026 trois fournisseurs d'inférence, sans les nommer, et retiré 125 endpoints de l'éligibilité Zero Data Retention (ZDR)…"
+          "date": "2026-11-24",
+          "resume": "IMT-BS structure son offre de formation autour de trois parcours dédiés à l'IA : le pilotage, la réalisation technique et les applications métiers. L'enjeu…"
         },
         {
-          "titre": "La résolution mondiale sur l'IA à l'école vise d'abord les éditeurs",
-          "lien": "https://www.actuia.com/actualite/la-resolution-mondiale-sur-lia-a-lecole-vise-dabord-les-editeurs/",
+          "titre": "Nvidia rappelle Jensen Huang à sa tête onze jours après sa démission",
+          "lien": "https://www.actuia.com/actualite/nvidia-rappelle-jensen-huang-a-sa-tete-onze-jours-apres-sa-demission/",
           "source": "ActuIA",
           "date": "2026-11-23",
-          "resume": "La 48e Assemblée mondiale pour la protection de la vie privée a adopté à Bruxelles une résolution sur l'IA à l'école, préparée par le groupe de travail que…"
+          "resume": "Le conseil d'administration de Nvidia a voté à l'unanimité, le 22 novembre, le retour de Jensen Huang comme directeur général et administrateur, annoncé le 23…"
         }
       ]
     }
