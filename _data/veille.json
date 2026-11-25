@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-11-24",
+  "mise_a_jour": "2026-11-25",
   "themes": [
     {
       "id": "cyber",
@@ -35,6 +35,13 @@
       "titre_en": "Linux & open source",
       "articles": [
         {
+          "titre": "Coretilus",
+          "lien": "https://linuxfr.org/news/coretilus",
+          "source": "LinuxFR",
+          "date": "2026-11-25",
+          "resume": "Coretilus est un projet libre qui rend hommage — de façon totalement inutile donc absolument indispensable — aux commandes Unix classiques… avec des animations…"
+        },
+        {
           "titre": "LuneOS en 2026",
           "lien": "https://linuxfr.org/news/luneos-en-2026",
           "source": "LinuxFR",
@@ -47,13 +54,6 @@
           "source": "LinuxFR",
           "date": "2026-11-20",
           "resume": "Le Nabaztag, le petit lapin adorable de la société Violet sorti en 2006, s’était éteint en 2011 lorsque les serveurs ont été mis hors service. Cet ancêtre des…"
-        },
-        {
-          "titre": "Nouvelles de Haiku - Automne 2026",
-          "lien": "https://linuxfr.org/news/nouvelles-de-haiku-automne-2026",
-          "source": "LinuxFR",
-          "date": "2026-11-19",
-          "resume": "Ce rapport d’activité couvre les mois d’août, septembre et octobre, ce qui correspond aux changements numérotés hrev59922 à hrev60317 dans le code source de…"
         }
       ]
     },
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "Free lance Traduction Live : vos appels traduits en direct dans 10 langues, sans application",
-          "lien": "https://www.it-connect.fr/free-traduction-live-appels-traduits-direct/",
+          "titre": "Black Friday : le mini-PC VZMORE iX9 Max profite de 26 % de remise et atteint son prix le plus bas",
+          "lien": "https://www.it-connect.fr/bon-plan-vzmore-ix9-max-black-friday-2026/",
           "source": "IT-Connect",
-          "date": "2026-11-24",
-          "resume": "Free lance Traduction Live, un service intégré à son réseau mobile qui traduit vos appels en direct dans 10 langues, inclus dans Free Max. Voici l'essentiel…"
+          "date": "2026-11-25",
+          "resume": "Black Friday : le mini PC VZMORE iX9 Max (Core Ultra 9 185H, 24 Go, 1 To) passe à 839,16 € avec un code promo, soit jusqu'à 26 % de réduction sur Amazon. Le…"
         },
         {
-          "titre": "Google Chrome : une seule faille corrigée, mais elle est critique (CVE-2026-134401)",
-          "lien": "https://www.it-connect.fr/cve-2026-134401-faille-critique-chrome/",
+          "titre": "Panne Microsoft 365 : des e-mails jamais remis, Microsoft promet des changements",
+          "lien": "https://www.it-connect.fr/panne-microsoft-365-rapport-final/",
           "source": "IT-Connect",
-          "date": "2026-11-24",
-          "resume": "Google a publié Chrome 158.0.8127.88 pour corriger la CVE-2026-134401, une faille critique qui permettrait de sortir de la sandbox : voici ce qu'il faut…"
+          "date": "2026-11-25",
+          "resume": "Panne Microsoft 365 : le rapport reconnaît que certains e-mails n'ont jamais été remis et Microsoft dévoile sa feuille de route pour éviter de futurs…"
         },
         {
-          "titre": "Black Friday 2026 chez UGREEN : notre sélection de chargeurs, batteries et NAS en promotion",
-          "lien": "https://www.it-connect.fr/black-friday-2026-chez-ugreen-notre-selection-de-chargeurs-batteries-et-nas-en-promotion/",
+          "titre": "Rudder : une solution de gestion de configuration open source contre la dérive de vos serveurs",
+          "lien": "https://www.it-connect.fr/tuto-rudder-gestion-de-configuration/",
           "source": "IT-Connect",
-          "date": "2026-11-24",
-          "resume": "Black Friday UGREEN : chargeurs Nexode, batterie externe, traceurs, webcam et NAS en promotion. Notre sélection des meilleures offres jusqu'au 30 novembre. Le…"
+          "date": "2026-11-25",
+          "resume": "Rudder, outil open source de gestion de configuration : installation sur Linux, Audit puis Enforce, correction de la dérive et comparaison avec Ansible. Le…"
         }
       ]
     },
@@ -90,6 +90,13 @@
       "titre": "Intelligence artificielle",
       "titre_en": "Artificial intelligence",
       "articles": [
+        {
+          "titre": "Bulle de l'IA : qui paiera la note si elle éclate ?",
+          "lien": "https://www.actuia.com/actualite/bulle-de-lia-qui-paiera-la-note-si-elle-eclate/",
+          "source": "ActuIA",
+          "date": "2026-11-25",
+          "resume": "De janvier à septembre 2026, Microsoft, Alphabet, Amazon et Meta ont investi 99,7 % de la trésorerie que dégage leur activité, et prévoient de 720 à 740…"
+        },
         {
           "titre": "À Choose France, les 3 milliards de centres de données datent de juillet",
           "lien": "https://www.actuia.com/actualite/a-choose-france-les-3-milliards-de-centres-de-donnees-datent-de-juillet/",
@@ -103,13 +110,6 @@
           "source": "ActuIA",
           "date": "2026-11-24",
           "resume": "IMT-BS structure son offre de formation autour de trois parcours dédiés à l'IA : le pilotage, la réalisation technique et les applications métiers. L'enjeu…"
-        },
-        {
-          "titre": "Nvidia rappelle Jensen Huang à sa tête onze jours après sa démission",
-          "lien": "https://www.actuia.com/actualite/nvidia-rappelle-jensen-huang-a-sa-tete-onze-jours-apres-sa-demission/",
-          "source": "ActuIA",
-          "date": "2026-11-23",
-          "resume": "Le conseil d'administration de Nvidia a voté à l'unanimité, le 22 novembre, le retour de Jensen Huang comme directeur général et administrateur, annoncé le 23…"
         }
       ]
     }
