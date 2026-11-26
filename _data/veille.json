@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-11-25",
+  "mise_a_jour": "2026-11-26",
   "themes": [
     {
       "id": "cyber",
@@ -35,6 +35,13 @@
       "titre_en": "Linux & open source",
       "articles": [
         {
+          "titre": "La troisième vie de nos smartphones - Podcast Projets Libres",
+          "lien": "https://linuxfr.org/news/la-troisieme-vie-de-nos-smartphones-podcast-projets-libres",
+          "source": "LinuxFR",
+          "date": "2026-11-26",
+          "resume": "Comment faire durer au maximum nos anciens téléphones tout en les déGAFAMisant ? Quelles sont les étapes pour flasher son téléphone ? Que faut-il savoir avant…"
+        },
+        {
           "titre": "Coretilus",
           "lien": "https://linuxfr.org/news/coretilus",
           "source": "LinuxFR",
@@ -47,13 +54,6 @@
           "source": "LinuxFR",
           "date": "2026-11-22",
           "resume": "3 ans déjà… En février 2024 , je vous parlais de la sortie de la distribution GNU/Linux pour téléphones mobiles et tablettes LuneOS « Eiskaffe ». Dans cette…"
-        },
-        {
-          "titre": "Un Nabaztag, une médecin et une IA : histoire d’une résurrection",
-          "lien": "https://linuxfr.org/news/un-nabaztag-une-medecin-et-une-ia-histoire-d-une-resurrection",
-          "source": "LinuxFR",
-          "date": "2026-11-20",
-          "resume": "Le Nabaztag, le petit lapin adorable de la société Violet sorti en 2006, s’était éteint en 2011 lorsque les serveurs ont été mis hors service. Cet ancêtre des…"
         }
       ]
     },
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "Black Friday : le mini-PC VZMORE iX9 Max profite de 26 % de remise et atteint son prix le plus bas",
-          "lien": "https://www.it-connect.fr/bon-plan-vzmore-ix9-max-black-friday-2026/",
+          "titre": "La FIFA confirme une cyberattaque : le Handsome Boy Hacking Club revendique le vol de données",
+          "lien": "https://www.it-connect.fr/fifa-cyberattaque-handsome-boy-hacking-club-fuite-donnees/",
           "source": "IT-Connect",
-          "date": "2026-11-25",
-          "resume": "Black Friday : le mini PC VZMORE iX9 Max (Core Ultra 9 185H, 24 Go, 1 To) passe à 839,16 € avec un code promo, soit jusqu'à 26 % de réduction sur Amazon. Le…"
+          "date": "2026-11-26",
+          "resume": "La FIFA confirme un vol de données personnelles et professionnelles, revendiqué par le Handsome Boy Hacking Club : voici ce que l'on sait. Le post La FIFA…"
         },
         {
-          "titre": "Panne Microsoft 365 : des e-mails jamais remis, Microsoft promet des changements",
-          "lien": "https://www.it-connect.fr/panne-microsoft-365-rapport-final/",
+          "titre": "Claude : les artefacts peuvent désormais être installés comme des applications sur Windows et Mac",
+          "lien": "https://www.it-connect.fr/claude-artefacts-applications-mac-windows/",
           "source": "IT-Connect",
-          "date": "2026-11-25",
-          "resume": "Panne Microsoft 365 : le rapport reconnaît que certains e-mails n'ont jamais été remis et Microsoft dévoile sa feuille de route pour éviter de futurs…"
+          "date": "2026-11-26",
+          "resume": "Anthropic lance Install as app : les artefacts de Claude s'installent comme des applications Mac et Windows, avec un accès complet possible à l'ordinateur. Le…"
         },
         {
-          "titre": "Rudder : une solution de gestion de configuration open source contre la dérive de vos serveurs",
-          "lien": "https://www.it-connect.fr/tuto-rudder-gestion-de-configuration/",
+          "titre": "Cyberattaque 1Password : devez-vous vous inquiéter pour vos mots de passe ?",
+          "lien": "https://www.it-connect.fr/cyberattaque-1password-novembre-2026/",
           "source": "IT-Connect",
-          "date": "2026-11-25",
-          "resume": "Rudder, outil open source de gestion de configuration : installation sur Linux, Audit puis Enforce, correction de la dérive et comparaison avec Ansible. Le…"
+          "date": "2026-11-26",
+          "resume": "1Password confirme une cyberattaque : des données clients volées sur des serveurs suite à la compromission du compte GitHub d'un salarié. Le post Cyberattaque…"
         }
       ]
     },
@@ -91,25 +91,25 @@
       "titre_en": "Artificial intelligence",
       "articles": [
         {
+          "titre": "L'IA moins chère peut-elle appauvrir tout le monde ?",
+          "lien": "https://www.actuia.com/actualite/si-lia-produit-moins-cher-comment-peut-elle-detruire-de-la-valeur/",
+          "source": "ActuIA",
+          "date": "2026-11-26",
+          "resume": "L'IA ne fait pas que déplacer la richesse : elle peut en supprimer, quand elle produit ce que personne ne lit, efface un signal comme la lettre de motivation…"
+        },
+        {
+          "titre": "OpenAI revendique une limite de vitesse pour le calcul qui fait tourner l'IA",
+          "lien": "https://www.actuia.com/actualite/openai-revendique-une-limite-de-vitesse-pour-le-calcul-qui-fait-tourner-lia/",
+          "source": "ActuIA",
+          "date": "2026-11-26",
+          "resume": "OpenAI affirme que l'exposant de la multiplication de matrices vaut exactement 9/4, soit 2,25 : multiplier deux matrices de taille n demanderait au moins la…"
+        },
+        {
           "titre": "Bulle de l'IA : qui paiera la note si elle éclate ?",
           "lien": "https://www.actuia.com/actualite/bulle-de-lia-qui-paiera-la-note-si-elle-eclate/",
           "source": "ActuIA",
           "date": "2026-11-25",
           "resume": "De janvier à septembre 2026, Microsoft, Alphabet, Amazon et Meta ont investi 99,7 % de la trésorerie que dégage leur activité, et prévoient de 720 à 740…"
-        },
-        {
-          "titre": "À Choose France, les 3 milliards de centres de données datent de juillet",
-          "lien": "https://www.actuia.com/actualite/a-choose-france-les-3-milliards-de-centres-de-donnees-datent-de-juillet/",
-          "source": "ActuIA",
-          "date": "2026-11-24",
-          "resume": "Le 23 novembre 2026, Bercy a présenté 273 projets d'entreprises françaises pour 42,5 milliards d'euros, dont 14,9 milliards inédits. Le dossier numérique ne…"
-        },
-        {
-          "titre": "De la stratégie aux usages métiers : quelles compétences pour piloter et déployer l’intelligence artificielle ?",
-          "lien": "https://www.actuia.com/actualite/de-la-strategie-aux-usages-metiers-quelles-competences-pour-piloter-et-deployer-lintelligence-artificielle-1/",
-          "source": "ActuIA",
-          "date": "2026-11-24",
-          "resume": "IMT-BS structure son offre de formation autour de trois parcours dédiés à l'IA : le pilotage, la réalisation technique et les applications métiers. L'enjeu…"
         }
       ]
     }
