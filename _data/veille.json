@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-11-26",
+  "mise_a_jour": "2026-11-27",
   "themes": [
     {
       "id": "cyber",
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
-          "titre": "La FIFA confirme une cyberattaque : le Handsome Boy Hacking Club revendique le vol de données",
-          "lien": "https://www.it-connect.fr/fifa-cyberattaque-handsome-boy-hacking-club-fuite-donnees/",
+          "titre": "Danfoss, Mitel MiCollab, Juniper, Xen Orchestra : la CISA alerte sur 10 failles exploitées",
+          "lien": "https://www.it-connect.fr/danfoss-mitel-juniper-xen-orchestra-10-failles-exploitees-cisa/",
           "source": "IT-Connect",
-          "date": "2026-11-26",
-          "resume": "La FIFA confirme un vol de données personnelles et professionnelles, revendiqué par le Handsome Boy Hacking Club : voici ce que l'on sait. Le post La FIFA…"
+          "date": "2026-11-27",
+          "resume": "La CISA a ajouté 10 failles exploitées à son catalogue KEV : contrôleurs Danfoss, Mitel MiCollab, Juniper et Xen Orchestra. Voici les failles en question. Le…"
         },
         {
-          "titre": "Claude : les artefacts peuvent désormais être installés comme des applications sur Windows et Mac",
-          "lien": "https://www.it-connect.fr/claude-artefacts-applications-mac-windows/",
+          "titre": "Le nouveau Clonezilla s’ouvre à ZFS et au clonage direct du RAID logiciel Linux",
+          "lien": "https://www.it-connect.fr/clonezilla-live-3-3-5-3-zfs-mdraid/",
           "source": "IT-Connect",
-          "date": "2026-11-26",
-          "resume": "Anthropic lance Install as app : les artefacts de Claude s'installent comme des applications Mac et Windows, avec un accès complet possible à l'ordinateur. Le…"
+          "date": "2026-11-27",
+          "resume": "Clonezilla Live 3.3.5-3 ajoute la prise en charge de ZFS, clone le RAID logiciel MDRAID de disque à disque et corrige des bugs risqués pour vos données. Le…"
         },
         {
-          "titre": "Cyberattaque 1Password : devez-vous vous inquiéter pour vos mots de passe ?",
-          "lien": "https://www.it-connect.fr/cyberattaque-1password-novembre-2026/",
+          "titre": "GLPI AI : découvrez comment l’IA peut aider vos techniciens au quotidien",
+          "lien": "https://www.it-connect.fr/tuto-glpi-ai/",
           "source": "IT-Connect",
-          "date": "2026-11-26",
-          "resume": "1Password confirme une cyberattaque : des données clients volées sur des serveurs suite à la compromission du compte GitHub d'un salarié. Le post Cyberattaque…"
+          "date": "2026-11-27",
+          "resume": "Tutoriel GLPI AI : installez le plugin, choisissez votre fournisseur d'IA, résumez vos tickets et branchez un client IA sur GLPI via le protocole MCP. Le post…"
         }
       ]
     },
