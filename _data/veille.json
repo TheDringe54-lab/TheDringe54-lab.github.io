@@ -1,5 +1,5 @@
 {
-  "mise_a_jour": "2026-11-27",
+  "mise_a_jour": "2026-11-28",
   "themes": [
     {
       "id": "cyber",
@@ -63,25 +63,25 @@
       "titre_en": "Systems & networks",
       "articles": [
         {
+          "titre": "VMware ESXi et Proxmox VE : des ransomwares déployés avec des identifiants mal protégés",
+          "lien": "https://www.it-connect.fr/blacknevas-ransomware-vmware-esxi-vcenter/",
+          "source": "IT-Connect",
+          "date": "2026-11-27",
+          "resume": "BlackNevas et The Gentlemen ont frappé des hyperviseurs VMware ESXi et Proxmox VE avec de simples identifiants volés ou stockés au mauvais endroit. Le post…"
+        },
+        {
+          "titre": "Windows Server 2025 : Microsoft corrige en urgence un bug d’écran bleu lié à la mise à jour de novembre",
+          "lien": "https://www.it-connect.fr/windows-server-2025-kb5138318-hotpatch-ecran-bleu/",
+          "source": "IT-Connect",
+          "date": "2026-11-27",
+          "resume": "KB5138318 : Microsoft a corrigé en urgence les écrans bleus de la mort (erreur 0x139) causés par le hotpatch de novembre 2026 sur Windows Server 2025. Le post…"
+        },
+        {
           "titre": "Danfoss, Mitel MiCollab, Juniper, Xen Orchestra : la CISA alerte sur 10 failles exploitées",
           "lien": "https://www.it-connect.fr/danfoss-mitel-juniper-xen-orchestra-10-failles-exploitees-cisa/",
           "source": "IT-Connect",
           "date": "2026-11-27",
           "resume": "La CISA a ajouté 10 failles exploitées à son catalogue KEV : contrôleurs Danfoss, Mitel MiCollab, Juniper et Xen Orchestra. Voici les failles en question. Le…"
-        },
-        {
-          "titre": "Le nouveau Clonezilla s’ouvre à ZFS et au clonage direct du RAID logiciel Linux",
-          "lien": "https://www.it-connect.fr/clonezilla-live-3-3-5-3-zfs-mdraid/",
-          "source": "IT-Connect",
-          "date": "2026-11-27",
-          "resume": "Clonezilla Live 3.3.5-3 ajoute la prise en charge de ZFS, clone le RAID logiciel MDRAID de disque à disque et corrige des bugs risqués pour vos données. Le…"
-        },
-        {
-          "titre": "GLPI AI : découvrez comment l’IA peut aider vos techniciens au quotidien",
-          "lien": "https://www.it-connect.fr/tuto-glpi-ai/",
-          "source": "IT-Connect",
-          "date": "2026-11-27",
-          "resume": "Tutoriel GLPI AI : installez le plugin, choisissez votre fournisseur d'IA, résumez vos tickets et branchez un client IA sur GLPI via le protocole MCP. Le post…"
         }
       ]
     },
@@ -90,6 +90,13 @@
       "titre": "Intelligence artificielle",
       "titre_en": "Artificial intelligence",
       "articles": [
+        {
+          "titre": "SAP préparerait au moins 10 000 suppressions de postes en priorité dans le développement et la vente",
+          "lien": "https://www.actuia.com/actualite/sap-preparerait-au-moins-10-000-suppressions-de-postes-en-priorite-dans-le-developpement-et-la-vente/",
+          "source": "ActuIA",
+          "date": "2026-11-28",
+          "resume": "D'après Bloomberg, SAP prépare la suppression d'au moins 10 000 postes, au moins 9 % de ses effectifs, en priorité dans le développement de produits…"
+        },
         {
           "titre": "L'IA moins chère peut-elle appauvrir tout le monde ?",
           "lien": "https://www.actuia.com/actualite/si-lia-produit-moins-cher-comment-peut-elle-detruire-de-la-valeur/",
@@ -103,13 +110,6 @@
           "source": "ActuIA",
           "date": "2026-11-26",
           "resume": "OpenAI affirme que l'exposant de la multiplication de matrices vaut exactement 9/4, soit 2,25 : multiplier deux matrices de taille n demanderait au moins la…"
-        },
-        {
-          "titre": "Bulle de l'IA : qui paiera la note si elle éclate ?",
-          "lien": "https://www.actuia.com/actualite/bulle-de-lia-qui-paiera-la-note-si-elle-eclate/",
-          "source": "ActuIA",
-          "date": "2026-11-25",
-          "resume": "De janvier à septembre 2026, Microsoft, Alphabet, Amazon et Meta ont investi 99,7 % de la trésorerie que dégage leur activité, et prévoient de 720 à 740…"
         }
       ]
     }
